@@ -1,0 +1,113 @@
+@media (max-width:440px){
+
+    /* page1 media query - 440px */
+    
+    #page1{
+        height: 75vh;
+        width: 100%;
+    }
+    
+    .nav-center a{
+        display: none;
+    }
+    
+    .nav-right{
+        display: none;
+    }
+    
+    .hamburger i{
+        font-size: 10vw;
+    margin-left: -8vw;
+    }
+    
+    .hamburger{
+        margin-top: -6vh;
+        display: block;
+    }
+    
+    .nav-left a{
+        font-size: 7vw;
+        margin-left: -24vw;
+    }
+    
+    .page1-content h1{
+        font-size: 8.5vw;
+        margin-left: -6vw;
+        margin-top: -8vh;
+    }
+    
+    .page1-content h1:nth-child(2){
+        font-size: 7vw;
+    }
+    
+    .page1-content p{
+        font-size: 4.1vw;
+        margin-left: -10vw;
+        margin-top: 0;
+    }
+    
+    .page1-btns{
+        display: flex;
+        flex-direction: column;
+        gap: 4vh;
+        margin-left: 12vw;
+        margin-top: 7vh;
+    }
+    
+    .page1-btns a{
+        padding: 4vw 0vw;
+        width: 60%;
+        font-size: 4vw;
+        text-align: center;
+    }
+    
+    .page1-btns a:nth-child(2){
+    width: 75%;
+    margin-left: -6vw;
+    }
+    
+    
+    .navbar-mobile i{
+        font-size: 11vw;
+        margin-left: 5vw;
+    
+        
+    }
+
+.navbar-mobile a:hover{
+    background-color: orange;
+    
+    
+}
+
+    .close-icon{
+        margin-top: 27vh;
+        margin-left: 80vw;
+    }
+    
+    .navbar-mobile{
+        height: 109vh;
+        
+    }
+    
+    .navbar-mobile a{
+        font-size: 8vw;
+    }
+    
+    /* end media for page1 */
+    
+/* page 2 start from here */
+
+
+#page2 h2{
+    font-size: 12vw;
+    margin-left: 17vw;
+    margin-top: -5vh;
+}
+
+
+
+
+    }
+    
+    
