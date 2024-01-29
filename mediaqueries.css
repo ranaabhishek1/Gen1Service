@@ -98,6 +98,11 @@
     
 /* page 2 start from here */
 
+#page2{
+    height: 40vh;
+    width: 100%;
+}
+
 
 #page2 h2{
     font-size: 12vw;
@@ -105,9 +110,216 @@
     margin-top: -5vh;
 }
 
+#page3{
+    height: 430vh;
 
+}
 
+#page3 h3{
+    font-size: 8vw;
+    margin-left: 35vw;
+}
 
-    }
+#page3 p{
+    font-size: 7.5vw;
+    margin-left: 6vw;
+}
+
+.services-box{
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    margin-left: 3vw;
+}
+
+.box{
+    height: 60vh;
+    width: 90vw;
+}
+
+#refrigerator-box img{
+    height: 25vh;
+}
+
+#ac-box img{
+    height: 20vh;
+    margin-left: 22vw;
+}
+
+#tv-box img{
+    height: 20vh;
+}
+
+#washingMachine-box img{
+    height: 25vh;
+}
+
+#chimni-box img{
+    height: 20vh;
+    margin-left: 22vw;
+}
+
+#mircowave-box img{
+    height: 20vh;
+}
+
+#refrigerator-box p{
+    margin-left: -2vw;
+    margin-top: 4vh;
+}
+
+#refrigerator-box pre{
+ font-size: 4.5vw;   
+ margin-top: 2vh;
+ 
+}
+
+#ac-box p{
+ font-size: 8vw;   
+ margin-right: 7vw;
+}
+
+#ac-box pre{
+    font-size: 4.5vw;
+}
+
+#tv-box p{
+    margin-left: -1vw;
+    font-size: 8vw;
+}
+
+#tv-box pre{
+    font-size: 4.5vw;
+}
+
+#washingMachine-box p{
+    font-size: 6vw;
+    margin-right: 6vw;
+}
+
+#washingMachine-box pre{
+    font-size: 4.5vw;
+}
+
+#chimni-box p{
+    font-size: 8vw;
+    margin-right: 5vw;
+}    
+
+#chimni-box pre{
+    font-size: 4.5vw;
+}
+
+#mircowave-box p{
+    font-size: 8vw;
+    margin-right: 4vw;
+}
+
+#mircowave-box pre{
+    font-size: 4.5vw;
+}
+
+.box a{
+    margin-left: 23vw;
+    padding: 2vw 7vw;
+    border-radius: 5px;
     
+}
+
+.read-more{
+    margin-top: -2vh;
+}
+
+#page4{
+
+}
+
+#page4 h4{
+    font-size: 7vw;
+    margin-top: -3vh;
+    font-weight: 100;
+}
+
+#page4 p{
+    font-size: 8vw;
+}
+
+.page4-cards{
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.card{
+    height: 75vh;
+    width: 90vw;
     
+}
+
+#card1 img{
+    height:15vh;
+    width: 30vw;
+    margin-left: 30vw;
+}
+
+#card2 img{
+    height:15vh;
+    width: 30vw;
+    margin-left: 30vw;
+    
+}
+
+#card3 img{
+    height:15vh;
+    width: 30vw;
+    margin-left: 30vw;
+}
+
+#card4 img{
+    height:15vh;
+    width: 30vw;
+    margin-left: 30vw;
+}
+
+
+#card1 pre{
+    text-wrap: wrap;
+    font-size: 3.5vw;
+    padding: 0 2vw;
+}
+
+
+
+#card2 pre{
+    text-wrap: wrap;
+    font-size: 3.5vw;
+    padding: 0 2vw;
+}
+
+
+
+#card3 pre{
+    text-wrap: wrap;
+    font-size: 3.5vw;
+    padding: 0 2vw;
+}
+
+#card4 pre{
+    text-wrap: wrap;
+    font-size: 3.5vw;
+    padding: 0 2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

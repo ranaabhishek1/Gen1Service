@@ -296,9 +296,7 @@ button {
     height: 240vh;
     width: 100%;
     background-color: var(--background);
-    padding-top: 20vh;
-    
-    
+    padding-top: 20vh;    
 }
 
 #page3 h3 {
@@ -407,8 +405,6 @@ margin-top: 3vh;
     text-align: center;
     margin-bottom: 7vh;
 }
-
-
 
 #tv-box p{
     font-size: 2vw;
@@ -520,16 +516,106 @@ margin-top: 3vh;
 .page4-cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 5vw;
-    margin-left: 7vw;
+    gap: 3vw;
+    margin-left: 3.5vw;
     margin-top: 10vh;
 }
 
 .card {
     height: 95vh;
-    width: 40vw;
+    width: 45vw;
     background-color: #FFFFFF;
     border-radius: 8px;
+}
+
+#card1 img{
+    height: 20vh;
+    width: 9vw;
+    border-radius: 50%;
+    margin-left: 18vw;
+    margin-top: 8vh;
+}
+
+#card2 img{
+    height: 20vh;
+    width: 9vw;
+    border-radius: 50%;
+    margin-left: 18vw;
+    margin-top: 8vh;
+}
+
+#card3 img{
+    height: 20vh;
+    width: 9vw;
+    border-radius: 50%;
+    margin-left: 18vw;
+    margin-top: 8vh;
+}
+
+#card4 img{
+    height: 20vh;
+    width: 9vw;
+    border-radius: 50%;
+    margin-left: 18vw;
+    margin-top: 8vh;
+}
+
+#card1 h2{
+    text-align: center;
+    margin-top: 3vh;
+    color: var(--text);
+    font-family: poppins;
+}
+
+
+#card2 h2{
+    text-align: center;
+    margin-top: 3vh;
+    color: var(--text);
+    font-family: poppins;
+}
+
+
+#card3 h2{
+    text-align: center;
+    margin-top: 3vh;
+    color: var(--text);
+    font-family: poppins;
+}
+
+
+#card4 h2{
+    text-align: center;
+    margin-top: 3vh;
+    color: var(--text);
+    font-family: poppins;
+}
+
+#card1 pre{
+    margin-top: 5vh;
+    margin-left: 3vw;
+    font-size: 1.3vw;
+}
+
+
+#card2 pre{
+    margin-top: 5vh;
+    margin-left: 3vw;
+    font-size: 1.3vw;
+}
+
+
+#card3 pre{
+    margin-top: 5vh;
+    margin-left: 3vw;
+    font-size: 1.3vw;
+}
+
+
+#card4 pre{
+    margin-top: 5vh;
+    margin-left: 3vw;
+    font-size: 1.3vw;
 }
 
 .page4-part2 {
