@@ -332,7 +332,12 @@ button {
     width: 28vw;
     background-color:#E2E8EF;
     border-radius: 8px;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
 
+.box:hover{
+    scale: 1.1;
 }
 
 
@@ -526,7 +531,14 @@ margin-top: 3vh;
     width: 45vw;
     background-color: #FFFFFF;
     border-radius: 8px;
+    cursor: pointer;
+    transition: all linear 0.3s;
 }
+
+.card:hover{
+    scale: 1.05;
+}
+
 
 #card1 img{
     height: 20vh;

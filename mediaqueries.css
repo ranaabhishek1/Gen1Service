@@ -109,9 +109,11 @@
     margin-left: 17vw;
     margin-top: -5vh;
 }
+/* end page2 */
 
+/* page3 */
 #page3{
-    height: 430vh;
+    height: 438vh;
 
 }
 
@@ -133,8 +135,12 @@
 }
 
 .box{
-    height: 60vh;
+    height: 62vh;
     width: 90vw;
+}
+
+.box:hover{
+    scale: 1;
 }
 
 #refrigerator-box img{
@@ -230,10 +236,9 @@
     margin-top: -2vh;
 }
 
-#page4{
+/* end page3 */
 
-}
-
+/* page 4 */
 #page4 h4{
     font-size: 7vw;
     margin-top: -3vh;
@@ -252,8 +257,11 @@
 
 .card{
     height: 75vh;
-    width: 90vw;
-    
+    width: 90vw;   
+}
+
+.card:hover{
+    scale: 1;
 }
 
 #card1 img{
@@ -296,8 +304,6 @@
     padding: 0 2vw;
 }
 
-
-
 #card3 pre{
     text-wrap: wrap;
     font-size: 3.5vw;
@@ -309,6 +315,59 @@
     font-size: 3.5vw;
     padding: 0 2vw;
 }
+
+/* page4 part 2 start */
+.page4-part2{
+    height: 35vh;
+    width: 100%;
+}
+
+.page4-part2 h6{
+    font-size: 7vw;
+    padding-top: 7vh;
+    margin-bottom: 1vh;
+}
+
+.page4-part2 h5{
+    font-size: 6.5vw;
+    
+}
+
+.page4-part2 a{
+    font-size: 6vw;
+    padding: 3vw 8vw;
+    margin-left:21vw;
+    margin-top: -5vh;
+}
+
+/* page4 part 2 end */
+
+/* end page 4 */
+
+/* page 5 start */
+
+#page5{
+    height: 40vh;
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer p{
+    font-size: 8vw;
+    margin-bottom: 5vh;
+}
+
+.footer a{
+    font-size:4.5vw;
+    margin-right: 2vw;
+
+}
+
+/* page 5 end */
 
 
 
