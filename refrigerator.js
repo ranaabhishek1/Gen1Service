@@ -11,10 +11,8 @@ hamburger.addEventListener("click",function(){
     
   mobileNav.style.display="block";
 gsap.from(mobileNav,{
-  top:"70vh",
-  delay:1,
-  duration:0.5,
-  
+  y:"-60vh",
+  duration:0.4,
 })   
 })
 
