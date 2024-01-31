@@ -5,8 +5,6 @@ let mobileNav=document.querySelector(".navbar-mobile");
 
 let closeIcon=document.querySelector(".close-icon");
 
-let value=0;
-
 function fornav(){
   
 hamburger.addEventListener("click",function(){
