@@ -303,18 +303,18 @@ input, textarea {
 /* start page2 */
 
 #page2{
-    height:60vh;
+    height:50vh;
     width: 100%;
 }
 
 .form-container{
-    height: 45vh;
-    width: 60%;
+    height: 50vh;
+    width: 70%;
     /* background-color: var(--background); */
     background-color: rgb(238, 243, 109);
     box-shadow: 0 0 0.2rem black;
     border-radius: 3px;
-    margin-left: 20vw;
+    margin-left: 15vw;
 }
 
 form p{
@@ -329,24 +329,24 @@ form p{
 
 input, textarea {
     width: 50%;
-    height: 3vh;
+    height: 5vh;
     margin-bottom: 1vh;
     border: 0.1rem solid black;
     border-radius: 3px;
-    margin-left: 8vw;
-    font-size: 3vw;
+    margin-left: 15vw;
+    font-size: 5vw;
 }
 
 
 .sendbtn .submitbtn {
-    width: 15vw;
+    width: 30vw;
             background-color: rgba(0, 0, 255, 0.9);
             color: white;
             border: none;
-            font-size: 1.5vw;
+            font-size: 3.5vw;
             font-family: poppins;
             border-radius:3px;
-            margin-left:9vw;
+            margin-left:17vw;
         cursor: pointer;
         margin-top: 3vh;
         }
@@ -359,7 +359,7 @@ input, textarea {
     color: rgb(18, 18, 62);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,sans-serif,cursive;
     font-family: poppins;
-    font-size: 1.3vw;
+    font-size: 4vw;
 }
 
     /* end page2 */
