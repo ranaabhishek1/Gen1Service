@@ -3,44 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact-us|Gen1Services</title>
+    <title>Contact | Gen1Service</title>
+    <link rel="shortcut icon" href="favicon/gen1service logo.jpg" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet">
+
     <link rel="stylesheet" href="contact.css">
 </head>
 <body>
 
-
-
-
-
-
+    <div id="main"> <!--start main-->
     
-<!-- 
-    <form action="">
+    <div id="page1">
+        <nav class="navbar">
 
-        <div class="inputbox">
+            <div class="nav-left">
+                <a href="index.html">gen1service</a>
+            </div> <!--end nav left-->
 
-            <input type="text" name="" placeholder="Name">
+            <div class="nav-center">
+                <a href="services.html">services</a>
+                <a href="about.html">about</a>
+                <a href="#">learn</a>
+                <a href="#">pricing</a>
+                <a href="#">⭐careers</a>
+            </div> <!--end nav center-->
 
+            <div class="nav-right">
+                <a href="contact.html">contact us</a>
+            </div> <!--end nav right-->
+
+
+        </nav> <!--end nav-->
+
+        <div class="hamburger">
+            <i class="ri-menu-3-fill"></i>
         </div>
 
-        <div class="inputbox">
-            <input type="email" name="" placeholder="Email">
+        <div class="navbar-mobile">
+            <div class="close-icon">
+                <i class="ri-close-circle-fill"></i>
+            </div>
 
-        </div>
+            <a href="services.html">services</a>
+            <a href="about.html">about</a>
+            <a href="#">learn</a>
+            <a href="#">pricing</a>
+            <a href="#">careers</a>
 
-        <div class="inputbox">
-            <textarea name="message" placeholder="Your message"></textarea>
+        </div> <!--navbar-mobile-->
 
-        </div>
+    </div> <!-- end page1 -->
+
+    <div id="page2"> <!--page 2-->
+        <div class="form-container"> <!--form container-->
+        <form action=""> <!--form-->
+            <p class="form-text">Contact Us </p>
+                <div class="inputbox">
+
+                    <input type="text" name="" placeholder="Name" required="">
+
+                </div>
+
+                <div class="inputbox">
+                    <input type="email" name="" placeholder="Email" required="">
+
+                </div>
+
+                <div class="inputbox">
+                    <textarea name="message" placeholder="Your message" required=""></textarea>
+
+                </div>
+
+                <div class="sendbtn">
+                    <input type="submit" class="submitbtn" name="submit" value="Submit">
+                </div>
+            </div> <!--end form container-->
+        </form> <!--end form-->
+    </div> <!--end page2-->
 
 
-        <div class="sendbtn">
-            <input type="submit" class="submitbtn" name="submit" value="Submit">
-        </div>
+
+</div> <!--end main-->
+<!-- ++++++++++++++++++++++++++++++++++++ -->
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    </form> -->
-    
+
+    <script src="ac.js"></script>
 </body>
 </html>
