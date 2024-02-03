@@ -31,6 +31,21 @@ body {
     width: 100%;
 }
 
+/* book service message */
+
+.book-service p{
+background-color: orangered;
+font-size: 2vw;
+padding: 0.7vw 0;
+width: 100%;
+color: var(--background);
+font-weight: bold;
+text-align: center;
+position: fixed;
+}
+
+/* end book service message */
+
 
 /* start page1 */
 
@@ -38,7 +53,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 5vh;
+    padding-top: 14vh;
 }
 
 .navbar a {
@@ -159,6 +174,24 @@ body {
     margin-bottom: 15vh;
     text-wrap: wrap;
 }
+
+#page2 a{
+text-decoration: none;
+background-color: var(--btn);
+color: var(--background);
+position: fixed;
+margin-top: -8vh;
+margin-left: 43vw;
+padding: 1vh 2.5vw;
+font-size: 1.6vw;
+font-family: poppins;
+border-radius: 5px;
+}
+
+#page2 a:hover{
+    background-color: var(--btnhover);
+}
+
 
 .page2-part-1{
     display: flex;
@@ -305,19 +338,67 @@ margin-top: -4vh;
 }
 
 .copyright p{
-margin-top: 15vh;
+margin-top: 10vh;
 text-align: center;
 color: var(--background);
 }
+
+/* page6 */
+#page6{
+    height: 70vh;
+    width: 100%;
+ background-color:powderblue;
+}
+
+
+#page6 h3{
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 2.5vw;
+    color: rgb(227, 57, 38);
+    font-weight: bold;
+}
+#page6 a{
+    text-decoration:none;
+    color: darkslateblue;
+    margin-top: 4vh;
+    font-size: 1.5vw;
+    text-transform: capitalize;
+}
+
+#page6 a:hover{
+    color: darkred;
+}
+
+.city-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+/* end page6 */
 
 /* responsive  */
 
 @media (max-width:440px){
 
+
+/* book service message */
+
+.book-service p{
+    font-size: 4vw;
+    padding: 3vw 0;
+    }
+    
+    /* end book service message */
+    
     /* page1 media query - 440px */
     
     #page1{
-        height: 10vh;
+        height: 20vh;
         width: 100%;
     }
     
@@ -426,6 +507,20 @@ height: 350vh;
     
 }
 
+#page2 a{
+    position: fixed;
+    margin-top: 34vh;
+    z-index: 1;
+    width: 100%;
+text-align: center;
+    font-size:7vw;
+    text-wrap: nowrap;
+    margin-left: 0vw;
+    font-family: poppins;
+    border-radius: 5px;
+    }
+    
+
 
 .page2-part-1{
     display: flex;
@@ -520,9 +615,10 @@ padding-top: 7vh;
 /* end page 4 */
 
 #page5{
-    height: 30vh;
+    height: 32vh;
     width: 100%;
     background-color: var(--background2);
+    
 }
 
 .footer{
@@ -546,10 +642,36 @@ flex-direction: column;
 }
 
 .copyright p{
-margin-top: 8vh;
+margin-top: 3vh;
 text-align: center;
 color: var(--background);
 }
+
+/* page6 */
+#page6{
+    height: 55vh;
+    width: 100%;
+    
+}
+
+#page6 h3{
+    text-align: center;
+    padding-top: 3vh;
+    font-size: 4.3vw;
+    color: rgb(227, 57, 38);
+    font-weight: bold;
+    font-family: poppins;
+}
+#page6 a{
+    text-decoration:none;
+    color: darkslateblue;    
+    font-size: 4vw;
+    text-transform: capitalize;
+    
+}
+
+
+/* end page6 */
 
 
     

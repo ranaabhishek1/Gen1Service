@@ -58,6 +58,7 @@ rotate: 90deg;
     height: 100vh;
     width: 100%;
     background-color: var(--background);
+    
 }
 
 .navbar {
@@ -123,8 +124,12 @@ rotate: 90deg;
 
 .page1-content {
     position: relative;
-    margin-top: 12vh;
-    margin-left: 18vw;
+    margin-top: 5vh;
+    
+    background-image: url(https://images.unsplash.com/photo-1635776062043-223faf322554?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    
 
 }
 
@@ -134,19 +139,21 @@ rotate: 90deg;
     color: var(--text);
     line-height: 100px;
     font-weight: bolder;
+    text-align: center;
+    margin-left: 10vw;
 }
 
 .page1-content h1:nth-child(2) {
 
-    margin-left: 15vw;
     font-size: 6.3vw;
 }
 
 
 .page1-content p {
     margin-top: 5vh;
-    margin-left: 11vw;
+text-align: center;
     font-size: 1.4vw;
+    
 }
 
 .page1-content a {
@@ -159,7 +166,8 @@ rotate: 90deg;
     font-family: poppins;
     color: var(--background);
     text-decoration: none;
-    margin-right: 8vw;
+    margin-left: 25vw;
+    
 }
 
 .page1-content a:hover {
@@ -172,7 +180,7 @@ rotate: 90deg;
     color: var(--btn);
     font-family: poppins;
     font-weight: bolder;
-
+margin-left: 6vw;
 }
 
 .page1-content a:nth-child(2):hover {
