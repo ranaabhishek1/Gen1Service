@@ -3,7 +3,7 @@
     /* page1 media query - 440px */
     
     #page1{
-        height: 75vh;
+        height: 60vh;
         width: 100%;
     }
     
@@ -41,17 +41,19 @@
     }
     
     .page1-content p{
-        font-size: 4.1vw;
-        margin-left: -10vw;
+        font-size:4.2vw;
+        text-wrap: wrap;
+        text-align: center;
+        padding: 0 2vw;
         margin-top: 0;
     }
     
     .page1-btns{
         display: flex;
         flex-direction: column;
-        gap: 4vh;
-        margin-left: 12vw;
+        gap: 3vh;
         margin-top: 7vh;
+    
     }
     
     .page1-btns a{
@@ -60,10 +62,15 @@
         font-size: 4vw;
         text-align: center;
     }
+
     
+    .page1-btns a:nth-child(1){
+                margin-left: 9vw;
+        }
+
     .page1-btns a:nth-child(2){
-    width: 75%;
-    margin-left: -6vw;
+    width: 60%;
+    margin-left: 9vw;
     }
     
     

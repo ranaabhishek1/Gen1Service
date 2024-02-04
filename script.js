@@ -1,3 +1,6 @@
+let selectCity=document.querySelector(".select-city");
+let selectBox=document.querySelector(".select-box");
+
 
 let hamburger=document.querySelector(".hamburger");
 
@@ -55,3 +58,17 @@ function slider(){
 }
 
 slider();
+
+function city(){ 
+
+  selectCity.addEventListener("mouseenter",function(){
+    selectBox.style.opacity="1";
+  });
+  
+  
+  selectBox.addEventListener("mouseleave",function(){
+    selectBox.style.opacity="0";
+  })
+}
+
+city();
