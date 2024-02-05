@@ -1,3 +1,6 @@
+let selectCity=document.querySelector(".select-city");
+let selectBox=document.querySelector(".select-box");
+
 
 let hamburger=document.querySelector(".hamburger");
 
@@ -23,3 +26,18 @@ closeIcon.addEventListener("click",function(){
  }
 
 fornav();
+
+
+function city(){ 
+
+  selectCity.addEventListener("mouseenter",function(){
+    selectBox.style.opacity="1";
+  });
+  
+  
+  selectBox.addEventListener("mouseleave",function(){
+    selectBox.style.opacity="0";
+  })
+}
+
+city();

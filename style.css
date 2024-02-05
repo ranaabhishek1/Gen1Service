@@ -87,6 +87,17 @@ rotate: 90deg;
     opacity: 0;
 }
 
+.city-close i{
+    margin-left: 11.5vw;
+    position: absolute;
+    z-index: 2;
+    margin-top: 3vh;
+    opacity: 0;
+    
+}
+
+
+
 .select-box a{
     text-decoration: none;
     color: #000;

@@ -1,6 +1,6 @@
 @font-face {
-    font-family: poppins;
-    src: url(fonts/Poppins.ttf);
+    font-family:poppins ;
+    src: url();
 }
 
 @font-face {
@@ -30,6 +30,66 @@ body {
     height: 100%;
     width: 100%;
 }
+
+
+/* select Button start */
+
+.select-city a{
+    text-decoration: none;
+    background-color: #FE5454;
+    color: white;
+    font-size: 1.3vw;
+    margin-left: 3vw;
+    padding: 0.5vw 1.2vw;
+    border-radius: 2px;
+    
+}
+
+.select-city{
+    margin-top: 3vh;
+}
+
+.select-city a:hover{
+    background-color: green;
+}
+
+.select-box{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    margin-left: 2vw;
+    margin-top: 1.7vh;
+    position: absolute;
+    z-index: 1;
+    padding: 2vh 2.5vw;
+    gap: 2vh;
+    box-shadow: 0 0 0.2rem black;
+    border-radius: 3px;
+    opacity: 0;
+}
+
+.city-close i{
+    margin-left: 11.5vw;
+    position: absolute;
+    z-index: 2;
+    margin-top: 3vh;
+    opacity: 0;
+    
+}
+
+
+
+.select-box a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.7vw;
+}
+
+
+/* end select Button  */
+
+
 
 
 /* start page1 */
