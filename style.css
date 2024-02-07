@@ -15,6 +15,7 @@
     --text2: #000;
     --btn: #2a786b;
     --btnhover: #1c5f54;
+    --citybtn: rgba(22, 60, 247, 0.914);
 }
 
 
@@ -50,64 +51,6 @@ rotate: 90deg;
 } */
 
 
-/* select Button start */
-
-.select-city a{
-    text-decoration: none;
-    background-color: #FE5454;
-    color: white;
-    font-size: 1.3vw;
-    margin-left: 3vw;
-    padding: 0.5vw 1.2vw;
-    border-radius: 2px;
-    
-}
-
-.select-city{
-    margin-top: 3vh;
-}
-
-.select-city a:hover{
-    background-color: green;
-}
-
-.select-box{
-    background-color:white;
-    display: flex;
-    flex-direction: column;
-    height: 40vh;
-    margin-left: 2vw;
-    margin-top: 1.7vh;
-    position: absolute;
-    z-index: 1;
-    padding: 2vh 2.5vw;
-    gap: 2vh;
-    box-shadow: 0 0 0.2rem black;
-    border-radius: 3px;
-    opacity: 0;
-}
-
-.city-close i{
-    margin-left: 11.5vw;
-    position: absolute;
-    z-index: 2;
-    margin-top: 3vh;
-    opacity: 0;
-    
-}
-
-
-
-.select-box a{
-    text-decoration: none;
-    color: #000;
-    font-size: 1.7vw;
-}
-
-
-/* end select Button  */
-
-
 
 /* start page1 */
 
@@ -122,7 +65,7 @@ rotate: 90deg;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    
+padding-top: 3vh;    
 }
 
 .navbar a {
@@ -135,6 +78,7 @@ rotate: 90deg;
     color: var(--text);
     text-transform: capitalize;
     font-weight: 600;
+    margin-left: 5vw;
 }
 
 .nav-center {
@@ -142,12 +86,15 @@ rotate: 90deg;
     gap: 2vw;
     font-size: 1.3vw;
     text-transform: capitalize;
-
+margin-left: 18vw;
 }
 
 .nav-center a {
     color: var(--text2);
+
 }
+
+
 
 .nav-right {
     font-size: 1.2vw;
@@ -156,7 +103,7 @@ rotate: 90deg;
     background-color: var(--btn);
     padding: 1vw 2.5vw;
     border-radius: 0.2rem;
-
+margin-left: 15vw;
 }
 
 .nav-right a {
@@ -167,6 +114,29 @@ rotate: 90deg;
 .nav-right:hover {
     background-color: var(--btnhover);
 }
+
+
+.nav-right2 {
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: var(--citybtn);
+    padding: 1vw 2.5vw;
+    border-radius: 0.2rem;
+margin-left: 2vw;
+}
+
+.nav-right2 a {
+    font-family: poppins;
+    color: var(--background);
+}
+
+.nav-right2:hover {
+    background-color: var(--btnhover);
+}
+
+
+
 
 .hamburger {
     margin-left: 93vw;
