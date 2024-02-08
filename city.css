@@ -16,6 +16,7 @@
     --btn: #2a786b;
     --btnhover: #1c5f54;
     --citybtn: rgba(22, 60, 247, 0.914);
+    --citybtnHover: rgba(4, 45, 250, 0.914);
 }
 
 
@@ -34,7 +35,7 @@ body {
 
 /* book service message */
 
-.book-service p{
+.book-service a{
 background-color: orangered;
 font-size: 2vw;
 padding: 0.7vw 0;
@@ -43,6 +44,7 @@ color: var(--background);
 font-weight: bold;
 text-align: center;
 position: fixed;
+text-decoration: none;
 }
 
 /* end book service message */
@@ -214,13 +216,6 @@ margin-left: 2vw;
 }
 
 
-
-
-
-
-
-
-
 /* end page1 */
 
 
@@ -231,7 +226,7 @@ margin-left: 2vw;
 
 /* book service message */
 
-.book-service p{
+.book-service a{
     font-size: 4vw;
     padding: 3vw 0;
     }
@@ -241,8 +236,13 @@ margin-left: 2vw;
     /* page1 media query - 440px */
     
     #page1{
-        height: 20vh;
+        height: 135vh;
         width: 100%;
+        
+    }
+
+    .nav-left a{
+        padding-left: 38vw;
     }
     
     .nav-center a{
@@ -252,6 +252,28 @@ margin-left: 2vw;
     .nav-right{
         display: none;
     }
+
+    
+.nav-right2 {
+    font-size: 2.2vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: var(--citybtn);
+    padding: 1.3vh 2.7vw;
+margin-right: 28vw;
+}
+
+.nav-right2 a {
+    font-family: poppins;
+    color: var(--background);
+    text-wrap: nowrap;
+}
+
+.nav-right2:hover {
+    background-color:var(--citybtnHover);
+}
+
+    
     
     .hamburger i{
         font-size: 10vw;
@@ -332,10 +354,36 @@ margin-left: 2vw;
         font-size: 8vw;
     }
 
-    /* end media for page1 */
-
     
+.city-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 
+.box{
+    height: 30vh;
+    width: 40%;
+        background-color: #E2E8EF;
+    margin-left: 6vw;
+    margin-top: 5vh;
+    
+}
+
+.box a{
+    text-decoration: none;
+    background-color: var(--background2);
+    color: var(--background);
+    padding: 1.5vh 1.5vw;
+    position: relative;
+    top: 75%;
+    left: 10%;
+    text-align: center;
+    font-size: 3vw;
+}
+
+
+    /* end media for page1 */
 
     
 }    
