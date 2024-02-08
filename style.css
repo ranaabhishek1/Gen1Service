@@ -15,7 +15,8 @@
     --text2: #000;
     --btn: #2a786b;
     --btnhover: #1c5f54;
-    --citybtn: rgba(22, 60, 247, 0.914);
+    --citybtn: rgba(34, 70, 249, 0.914);
+    --citybtnHover: rgba(4, 45, 250, 0.914);
 }
 
 
@@ -132,7 +133,7 @@ margin-left: 2vw;
 }
 
 .nav-right2:hover {
-    background-color: var(--btnhover);
+    background-color:var(--citybtnHover);
 }
 
 

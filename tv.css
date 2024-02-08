@@ -33,7 +33,7 @@ body {
 
 /* book service message */
 
-.book-service p{
+.book-service a{
 background-color: orangered;
 font-size: 2vw;
 padding: 0.7vw 0;
@@ -42,6 +42,7 @@ color: var(--background);
 font-weight: bold;
 text-align: center;
 position: fixed;
+text-decoration: none;
 }
 
 /* end book service message */
@@ -388,7 +389,7 @@ color: var(--background);
 
 /* book service message */
 
-.book-service p{
+.book-service a{
     font-size: 4vw;
     padding: 3vw 0;
     }

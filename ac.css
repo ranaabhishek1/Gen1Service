@@ -33,15 +33,16 @@ body {
 
 /* book service message */
 
-.book-service p{
-background-color: orangered;
-font-size: 2vw;
-padding: 0.7vw 0;
-width: 100%;
-color: var(--background);
-font-weight: bold;
-text-align: center;
-position: fixed;
+.book-service a {
+    background-color: orangered;
+    font-size: 2vw;
+    padding: 0.7vw 0;
+    width: 100%;
+    color: var(--background);
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    text-decoration: none;
 }
 
 /* end book service message */
@@ -156,14 +157,14 @@ position: fixed;
 
 /* page 2 start */
 
-#page2{
+#page2 {
     height: 250vh;
     width: 100%;
     background-color: var(--background);
     padding-bottom: 10vh;
 }
 
-#page2 h2{
+#page2 h2 {
     font-size: 8vw;
     text-align: center;
     font-family: poppins;
@@ -175,54 +176,54 @@ position: fixed;
     text-wrap: wrap;
 }
 
-#page2 a{
-text-decoration: none;
-background-color: var(--btn);
-color: var(--background);
-position: fixed;
-margin-top: -8vh;
-margin-left: 43vw;
-padding: 1vh 2.5vw;
-font-size: 1.6vw;
-font-family: poppins;
-border-radius: 5px;
+#page2 a {
+    text-decoration: none;
+    background-color: var(--btn);
+    color: var(--background);
+    position: fixed;
+    margin-top: -8vh;
+    margin-left: 43vw;
+    padding: 1vh 2.5vw;
+    font-size: 1.6vw;
+    font-family: poppins;
+    border-radius: 5px;
 }
 
-#page2 a:hover{
+#page2 a:hover {
     background-color: var(--btnhover);
 }
 
 
-.page2-part-1{
+.page2-part-1 {
     display: flex;
-    align-items: center;   
+    align-items: center;
     gap: 7vw;
     padding: 0 7vw;
 }
 
-.content-p1{
+.content-p1 {
     color: var(--text);
     text-align: center;
     font-size: 2vw;
     margin-bottom: -11vh;
     font-weight: bolder;
-    
+
 }
 
-.page2-part-1 p{
+.page2-part-1 p {
     font-size: 1.5vw;
     margin-top: 10vh;
-    
+
 }
 
-.page2-part-2{
+.page2-part-2 {
     display: flex;
-    align-items: center;   
+    align-items: center;
     gap: 7vw;
     padding: 0 7vw;
 }
 
-.content-p2{
+.content-p2 {
     color: var(--text);
     font-size: 2.2vw;
     margin-bottom: -11vh;
@@ -231,29 +232,29 @@ border-radius: 5px;
     margin-left: 8vw;
 }
 
-.page2-part-2 p{
+.page2-part-2 p {
     font-size: 1.5vw;
     margin-top: 16vh;
 }
 
 
-.page2-part-3{
+.page2-part-3 {
     display: flex;
     align-items: center;
     gap: 7vw;
     padding: 0 7vw;
 }
 
-.content-p3{
+.content-p3 {
     margin-top: 20vh;
     font-size: 2.2vw;
     font-weight: bold;
     color: var(--text);
-text-align: center;
-margin-left: 11vw;
+    text-align: center;
+    margin-left: 11vw;
 }
 
-.page2-part-3 p{
+.page2-part-3 p {
     font-size: 1.5vw;
 }
 
@@ -264,7 +265,7 @@ margin-left: 11vw;
 .page4-part2 {
     height: 55vh;
     width: 100%;
-    background-color:#E2E8EF;
+    background-color: #E2E8EF;
     margin-top: 20vh;
 
 }
@@ -301,27 +302,27 @@ margin-left: 11vw;
     margin-left: 40vw;
 }
 
-.page4-part2 a:hover{
+.page4-part2 a:hover {
     background-color: var(--btnhover);
     transition: all linear 0.3s;
 }
 
 /* end page 4 */
 
-#page5{
+#page5 {
     height: 40vh;
     width: 100%;
     background-color: var(--background2);
 }
 
-.footer{
+.footer {
     display: flex;
-justify-content: space-between;    
-align-items: center;
-margin-top: -4vh;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -4vh;
 }
 
-.footer p{
+.footer p {
     font-size: 4vw;
     color: var(--background);
     font-family: poppins;
@@ -329,52 +330,53 @@ margin-top: -4vh;
     margin-left: 3vw;
 }
 
-.footer a{
+.footer a {
     text-decoration: none;
     margin-right: 5vw;
     text-transform: capitalize;
-    color:#B5E203;
+    color: #B5E203;
     font-family: poppins;
 }
 
-.copyright p{
-margin-top: 10vh;
-text-align: center;
-color: var(--background);
+.copyright p {
+    margin-top: 10vh;
+    text-align: center;
+    color: var(--background);
 }
 
 /* page6 */
-#page6{
+#page6 {
     height: 70vh;
     width: 100%;
- background-color:powderblue;
+    background-color: powderblue;
 }
 
 
-#page6 h3{
+#page6 h3 {
     text-align: center;
     padding-top: 5vh;
     font-size: 2.5vw;
     color: rgb(227, 57, 38);
     font-weight: bold;
 }
-#page6 a{
-    text-decoration:none;
+
+#page6 a {
+    text-decoration: none;
     color: darkslateblue;
     margin-top: 4vh;
     font-size: 1.5vw;
     text-transform: capitalize;
 }
 
-#page6 a:hover{
+#page6 a:hover {
     color: darkred;
 }
 
-.city-links{
+.city-links {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
 
@@ -383,297 +385,297 @@ color: var(--background);
 
 /* responsive  */
 
-@media (max-width:440px){
+@media (max-width:440px) {
 
 
-/* book service message */
+    /* book service message */
 
-.book-service p{
-    font-size: 4vw;
-    padding: 3vw 0;
+    .book-service a {
+        font-size: 4vw;
+        padding: 3vw 0;
     }
-    
+
     /* end book service message */
-    
+
     /* page1 media query - 440px */
-    
-    #page1{
+
+    #page1 {
         height: 20vh;
         width: 100%;
     }
-    
-    .nav-center a{
+
+    .nav-center a {
         display: none;
     }
-    
-    .nav-right{
+
+    .nav-right {
         display: none;
     }
-    
-    .hamburger i{
+
+    .hamburger i {
         font-size: 10vw;
-    margin-left: -8vw;
+        margin-left: -8vw;
     }
-    
-    .hamburger{
+
+    .hamburger {
         margin-top: -6vh;
         display: block;
     }
-    
-    .nav-left a{
+
+    .nav-left a {
         font-size: 7vw;
         margin-left: -24vw;
     }
-    
-    .page1-content h1{
+
+    .page1-content h1 {
         font-size: 8.5vw;
         margin-left: -6vw;
         margin-top: -8vh;
     }
-    
-    .page1-content h1:nth-child(2){
+
+    .page1-content h1:nth-child(2) {
         font-size: 7vw;
     }
-    
-    .page1-content p{
+
+    .page1-content p {
         font-size: 4.1vw;
         margin-left: -10vw;
         margin-top: 0;
     }
-    
-    .page1-btns{
+
+    .page1-btns {
         display: flex;
         flex-direction: column;
         gap: 4vh;
         margin-left: 12vw;
         margin-top: 7vh;
     }
-    
-    .page1-btns a{
+
+    .page1-btns a {
         padding: 4vw 0vw;
         width: 60%;
         font-size: 4vw;
         text-align: center;
     }
-    
-    .page1-btns a:nth-child(2){
-    width: 75%;
-    margin-left: -6vw;
+
+    .page1-btns a:nth-child(2) {
+        width: 75%;
+        margin-left: -6vw;
     }
-    
-    
-    .navbar-mobile i{
+
+
+    .navbar-mobile i {
         font-size: 11vw;
         margin-left: 5vw;
-    
-        
+
+
     }
 
-.navbar-mobile a:hover{
-    background-color: orange;
-    
-    
-}
+    .navbar-mobile a:hover {
+        background-color: orange;
 
-    .close-icon{
+
+    }
+
+    .close-icon {
         margin-top: 27vh;
         margin-left: 80vw;
     }
-    
-    .navbar-mobile{
+
+    .navbar-mobile {
         height: 109vh;
-        
+
     }
-    
-    .navbar-mobile a{
+
+    .navbar-mobile a {
         font-size: 8vw;
     }
 
     /* end media for page1 */
 
-    
-#page2{
-margin-top: -5vh;
-height: 350vh;
-    width: 100%;
-    background-color: var(--background);
-    padding-bottom: 10vh;
-}
 
-#page2 h2{
-    font-size: 10vw;
-    line-height: 50px;
-    margin-top: 13vh;
-    
-}
-
-#page2 a{
-    position: fixed;
-    margin-top: 34vh;
-    z-index: 1;
-    width: 100%;
-text-align: center;
-    font-size:7vw;
-    text-wrap: nowrap;
-    margin-left: 0vw;
-    font-family: poppins;
-    border-radius: 5px;
+    #page2 {
+        margin-top: -5vh;
+        height: 350vh;
+        width: 100%;
+        background-color: var(--background);
+        padding-bottom: 10vh;
     }
-    
+
+    #page2 h2 {
+        font-size: 10vw;
+        line-height: 50px;
+        margin-top: 13vh;
+
+    }
+
+    #page2 a {
+        position: fixed;
+        margin-top: 34vh;
+        z-index: 1;
+        width: 100%;
+        text-align: center;
+        font-size: 7vw;
+        text-wrap: nowrap;
+        margin-left: 0vw;
+        font-family: poppins;
+        border-radius: 5px;
+    }
 
 
-.page2-part-1{
-    display: flex;
-flex-direction: column;
-margin-top: -8vh;
+
+    .page2-part-1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -8vh;
+    }
+
+    .content-p1 {
+
+        font-size: 9vw;
+        text-wrap: wrap;
+        position: absolute;
+        margin-top: 39vh;
+        font-weight: bolder;
+    }
+
+    .page2-part-1 p {
+        font-size: 5vw;
+        margin-top: 18vh;
+
+    }
+
+    .page2-part-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-p2 {
+        color: var(--text);
+        font-size: 7vw;
+        text-wrap: wrap;
+        margin-bottom: -11vh;
+        font-weight: bolder;
+        margin-top: 18vh;
+        margin-left: 8vw;
+    }
+
+    .page2-part-2 p {
+        font-size: 5vw;
+        margin-top: 16vh;
+    }
+
+
+    .page2-part-3 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15vh;
+    }
+
+    .content-p3 {
+        margin-top: 45vh;
+        font-size: 6vw;
+        font-weight: bolder;
+        position: absolute;
+        margin-left: 7vw;
+        text-wrap: wrap;
+    }
+
+    .page2-part-3 p {
+        font-size: 5vw;
+        margin-top: 12vh;
+    }
+
+    /* end page 2 responsive */
+
+
+    .page4-part2 {
+        height: 35vh;
+        width: 100%;
+        background-color: #E2E8EF;
+        margin-top: 20vh;
+
+    }
+
+    .page4-part2 h6 {
+        font-size: 6vw;
+        padding-top: 7vh;
+    }
+
+    .page4-part2 h5 {
+        font-size: 6.5vw;
+        margin-bottom: 5vh;
+    }
+
+    .page4-part2 a {
+        font-size: 5vw;
+        padding: 3vw 8vw;
+        margin-left: 26vw;
+
+    }
+
+    /* end page 4 */
+
+    #page5 {
+        height: 32vh;
+        width: 100%;
+        background-color: var(--background2);
+
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer p {
+        font-size: 7vw;
+        margin-left: 3vw;
+        margin-top: 3vh;
+        margin-bottom: 2vh;
+    }
+
+    .footer a {
+        text-decoration: none;
+        margin-right: 5vw;
+        text-transform: capitalize;
+        color: #B5E203;
+        font-family: poppins;
+    }
+
+    .copyright p {
+        margin-top: 3vh;
+        text-align: center;
+        color: var(--background);
+    }
+
+    /* page6 */
+    #page6 {
+        height: 55vh;
+        width: 100%;
+
+    }
+
+    #page6 h3 {
+        text-align: center;
+        padding-top: 3vh;
+        font-size: 4.3vw;
+        color: rgb(227, 57, 38);
+        font-weight: bold;
+        font-family: poppins;
+    }
+
+    #page6 a {
+        text-decoration: none;
+        color: darkslateblue;
+        font-size: 4vw;
+        text-transform: capitalize;
+
+    }
+
+
+    /* end page6 */
+
+
+
 }
-
-.content-p1{
-
-    font-size: 9vw;
-    text-wrap: wrap;
-    position: absolute;
-    margin-top: 39vh;
-    font-weight: bolder;
-}
-
-.page2-part-1 p{
-    font-size: 5vw;
-    margin-top: 18vh;
-    
-}
-
-.page2-part-2{
-    display: flex;
-    flex-direction: column;
-}
-
-.content-p2{
-    color: var(--text);
-    font-size: 7vw;
-    text-wrap: wrap;
-    margin-bottom: -11vh;
-    font-weight: bolder;
-    margin-top: 18vh;
-    margin-left: 8vw;
-}
-
-.page2-part-2 p{
-    font-size: 5vw;
-    margin-top: 16vh;
-}
-
-
-.page2-part-3{
-    display: flex;
-    flex-direction: column;
-    margin-top: 15vh;
-}
-
-.content-p3{
-    margin-top: 45vh;
-    font-size: 6vw;
-    font-weight: bolder;
-    position: absolute;
-margin-left: 7vw;
-text-wrap: wrap;
-}
-
-.page2-part-3 p{
-    font-size: 5vw;
-    margin-top: 12vh;
-}
-
-/* end page 2 responsive */
-
-
-.page4-part2 {
-    height: 35vh;
-    width: 100%;
-    background-color:#E2E8EF;
-    margin-top: 20vh;
-
-}
-
-.page4-part2 h6 {
-    font-size: 6vw;
-padding-top: 7vh;
-}
-
-.page4-part2 h5 {
-    font-size: 6.5vw;
-    margin-bottom: 5vh;
-}
-
-.page4-part2 a {
-    font-size: 5vw;
-    padding: 3vw 8vw;
-    margin-left: 26vw;
-    
-}
-
-/* end page 4 */
-
-#page5{
-    height: 32vh;
-    width: 100%;
-    background-color: var(--background2);
-    
-}
-
-.footer{
-    display: flex;
-flex-direction: column;
-}
-
-.footer p{
-    font-size: 7vw;
-    margin-left: 3vw;
-    margin-top: 3vh;
-    margin-bottom: 2vh;
-}
-
-.footer a{
-    text-decoration: none;
-    margin-right: 5vw;
-    text-transform: capitalize;
-    color:#B5E203;
-    font-family: poppins;
-}
-
-.copyright p{
-margin-top: 3vh;
-text-align: center;
-color: var(--background);
-}
-
-/* page6 */
-#page6{
-    height: 55vh;
-    width: 100%;
-    
-}
-
-#page6 h3{
-    text-align: center;
-    padding-top: 3vh;
-    font-size: 4.3vw;
-    color: rgb(227, 57, 38);
-    font-weight: bold;
-    font-family: poppins;
-}
-#page6 a{
-    text-decoration:none;
-    color: darkslateblue;    
-    font-size: 4vw;
-    text-transform: capitalize;
-    
-}
-
-
-/* end page6 */
-
-
-    
-}    
-    
