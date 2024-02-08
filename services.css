@@ -197,40 +197,43 @@ body {
 
 #refrigerator-box img{
     height: 35vh;
-    width: 100%;
+    width: 50%;
     margin-top: 3vh;
+    margin-left: 7vw;
 }
 
 #ac-box img{
     height: 30vh;
     width: 50%;
     margin-top: 3vh;
-    margin-left: 5vw;
+    margin-left: 7vw;
 }
 
 #tv-box img{
 height: 30vh;
+width: 50%;
 margin-top: 3vh;
 margin-left: 8vw;
 }
 
 #washingMachine-box img{
     height: 35vh;
-    width: 100%;
+    width: 50%;
     margin-top: 3vh;
-    
+    margin-left: 7vw;
 }
 
 #chimni-box img{
     height: 30vh;
     width: 50%;
     margin-top: 3vh;
-    margin-left: 5vw;
+    margin-left: 7vw;
 }
 
 #mircowave-box img{
     height: 30vh;
-margin-top: 3vh;
+    margin-top: 3vh;
+    margin-left: 7vw;
 margin-left: 8vw;
 }
 
