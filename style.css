@@ -139,8 +139,6 @@ margin-left: 2vw;
 }
 
 
-
-
 .hamburger {
     margin-left: 93vw;
     margin-top: -7vh;
@@ -376,46 +374,46 @@ button {
 
 #refrigerator-box img{
     height: 35vh;
-    width: 50%;
+    width: 65%;
     margin-top: 3vh;
-    margin-left: 7vw;
+    margin-left: 5vw;
 }
 
 #ac-box img{
-    height: 30vh;
-    width: 50%;
-    margin-top: 3vh;
-    margin-left: 7vw;
+    height: 35vh;
+    width: 65%;
+    margin-top: 2vh;
+    margin-left: 5vw;
 }
 
 #tv-box img{
-height: 30vh;
-width: 50%;
-    margin-left: 7vw;
-margin-top: 3vh;
+height: 35vh;
+width: 65%;
+    margin-left: 5vw;
+margin-top: 2vh;
 }
 
 #washingMachine-box img{
     height: 35vh;
-    width: 50%;
+    width: 65%;
     margin-top: 3vh;
-    margin-left: 7vw;
+    margin-left: 5vw;
     margin-top: 3vh;
     
 }
 
 #chimni-box img{
-    height: 30vh;
-    width: 50%;
-    margin-top: 3vh;
-    margin-left: 7vw;
+    height: 35vh;
+    width: 65%;
+    margin-top: 1vh;
+    margin-left: 5vw;
 }
 
 #mircowave-box img{
-    height: 30vh;
-width: 50%;
-margin-top: 3vh;
-    margin-left: 7vw;
+    height: 35vh;
+width: 60%;
+margin-top: 1vh;
+    margin-left: 5vw;
 }
 
 #refrigerator-box p{
@@ -437,7 +435,7 @@ margin-top: 3vh;
     font-size: 2vw;
     text-align: center;
     margin-left: -1vw;
-    margin-top: 4vh;
+    margin-top: 2vh;
     color: var(--text);
 }
 #ac-box pre{
@@ -451,7 +449,7 @@ margin-top: 3vh;
     font-size: 2vw;
     text-align: center;
     margin-left: -1vw;
-    margin-top: 4vh;
+    margin-top: 2vh;
     color: var(--text);
 }
 #tv-box pre{
@@ -480,7 +478,7 @@ margin-top: 3vh;
     font-size: 2vw;
     text-align: center;
     margin-left: -1vw;
-    margin-top: 4vh;
+    margin-top: 2vh;
     color: var(--text);
 }
 #chimni-box pre{
@@ -495,7 +493,7 @@ margin-top: 3vh;
     font-size: 2vw;
     text-align: center;
     margin-left: -1vw;
-    margin-top: 4vh;
+    margin-top: 2vh;
     color: var(--text);
 }
 #mircowave-box pre{
@@ -505,7 +503,11 @@ margin-top: 3vh;
     margin-bottom: 11vh;
 }
 
-.box a{
+.read-more{
+    margin-top: -2vh;
+}
+
+.read-more a{
     text-decoration: none;
     text-transform: uppercase;
     background-color: var(--btn);
@@ -517,7 +519,7 @@ margin-top: 3vh;
     
 }
 
-.box a:hover{
+.read-more a:hover{
     background-color: var(--btnhover);
     transition: all linear 0.5s;
 }
@@ -952,6 +954,7 @@ width: 100%;
     margin-left: 3vw;
 }
 
+
 .box{
     height: 60vh;
     width: 90vw;
@@ -963,32 +966,38 @@ width: 100%;
 
 #refrigerator-box img{
     height: 25vh;
-    margin-left: 22vw;
+    width: 70%;
+    margin-left: 14vw;
 }
 
 #ac-box img{
-    height: 20vh;
-    margin-left: 22vw;
+    height: 25vh;
+    width: 72%;
+    margin-left: 13vw;
 }
 
 #tv-box img{
-    height: 20vh;
-    margin-left: 22vw;
+    height: 25vh;
+    width: 70%;
+    margin-left: 13vw;
 }
 
 #washingMachine-box img{
     height: 25vh;
-    margin-left: 22vw;
+    width: 70%;
+    margin-left: 13vw;
 }
 
 #chimni-box img{
-    height: 20vh;
-    margin-left: 22vw;
+    height: 25vh;
+    width: 70%;
+    margin-left: 13vw;
 }
 
 #mircowave-box img{
-    height: 20vh;
-    margin-left: 22vw;
+    height: 25vh;
+    width: 70%;
+    margin-left: 13vw;
 }
 
 #refrigerator-box p{
@@ -997,8 +1006,9 @@ width: 100%;
 }
 
 #refrigerator-box pre{
- font-size: 4.5vw;   
+ font-size: 5vw;   
  margin-top: 2vh;
+ margin-bottom: 4vh;
  
 }
 
@@ -1008,7 +1018,8 @@ width: 100%;
 }
 
 #ac-box pre{
-    font-size: 4.5vw;
+    font-size: 5vw;
+    margin-bottom: 5vh;
 }
 
 #tv-box p{
@@ -1017,7 +1028,7 @@ width: 100%;
 }
 
 #tv-box pre{
-    font-size: 4.5vw;
+    font-size: 5vw;
 }
 
 #washingMachine-box p{
@@ -1026,7 +1037,8 @@ width: 100%;
 }
 
 #washingMachine-box pre{
-    font-size: 4.5vw;
+    font-size: 5vw;
+    margin-bottom: 5vh;
 }
 
 #chimni-box p{
@@ -1035,7 +1047,7 @@ width: 100%;
 }    
 
 #chimni-box pre{
-    font-size: 4.5vw;
+    font-size: 5vw;
 }
 
 #mircowave-box p{
@@ -1045,9 +1057,10 @@ width: 100%;
 
 #mircowave-box pre{
     font-size: 4.5vw;
+    margin-bottom: 6vh;
 }
 
-.box a{
+.read-more a{
     margin-left: 23vw;
     padding: 2vw 7vw;
     border-radius: 5px;

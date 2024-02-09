@@ -197,44 +197,46 @@ body {
 
 #refrigerator-box img{
     height: 35vh;
-    width: 50%;
+    width: 65%;
     margin-top: 3vh;
-    margin-left: 7vw;
+    margin-left: 5vw;
 }
 
 #ac-box img{
-    height: 30vh;
-    width: 50%;
-    margin-top: 3vh;
-    margin-left: 7vw;
+    height: 35vh;
+    width: 65%;
+    margin-top: 2vh;
+    margin-left: 5vw;
 }
 
 #tv-box img{
-height: 30vh;
-width: 50%;
-margin-top: 3vh;
-margin-left: 8vw;
+height: 35vh;
+width: 65%;
+    margin-left: 5vw;
+margin-top: 2vh;
 }
 
 #washingMachine-box img{
     height: 35vh;
-    width: 50%;
+    width: 65%;
     margin-top: 3vh;
-    margin-left: 7vw;
+    margin-left: 5vw;
+    margin-top: 3vh;
+    
 }
 
 #chimni-box img{
-    height: 30vh;
-    width: 50%;
-    margin-top: 3vh;
-    margin-left: 7vw;
+    height: 35vh;
+    width: 65%;
+    margin-top: 1vh;
+    margin-left: 5vw;
 }
 
 #mircowave-box img{
-    height: 30vh;
-    margin-top: 3vh;
-    margin-left: 7vw;
-margin-left: 8vw;
+    height: 35vh;
+width: 60%;
+margin-top: 1vh;
+    margin-left: 5vw;
 }
 
 #refrigerator-box p{
@@ -256,7 +258,7 @@ margin-left: 8vw;
     font-size: 2vw;
     text-align: center;
     margin-left: -1vw;
-    margin-top: 4vh;
+    margin-top: 2vh;
     color: var(--text);
 }
 #ac-box pre{
@@ -270,7 +272,7 @@ margin-left: 8vw;
     font-size: 2vw;
     text-align: center;
     margin-left: -1vw;
-    margin-top: 4vh;
+    margin-top: 2vh;
     color: var(--text);
 }
 #tv-box pre{
@@ -299,7 +301,7 @@ margin-left: 8vw;
     font-size: 2vw;
     text-align: center;
     margin-left: -1vw;
-    margin-top: 4vh;
+    margin-top: 2vh;
     color: var(--text);
 }
 #chimni-box pre{
@@ -314,7 +316,7 @@ margin-left: 8vw;
     font-size: 2vw;
     text-align: center;
     margin-left: -1vw;
-    margin-top: 4vh;
+    margin-top: 2vh;
     color: var(--text);
 }
 #mircowave-box pre{
@@ -324,7 +326,11 @@ margin-left: 8vw;
     margin-bottom: 11vh;
 }
 
-.box a{
+.read-more{
+    margin-top: -2vh;
+}
+
+.read-more a{
     text-decoration: none;
     text-transform: uppercase;
     background-color: var(--btn);
@@ -336,7 +342,7 @@ margin-left: 8vw;
     
 }
 
-.box a:hover{
+.read-more a:hover{
     background-color: var(--btnhover);
     transition: all linear 0.5s;
 }
@@ -561,32 +567,41 @@ color: var(--background);
     scale: 1;
 }
 
+
 #refrigerator-box img{
     height: 25vh;
+    width: 70%;
+    margin-left: 14vw;
 }
 
 #ac-box img{
-    height: 20vh;
-    margin-left: 22vw;
+    height: 25vh;
+    width: 72%;
+    margin-left: 13vw;
 }
 
 #tv-box img{
-    height: 20vh;
-    margin-left: 25vw;
+    height: 25vh;
+    width: 70%;
+    margin-left: 13vw;
 }
 
 #washingMachine-box img{
     height: 25vh;
+    width: 70%;
+    margin-left: 13vw;
 }
 
 #chimni-box img{
-    height: 20vh;
-    margin-left: 22vw;
+    height: 25vh;
+    width: 70%;
+    margin-left: 13vw;
 }
 
 #mircowave-box img{
-    height: 20vh;
-    margin-left: 25vw;
+    height: 25vh;
+    width: 70%;
+    margin-left: 13vw;
 }
 
 #refrigerator-box p{
@@ -595,8 +610,9 @@ color: var(--background);
 }
 
 #refrigerator-box pre{
- font-size: 4.5vw;   
+ font-size: 5vw;   
  margin-top: 2vh;
+ margin-bottom: 4vh;
  
 }
 
@@ -606,7 +622,8 @@ color: var(--background);
 }
 
 #ac-box pre{
-    font-size: 4.5vw;
+    font-size: 5vw;
+    margin-bottom: 5vh;
 }
 
 #tv-box p{
@@ -615,7 +632,7 @@ color: var(--background);
 }
 
 #tv-box pre{
-    font-size: 4.5vw;
+    font-size: 5vw;
 }
 
 #washingMachine-box p{
@@ -624,7 +641,8 @@ color: var(--background);
 }
 
 #washingMachine-box pre{
-    font-size: 4.5vw;
+    font-size: 5vw;
+    margin-bottom: 5vh;
 }
 
 #chimni-box p{
@@ -633,7 +651,7 @@ color: var(--background);
 }    
 
 #chimni-box pre{
-    font-size: 4.5vw;
+    font-size: 5vw;
 }
 
 #mircowave-box p{
@@ -643,9 +661,10 @@ color: var(--background);
 
 #mircowave-box pre{
     font-size: 4.5vw;
+    margin-bottom: 6vh;
 }
 
-.box a{
+.read-more a{
     margin-left: 23vw;
     padding: 2vw 7vw;
     border-radius: 5px;
@@ -657,6 +676,8 @@ color: var(--background);
 }
 
 /* end page3 */
+
+
 
 .page4-part2 {
     height: 35vh;
