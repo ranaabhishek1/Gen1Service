@@ -188,8 +188,8 @@ body {
     text-align: center;
     font-size: 1.6vw;
     margin-top: 2.5vh;
-    font-family: poppins;
-    
+ font-family: poppins;
+
 }
 
 
@@ -277,6 +277,22 @@ body {
     margin-top: 10vh;
     text-align: center;
     color: var(--background);
+}
+
+.developer{
+    margin-top: 7vh;
+    text-align: center;
+}
+
+.developer p{
+    color: orange;
+    font-family: poppins;
+}
+
+.developer a{
+    text-decoration: none;
+    color: orange;
+    font-family: poppins;
 }
 
 /* page6 */
@@ -431,7 +447,7 @@ body {
 
     #page2 {
         margin-top: -5vh;
-        height: 350vh;
+        height: 60vh;
         width: 100%;
         background-color: var(--background);
         padding-bottom: 10vh;
@@ -440,9 +456,11 @@ body {
     #page2 h2 {
         font-size: 10vw;
         line-height: 50px;
-        margin-top: 13vh;
+        margin-top: 10vh;
 
     }
+
+
 
     #page2 a {
         position: fixed;
@@ -457,6 +475,16 @@ body {
         border-radius: 5px;
     }
 
+    .page2-content img{
+        margin-top: 5vh;
+        height: 45vh;
+        width: 50%;
+        margin-left: 26vw;
+    }
+
+    .page2-content p{
+        font-size: 5.5vw;
+    }
 
 
     .page2-part-1 {
