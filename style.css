@@ -130,7 +130,7 @@ margin-left: 2vw;
 }
 
 .nav-right2 a {
-    font-family: poppins;
+    font-family: poppins;   
     color: var(--background);
 }
 
@@ -160,18 +160,20 @@ margin-left: 2vw;
 }
 
 .page1-content h1 {
-    font-size: 7vw;
+    font-size: 2vw;
     font-family: poppins;
     color: var(--text);
-    line-height: 100px;
+    
     font-weight: bolder;
     text-align: center;
-    margin-left: 10vw;
+    margin-left: 0vw;
+    margin-top: -7vh;
+    opacity: 0;
 }
 
 .page1-content h1:nth-child(2) {
-
-    font-size: 6.3vw;
+margin-top: 0vh;
+    font-size: 2vw;
 }
 
 
@@ -179,7 +181,7 @@ margin-left: 2vw;
     margin-top: 5vh;
 text-align: center;
     font-size: 1.4vw;
-    
+    opacity: 0;    
 }
 
 .page1-content a {
@@ -216,8 +218,8 @@ margin-left: 6vw;
 }
 
 .page1-btns {
-    margin-top: 12vh;
-    margin-left: 13vw;
+    margin-top: 49vh;
+    margin-left: 10vw;
 }
 
 /* navbar for mobile */
@@ -291,7 +293,7 @@ margin-left: 6vw;
 img {
 margin-top: 10vh;
     width: 100%;
-    height: 82vh;
+    height: 84.7vh;
     
 }
 

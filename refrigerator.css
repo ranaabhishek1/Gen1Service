@@ -15,6 +15,8 @@
     --text2: #000;
     --btn: #2a786b;
     --btnhover: #1c5f54;
+    --brandbtn: rgba(34, 70, 249, 0.914);
+    --brandbtnHover: rgba(4, 45, 250, 0.914);
 }
 
 
@@ -67,6 +69,7 @@ text-decoration: none;
     color: var(--text);
     text-transform: capitalize;
     font-weight: 600;
+    margin-left: 3vw;
 }
 
 .nav-center {
@@ -74,7 +77,7 @@ text-decoration: none;
     gap: 2vw;
     font-size: 1.3vw;
     text-transform: capitalize;
-
+margin-left: 23vw;
 }
 
 .nav-center a {
@@ -88,17 +91,44 @@ text-decoration: none;
     background-color: var(--btn);
     padding: 1vw 2.5vw;
     border-radius: 0.2rem;
+    margin-left: 16vw;
 
 }
 
 .nav-right a {
     font-family: poppins;
     color: var(--background);
+ 
 }
+
 
 .nav-right:hover {
     background-color: var(--btnhover);
 }
+
+.nav-right2 {
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: var(--brandbtn);
+    padding: 1vw 2vw;
+    border-radius: 0.2rem;
+    
+
+}
+
+.nav-right2 a {
+    font-family: poppins;
+    color: var(--background);
+ 
+}
+
+
+.nav-right2:hover {
+    background-color: var(--brandbtnHover);
+}
+
+
 
 .hamburger {
     margin-left: 93vw;
