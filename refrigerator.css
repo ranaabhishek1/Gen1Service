@@ -44,6 +44,7 @@ color: var(--background);
 font-weight: bold;
 text-align: center;
 position: fixed;
+z-index: 99;
 text-decoration: none;
 }
 
@@ -194,7 +195,7 @@ margin-left: 23vw;
     padding-bottom: 10vh;
 }
 
-#page2 h2{
+.heading{
     font-size: 8vw;
     text-align: center;
     font-family: poppins;
@@ -205,7 +206,7 @@ margin-left: 23vw;
     margin-bottom: 15vh;
     text-wrap: wrap;
 }
-
+/* 
 #page2 a{
 text-decoration: none;
 background-color: var(--btn);
@@ -221,7 +222,7 @@ border-radius: 5px;
 
 #page2 a:hover{
     background-color: var(--btnhover);
-}
+} */
 
 
 .page2-part-1{
@@ -289,6 +290,138 @@ margin-left: 11vw;
 }
 
 
+/* ++ */
+
+.ac-types{
+        display: flex;
+        flex-wrap: wrap;
+    gap: 2vw;
+    margin-left: 6vw;
+}
+
+.ac-card{
+    height: 115vh;
+    width: 30%;
+    box-shadow: 0 0 0.2rem black;
+    border-radius: 10px;
+    background-color: #E2E8EF;
+    
+}
+
+.image-box{
+    height: 40vh;
+    background-color:#005660;
+}
+
+.image-box img{
+    height: 35vh;
+    width: 20vw;
+    margin-top: 3vh;
+    margin-left: 4vw;
+    overflow: hidden;
+transition:all linear 0.2s;
+
+}
+
+.image-box img:hover{
+    scale: 1.1;
+
+}
+
+.ac-card h2{
+    font-size: 2.2vw;
+    
+    margin-left: 2.2vw;
+    margin-top: 3vh;
+}
+
+
+#ac-card2 h2{
+    font-size: 2vw;
+}
+
+
+#ac-card2 p{
+    margin-top: 2vh;
+    margin-bottom: 8vh;
+    margin-right: 1vw;
+}
+
+
+
+#ac-card1 p{
+    margin-bottom: 7vh;
+}
+
+#ac-card3 h2{
+    font-size: 2vw;
+    margin-left: 1vw;
+}
+
+#ac-card3 p{
+    margin-top: 1.5vh;
+    margin-bottom: 8vh;
+}
+
+#ac-card4 p{
+    margin-bottom: 8vh;
+}
+
+
+#ac-card5 p{
+    margin-right: 1vw;
+    margin-bottom: 8vh;
+}
+
+#ac-card6 h2{
+    font-size: 2vw;
+}
+
+#ac-card6 p{
+    margin-right: 1vw;
+    margin-bottom: 5.4vh;
+}
+
+
+
+
+.ac-card p{
+    text-wrap: wrap;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 1vh;
+    line-height: 20px;
+    margin-bottom: 5vh;
+}
+
+.ac-card span a{
+    text-decoration: none;
+    color:#FF4500;
+    
+}
+
+.refri-btn{
+    background-color:var(--btn);
+    text-decoration: none;
+    border: none;
+    padding: 1vw 3vw;
+    margin-left: 7vw;
+    margin-top: 0vh;
+    color: #fff;
+    font-size: 1.4vw;
+    font-family: poppins;
+    cursor: pointer;   
+}
+
+.refri-btn:hover{
+    background-color: var(--btnhover);
+}
+
+
+
+
+/* ++ */
+
 /* end page2 */
 
 
@@ -296,7 +429,7 @@ margin-left: 11vw;
     height: 55vh;
     width: 100%;
     background-color:#E2E8EF;
-    margin-top: 20vh;
+    margin-top: 50vh;
 
 }
 
