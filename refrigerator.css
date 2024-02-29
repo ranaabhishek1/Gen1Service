@@ -382,9 +382,6 @@ transition:all linear 0.2s;
     margin-bottom: 5.4vh;
 }
 
-
-
-
 .ac-card p{
     text-wrap: wrap;
     margin-left: 2vw;
@@ -423,6 +420,138 @@ transition:all linear 0.2s;
 /* ++ */
 
 /* end page2 */
+
+/* start page3 */
+
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: yellow;
+    margin-top: 60vh;
+}
+
+#page4{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.page4-section1{
+    padding-top: 8vh;
+    margin-left: 2vw;
+    display: flex;
+    gap: 2vw;
+    border-bottom: 1px solid #2e2d2d;
+    padding-bottom: 1vw;
+    margin-right: 1vw;
+}
+
+.image-part img{
+    border-radius: 10px;
+    height: 50vh;
+    margin-top: -5vh;
+}
+
+.content-part h3{
+    font-size: 3vw;
+    margin-left: 3vw;
+    margin-top: -2vh;
+    margin-bottom: 3vh;
+}
+
+.content-part a{
+    text-decoration: none;
+}
+
+/* ++ */
+
+
+.page4-section2{
+    padding-top: 8vh;
+    margin-left: 2vw;
+    display: flex;
+    gap: 2vw;
+    border-bottom: 1px solid #2e2d2d;
+    padding-bottom: 1vw;
+    margin-right: 1vw;
+}
+
+.image-part img{
+    border-radius: 10px;
+    height: 50vh;
+    margin-top: -5vh;
+}
+
+.content-part h3{
+    font-size: 3vw;
+    margin-left: 3vw;
+    margin-top: -2vh;
+    margin-bottom: 3vh;
+
+}
+/* +++ */
+
+/* ++ */
+
+
+.page4-section4{
+    padding-top: 8vh;
+    margin-left: 2vw;
+    display: flex;
+    gap: 2vw;
+    border-bottom: 1px solid #2e2d2d;
+    padding-bottom: 1vw;
+    margin-right: 1vw;
+}
+
+.image-part img{
+    border-radius: 10px;
+    height: 50vh;
+    margin-top: -5vh;
+}
+
+.content-part h3{
+    font-size: 3vw;
+    margin-left: 3vw;
+    margin-top: -2vh;
+    margin-bottom: 3vh;
+
+}
+
+/* ++ */
+
+
+/* ++ */
+
+
+.page4-section3{
+    padding-top: 8vh;
+    margin-left: 2vw;
+    display: flex;
+    gap: 2vw;
+    border-bottom: 1px solid #2e2d2d;
+    padding-bottom: 1vw;
+    margin-right: 1vw;
+}
+
+.image-part img{
+    border-radius: 10px;
+    height: 50vh;
+    margin-top: -5vh;
+}
+
+.content-part h3{
+    font-size: 3vw;
+    margin-left: 3vw;
+    margin-top: -2vh;
+    margin-bottom: 3vh;
+
+}
+
+/* ++ */
+
+
+/* end page3 */
 
 
 .page4-part2 {
