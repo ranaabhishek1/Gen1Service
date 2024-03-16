@@ -207,21 +207,18 @@ margin-left: 23vw;
     text-wrap: wrap;
 }
 /* 
-#page2 a{
-text-decoration: none;
-background-color: var(--btn);
-color: var(--background);
-position: fixed;
-margin-top: -8vh;
-margin-left: 43vw;
-padding: 1vh 2.5vw;
-font-size: 1.6vw;
-font-family: poppins;
-border-radius: 5px;
+#page2 h3{
+    margin-top: -10vh;
+    text-align: center;
+    font-family: poppins;
+    font-size: 2vw;
 }
 
-#page2 a:hover{
-    background-color: var(--btnhover);
+#page2 p{
+    padding-bottom: 10vh;
+    margin-top: 2vh;
+    text-align: center;
+    text-wrap: wrap;
 } */
 
 
@@ -582,6 +579,67 @@ transition:all linear 0.2s;
 
 
 /* end page3 */
+
+/* text slider */
+
+/* (A) FORCE ALL SLIDES INTO SINGLE ROW */
+.hmove {
+    display: flex;
+}
+.hslide {
+    width: 100%;
+    flex-shrink: 0;
+}
+.hwrap {
+    overflow: hidden;
+    background-color:lightblue;
+    height: 60vh;
+    margin-top: 5vh;
+}
+
+.hslide pre{
+    text-align: center;
+    font-size: 1.1vw;
+    font-family: poppins;
+    position: relative;
+    top: 3vh;
+}
+
+/* (B) SHIFT SLIDES WITH CSS ANIMATION */
+/* (B1) SLIDES POSITION */
+.hmove {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+@keyframes slideh {
+    0% { right: 0; }
+    24% { right: 0; }
+    25% { right: 100%; }
+    49% { right: 100%; }
+    50% { right: 200%; }
+    74% { right: 200%; }
+    75% { right: 300%; }
+    99% { right: 300%; }
+    100% { right: 0; }
+}
+
+/* (B2) MOVE SLIDES */
+.hmove {
+    animation: slideh 8s infinite;
+}
+.hmove:hover {
+    animation-play-state: paused;
+}
+
+
+
+
+
+/* end text slider */
+
+
+
 
 
 .page4-part2 {
