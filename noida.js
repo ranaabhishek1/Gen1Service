@@ -1,6 +1,3 @@
-let selectCity=document.querySelector(".select-city");
-let selectBox=document.querySelector(".select-box");
-
 
 let hamburger=document.querySelector(".hamburger");
 
@@ -27,16 +24,20 @@ closeIcon.addEventListener("click",function(){
 
 fornav();
 
-function city(){ 
 
-  selectCity.addEventListener("mouseenter",function(){
-    selectBox.style.opacity="1";
+// 
+var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    
   });
-  
-  
-  selectBox.addEventListener("mouseleave",function(){
-    selectBox.style.opacity="0";
-  })
-}
 
-city();
+// 
