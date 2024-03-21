@@ -376,46 +376,51 @@ button {
 
 #refrigerator-box img{
     height: 35vh;
-    width: 65%;
-    margin-top: 3vh;
-    margin-left: 5vw;
+    width: 75%;
+    margin-top: 4vh;
+    margin-left: 4vw;
+    border-radius: 5px;
 }
 
 #ac-box img{
-    height: 35vh;
-    width: 65%;
-    margin-top: 2vh;
-    margin-left: 5vw;
+    height: 35.5vh;
+    width: 75%;
+    margin-top: 4vh;
+    margin-left: 4vw;
+    border-radius: 5px;
 }
 
 #tv-box img{
 height: 35vh;
-width: 65%;
-    margin-left: 5vw;
-margin-top: 2vh;
+width: 75%;
+    margin-left: 4vw;
+margin-top: 4vh;
+border-radius: 5px;
 }
 
 #washingMachine-box img{
     height: 35vh;
-    width: 65%;
+    width: 75%;
     margin-top: 3vh;
-    margin-left: 5vw;
+    margin-left: 4vw;
     margin-top: 3vh;
-    
+    border-radius: 5px;
 }
 
 #chimni-box img{
     height: 35vh;
-    width: 65%;
-    margin-top: 1vh;
-    margin-left: 5vw;
+    width: 75%;
+    margin-top: 5vh;
+    margin-left: 4vw;
+    border-radius: 5px;
 }
 
 #mircowave-box img{
     height: 35vh;
-width: 60%;
-margin-top: 1vh;
-    margin-left: 5vw;
+    width: 75%;
+margin-top: 4vh;
+    margin-left: 4vw;
+    border-radius: 5px;
 }
 
 #refrigerator-box p{
@@ -424,12 +429,14 @@ margin-top: 1vh;
     margin-left: -1vw;
     margin-top: 4vh;
     color: var(--text);
+    border-radius: 5px;
 }
 #refrigerator-box pre{
     font-size: 1.3vw;
     margin-top: 3vh;
     text-align: center;
-    margin-bottom: 3vh;
+    margin-bottom: 6vh;
+    border-radius: 5px;
 }
 
 
@@ -437,7 +444,7 @@ margin-top: 1vh;
     font-size: 2vw;
     text-align: center;
     margin-left: -1vw;
-    margin-top: 2vh;
+    margin-top: 3.5vh;
     color: var(--text);
 }
 #ac-box pre{
@@ -451,7 +458,7 @@ margin-top: 1vh;
     font-size: 2vw;
     text-align: center;
     margin-left: -1vw;
-    margin-top: 2vh;
+    margin-top: 4vh;
     color: var(--text);
 }
 #tv-box pre{
@@ -518,7 +525,7 @@ margin-top: 1vh;
     font-family: poppins;
     font-weight: 600;
     margin-left: 8vw;
-    
+ border-radius: 5px;   
 }
 
 .read-more a:hover{
@@ -565,7 +572,7 @@ margin-top: 1vh;
 }
 
 .card {
-    height: 95vh;
+    height: 80vh;
     width: 45vw;
     background-color: #FFFFFF;
     border-radius: 8px;

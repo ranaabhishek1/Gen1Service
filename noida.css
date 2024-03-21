@@ -206,13 +206,18 @@ margin-left: 23vw;
 
 .swiper-slide {
     text-align: center;
-    
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: gilroy;
+    font-family: poppins;
+    font-size: 1.3vw;
     padding-bottom: 10vh;
     margin-top: 5vh;
+}
+
+.swiper-slide:hover{
+    animation-play-state: paused;
+
 }
 
 .swiper-slide img {
@@ -548,14 +553,13 @@ background-color: var(--btnhover);
     border: none;
     padding: 1vw 1vw;
     border-radius: 1vh;
-    margin-top: 0vh;
     margin-left: 30vw;
     color: #fff;
     font-size: 1.2vw;
     font-family: poppins;
     cursor: pointer;   
     position: relative;
-    top: 3vh;
+    top: 5vh;
     }
     
     .click-call:hover{
@@ -569,66 +573,17 @@ background-color: var(--btnhover);
 /* start page5 */
 
 #page5{
-    height: 100vh;
-    width: 100%;
-    background-color: grey;
-}
-
-/* text slider */
-
-/* (A) FORCE ALL SLIDES INTO SINGLE ROW */
-.hmove {
-    display: flex;
-}
-.hslide {
-    width: 100%;
-    flex-shrink: 0;
-}
-.hwrap {
-    overflow: hidden;
-    background-color:lightblue;
     height: 80vh;
+    width: 100%;
+    background-color: lightpink;
+}
+
+.swiper-slide p{
+    
     
 }
 
-.hslide pre{
-    text-align: center;
-    font-size: 1.2vw;
-    font-family: poppins;
-    position: relative;
-    top: 3vh;
-}
-
-/* (B) SHIFT SLIDES WITH CSS ANIMATION */
-/* (B1) SLIDES POSITION */
-.hmove {
-    position: relative;
-    top: 0;
-    right: 0;
-}
-@keyframes slideh {
-    0% { right: 0; }
-    24% { right: 0; }
-    25% { right: 100%; }
-    49% { right: 100%; }
-    50% { right: 200%; }
-    74% { right: 200%; }
-    75% { right: 300%; }
-    99% { right: 300%; }
-    100% { right: 0; }
-}
-
-/* (B2) MOVE SLIDES */
-.hmove {
-    animation: slideh 5s infinite;
-}
-.hmove:hover {
-    animation-play-state: paused;
-}
-
-
-
-
+/* text slider */
 
 /* end text slider */
 
