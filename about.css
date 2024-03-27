@@ -87,7 +87,7 @@ body {
     font-weight: 600;
     background-color: var(--btn);
     padding: 1vw 2.5vw;
-    border-radius: 0.2rem;
+    border-radius: 2vw;
 
 }
 
@@ -282,26 +282,31 @@ body {
     font-family: poppins;
 }
 
+
+/* end page2 */
+
+
+
 .page4-part2 {
-    height: 55vh;
+    height: 48vh;
     width: 100%;
-    background-color: var(--background);
-    margin-top: 20vh;
+    background-color: beige;
+    margin-top: 2vh;
 
 }
 
 .page4-part2 h6 {
-    font-size: 2.5vw;
+    font-size: 2.2vw;
     color: #000;
     text-transform: capitalize;
-    padding-top: 10vh;
+    padding-top: 5vh;
     text-align: center;
     font-weight: 700;
     font-family: poppins;
 }
 
 .page4-part2 h5 {
-    font-size: 4vw;
+    font-size: 3vw;
     text-align: center;
     font-weight: 700;
     font-family: poppins;
@@ -310,16 +315,16 @@ body {
 }
 
 .page4-part2 a {
-    font-size: 2vw;
+    font-size: 1.7vw;
     text-transform: uppercase;
     font-weight: 600;
     background-color: var(--btn);
-    padding: 1vw 2.5vw;
-    border-radius: 0.2rem;
+    padding: 1vw 2vw;
+    border-radius: 3vw;
     text-decoration: none;
     color: var(--background);
     font-family: poppins;
-    margin-left: 40vw;
+    margin-left: 43vw;
 }
 
 .page4-part2 a:hover{
@@ -327,56 +332,6 @@ body {
     transition: all linear 0.3s;
 }
 
-
-/* end page2 */
-
-
-.page4-part2 {
-    height: 55vh;
-    width: 100%;
-    background-color: #E2E8EF;
-    margin-top: 20vh;
-
-}
-
-.page4-part2 h6 {
-    font-size: 2.5vw;
-    color: #000;
-    text-transform: capitalize;
-    padding-top: 10vh;
-    text-align: center;
-    font-weight: 700;
-    font-family: poppins;
-}
-
-.page4-part2 h5 {
-    font-size: 4vw;
-    text-align: center;
-    font-weight: 700;
-    font-family: poppins;
-    color: var(--text);
-    margin-bottom: 7vh;
-}
-
-.page4-part2 a {
-    font-size: 2vw;
-    text-transform: uppercase;
-    font-weight: 600;
-    background-color: var(--btn);
-    padding: 1vw 2.5vw;
-    border-radius: 0.2rem;
-    text-decoration: none;
-    color: var(--background);
-    font-family: poppins;
-    margin-left: 40vw;
-}
-
-.page4-part2 a:hover {
-    background-color: var(--btnhover);
-    transition: all linear 0.3s;
-}
-
-/* end page 4 */
 
 #page5 {
     height: 40vh;
