@@ -32,6 +32,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+    scroll-behavior: smooth;
 }
 
 
@@ -567,6 +568,7 @@ margin-top: 4vh;
 }
 
 
+
 #card1 img{
     height: 20vh;
     width: 9vw;
@@ -630,31 +632,39 @@ margin-top: 4vh;
     font-family: poppins;
 }
 
-#card1 pre{
+#card1 p{
     margin-top: 5vh;
     margin-left: 3vw;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
+    margin-right: 2vw;
+    color: var(--text2);
 }
 
 
-#card2 pre{
+#card2 p{
     margin-top: 5vh;
     margin-left: 3vw;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
+    margin-right: 2vw;
+    color: var(--text2);
 }
 
 
-#card3 pre{
+#card3 p{
     margin-top: 5vh;
     margin-left: 3vw;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
+    margin-right: 2vw;
+    color: var(--text2);
 }
 
 
-#card4 pre{
+#card4 p{
     margin-top: 5vh;
     margin-left: 3vw;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
+    margin-right: 2vw;
+    color: var(--text2);
 }
 
 .page4-part2 {
