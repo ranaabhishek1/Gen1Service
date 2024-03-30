@@ -402,15 +402,14 @@ background-color: var(--btnhover);
     text-align: center;
     font-family: poppins;
     color: #051145;
-    font-size: 2.4vw;
+    font-size: 2.2vw;
     margin-bottom: 3vh;
 }
 
 #page3  p{
     text-align: center;
-    
     margin-top: 2vh;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     font-family: poppins;
 }
 
@@ -426,7 +425,7 @@ background-color: var(--btnhover);
 
 
 .page4-section1{
-    padding-top: 8vh;
+    padding-top: 2vh;
     margin-left: 2vw;
     display: flex;
     gap: 2vw;
@@ -521,16 +520,20 @@ background-color: var(--btnhover);
 
 .image-part img{
     border-radius: 10px;
-    height: 50vh;
+    height: 30vh;
     margin-top: -5vh;
 }
 
 .content-part h3{
-    font-size: 3vw;
+    font-size: 2vw;
     margin-left: 3vw;
     margin-top: -2vh;
     margin-bottom: 3vh;
 
+}
+
+.content-part p{
+    font-size: 1.1vw;
 }
 
 
@@ -538,11 +541,11 @@ background-color: var(--btnhover);
     background-color: var(--background2);
     text-decoration: none;
     border: none;
-    padding: 1vw 1vw;
+    padding: 0.5vw 0.8vw;
     border-radius: 1vh;
     margin-left: 30vw;
     color: #fff;
-    font-size: 1.2vw;
+    font-size: 1vw;
     font-family: poppins;
     cursor: pointer;   
     position: relative;
@@ -560,7 +563,7 @@ background-color: var(--btnhover);
 /* start page5 */
 
 #page5{
-    height: 80vh;
+    height: 75vh;
     width: 100%;
     margin-top: -12vh;
 }
@@ -569,25 +572,23 @@ background-color: var(--btnhover);
 
 
 .page4-part2 {
-    height: 38vh;
+    height: 30vh;
     width: 100%;
     background-color:#E2E8EF;
-
-
 }
 
 .page4-part2 h6 {
-    font-size: 2.2vw;
+    font-size: 2vw;
     color: #000;
     text-transform: capitalize;
-    padding-top: 5vh;
+    padding-top: 3vh;
     text-align: center;
     font-weight: 700;
     font-family: poppins;
 }
 
 .page4-part2 h5 {
-    font-size: 2.4vw;
+    font-size: 2.2vw;
     text-align: center;
     font-weight: 700;
     font-family: poppins;
@@ -596,16 +597,16 @@ background-color: var(--btnhover);
 }
 
 .page4-part2 a {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     text-transform: uppercase;
     font-weight: 600;
     background-color: var(--btn);
-    padding: 0.8vw 2vw;
+    padding: 0.7vw 1.5vw;
     border-radius: 2vw;
     text-decoration: none;
     color: var(--background);
     font-family: poppins;
-    margin-left: 43vw;
+    margin-left: 45vw;
 }
 
 .page4-part2 a:hover{
@@ -618,14 +619,13 @@ background-color: var(--btnhover);
 #page6{
     min-height: 100vh;
     width: 100%;
-    
-    margin-top: 40vh;
+    margin-top: 37vh;
 }
 
 .page6-h2{
     color:#051145;
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.7vw;
     padding: 1vw 1vw;
     font-family: poppins;
     background-color: white;
@@ -643,7 +643,7 @@ table {
     border: 1px solid #dddddd;
     text-align: center;
     padding: 8px;
-    font-size: 0.9vw;
+    font-size: 0.8vw;
     
   }
   
