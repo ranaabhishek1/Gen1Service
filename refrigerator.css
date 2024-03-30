@@ -272,7 +272,7 @@ margin-left: 6vw;
 }
 
 .ac-card{
-height: 115vh;
+height: 110vh;
 width: 30%;
 box-shadow: 0 0 0.2rem black;
 border-radius: 10px;
@@ -579,7 +579,7 @@ position: relative;
 }
 
 .page4-part2 h6 {
-    font-size: 2.2vw;
+    font-size: 2vw;
     color: #000;
     text-transform: capitalize;
     text-align: center;
@@ -588,7 +588,7 @@ position: relative;
 }
 
 .page4-part2 h5 {
-    font-size: 2.4vw;
+    font-size: 2.2vw;
     text-align: center;
     font-weight: 700;
     font-family: poppins;
@@ -597,16 +597,16 @@ position: relative;
 }
 
 .page4-part2 a {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     text-transform: uppercase;
     font-weight: 600;
     background-color: var(--btn);
-    padding: 0.8vw 2vw;
+    padding: 0.7vw 1.7vw;
     border-radius: 2vw;
     text-decoration: none;
     color: var(--background);
     font-family: poppins;
-    margin-left: 43vw;
+    margin-left: 44vw;
 }
 
 .page4-part2 a:hover{
