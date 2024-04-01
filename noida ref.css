@@ -204,6 +204,37 @@ margin-left: 23vw;
     
 }
 
+.page1-btn{
+    margin-top: 2vh;
+}
+
+#brand-btn2{
+    margin-left: 12vw;
+    margin-top: -4.5vh;
+}
+
+#brand-btn2 a{
+    background-color:var(--text);
+}
+
+
+#brand-btn2 a:hover{
+    background-color:var(--background2);
+}
+
+
+.page1-btn a{
+    text-decoration: none;
+    color:var(--background);
+    background-color:var(--btn);
+    padding: 0.7vw 1vw;
+    border-radius:5px;
+    margin-left: 43vw;
+}
+
+.page1-btn a:hover{
+    background-color: var(--btnhover);
+}
 /*  */
 .slider-part {
     height: 80vh;
@@ -552,6 +583,7 @@ background-color: var(--btnhover);
 
 .content-part p{
     font-size: 1.1vw;
+margin-bottom: 2vh;
 }
 
 
@@ -567,7 +599,6 @@ background-color: var(--btnhover);
     font-family: poppins;
     cursor: pointer;   
     }
-    
     
     .click-call:hover{
     background-color: var(--text);
@@ -628,7 +659,7 @@ background-color: var(--btnhover);
     text-decoration: none;
     color: var(--background);
     font-family: poppins;
-    margin-left: 45vw;
+    margin-left: 35vw;
 }
 
 .page4-part2 a:hover{
