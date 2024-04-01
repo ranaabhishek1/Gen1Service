@@ -208,12 +208,37 @@ margin-left: 2vw;
     text-decoration: none;
     background-color: var(--background2);
     color: var(--background);
-    padding: 1.5vh 1.5vw;
+    padding: 1vh 1.3vw;
     position: relative;
-    top: 75%;
-    left: 25%;
+    top: 0.5vh;
+    left: 28%;
     text-align: center;
+    font-size: 1vw;
 }
+
+.box img{
+    height: 24vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    border: 1px solid #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* end page1 */
@@ -367,7 +392,8 @@ margin-right: 28vw;
         background-color: #E2E8EF;
     margin-left: 6vw;
     margin-top: 5vh;
-    
+position: relative;    
+
 }
 
 .box a{
@@ -383,8 +409,11 @@ margin-right: 28vw;
 }
 
 
-    /* end media for page1 */
 
+
+    /* end media for page1 */
+ 
+    
     
 }    
     

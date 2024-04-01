@@ -194,14 +194,21 @@ margin-left: 23vw;
     
 }
 
-
+#page1 h2{
+    font-size: 7vw;
+    text-align: center;
+    color: var(--text);
+    font-family: poppins;
+    margin-top: 5vh;
+    margin-right: 1vw;
+    
+}
 
 /*  */
 .slider-part {
     height: 80vh;
     width: 100%;
-    
-    
+    margin-top: -15vh;
 }
 
 .swiper {
@@ -235,26 +242,6 @@ display: block;
 z-index: 1;
 }
 
-.brand-btn{
-    position: absolute;
-    z-index: 2;
-    bottom: 4vh;
-left: 42vw;
-}
-
-.brand-btn a{
-    text-decoration: none;
-    color: var(--background);
-    background-color: var(--btn);
-    padding: 1vw 2vw;
-    font-family: poppins;
-    border-radius: 25px;
-}
-
-.brand-btn a:hover{
-    background-color: var(--btnhover);
-}
-
 /*  */
 /* end page1 */
 
@@ -265,7 +252,7 @@ left: 42vw;
     min-height: 100vh;
     width: 100%;    
     padding-bottom: 10vh;
-    margin-top: 5vh;
+    margin-top: -8vh;
 }
 
 #page2 h3{
@@ -601,14 +588,10 @@ background-color: var(--btnhover);
 
 /* start page5 */
 
-
 #page5{
     min-height: 100vh;
     width: 100%;
 }
-
-
-
 
 .page4-part2 {
     height: 30vh;
@@ -636,6 +619,7 @@ background-color: var(--btnhover);
     margin-bottom: 5vh;
 }
 
+
 .page4-part2 a {
     font-size: 1.3vw;
     text-transform: uppercase;
@@ -662,7 +646,6 @@ background-color: var(--btnhover);
 .page4-part2 a:nth-child(4):hover{
 background-color: var(--background2);
 }
-
 
 table {
     font-family: arial, sans-serif;
@@ -697,12 +680,7 @@ background-color: lightslategray;
     font-family: poppins;
 }
 
-
-
 /* end page5 */
-
-
-
 
 /* start page7 */
 
