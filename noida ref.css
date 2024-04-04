@@ -85,6 +85,7 @@ margin-left: 23vw;
     color: var(--text2);
 }
 
+
 .nav-right {
     font-size: 1.2vw;
     text-transform: uppercase;
@@ -194,7 +195,31 @@ margin-left: 23vw;
     
 }
 
+.brand-hover{
+    height: 50vh;
+    width: 50vw;
+    background-color: var(--background);
+    box-shadow: 0 0 0.2vw black;
+    position: absolute;
+    z-index: 9;
+    margin-left: 26vw;
+    margin-top: 0vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2vh;
+    border-radius: 2px;
+    opacity: 0;
+}
 
+.brand-hover a{
+    text-decoration: none;
+    margin: 0.5vw;
+    color: #000;
+}
+
+.brand-links2{
+    margin-top: -19vh;
+}
 
 /*  */
 .slider-part {
