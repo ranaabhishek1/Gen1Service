@@ -540,7 +540,7 @@ margin-top: 4vh;
 
 #page4 p {
     color: #B5E203;
-    font-size: 4.5vw;
+    font-size: 4vw;
     font-family: poppins;
     font-weight: 800;
     text-align: center;
@@ -549,14 +549,14 @@ margin-top: 4vh;
 .page4-cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 3vw;
-    margin-left: 3.5vw;
-    margin-top: 10vh;
+    gap: 4vw;
+    margin-left: 13vw;
+    margin-top: 5vh;
 }
 
 .card {
-    height: 80vh;
-    width: 45vw;
+    height: 70vh;
+    width: 35vw;
     background-color: #FFFFFF;
     border-radius: 8px;
     cursor: pointer;
@@ -573,37 +573,37 @@ margin-top: 4vh;
     height: 20vh;
     width: 9vw;
     border-radius: 50%;
-    margin-left: 18vw;
-    margin-top: 8vh;
+    margin-left: 13vw;
+    margin-top: 5vh;
 }
 
 #card2 img{
     height: 20vh;
     width: 9vw;
     border-radius: 50%;
-    margin-left: 18vw;
-    margin-top: 8vh;
+    margin-left: 13vw;
+    margin-top: 5vh;
 }
 
 #card3 img{
     height: 20vh;
     width: 9vw;
     border-radius: 50%;
-    margin-left: 18vw;
-    margin-top: 8vh;
+    margin-left: 13vw;
+    margin-top: 5vh;
 }
 
 #card4 img{
     height: 20vh;
     width: 9vw;
     border-radius: 50%;
-    margin-left: 18vw;
-    margin-top: 8vh;
+    margin-left: 13vw;
+    margin-top: 5vh;
 }
 
 #card1 h2{
     text-align: center;
-    margin-top: 3vh;
+    margin-top: 2vh;
     color: var(--text);
     font-family: poppins;
 }
@@ -635,7 +635,7 @@ margin-top: 4vh;
 #card1 p{
     margin-top: 5vh;
     margin-left: 3vw;
-    font-size: 1.1vw;
+    font-size: 1vw;
     margin-right: 2vw;
     color: var(--text2);
 }
@@ -644,16 +644,17 @@ margin-top: 4vh;
 #card2 p{
     margin-top: 5vh;
     margin-left: 3vw;
-    font-size: 1.1vw;
+    font-size: 1vw;
     margin-right: 2vw;
     color: var(--text2);
+    
 }
 
 
 #card3 p{
     margin-top: 5vh;
     margin-left: 3vw;
-    font-size: 1.1vw;
+    font-size: 1vw;
     margin-right: 2vw;
     color: var(--text2);
 }
@@ -662,7 +663,7 @@ margin-top: 4vh;
 #card4 p{
     margin-top: 5vh;
     margin-left: 3vw;
-    font-size: 1.1vw;
+    font-size: 1vw;
     margin-right: 2vw;
     color: var(--text2);
 }
@@ -686,16 +687,16 @@ margin-top: 4vh;
 }
 
 .page4-part2 h5 {
-    font-size: 3vw;
+    font-size: 2.5vw;
     text-align: center;
     font-weight: 700;
     font-family: poppins;
     color: var(--text);
-    margin-bottom: 7vh;
+    margin-bottom: 5vh;
 }
 
 .page4-part2 a {
-    font-size: 1.7vw;
+    font-size: 1.4vw;
     text-transform: uppercase;
     font-weight: 600;
     background-color: var(--btn);
@@ -704,7 +705,7 @@ margin-top: 4vh;
     text-decoration: none;
     color: var(--background);
     font-family: poppins;
-    margin-left: 43vw;
+    margin-left: 45vw;
 }
 
 .page4-part2 a:hover{
