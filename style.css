@@ -300,6 +300,7 @@ button {
     right: 0;
 }
 
+
 /* end page2 */
 
 /* page 3 start from here */
@@ -514,6 +515,14 @@ margin-top: 4vh;
 .read-more a:hover{
     background-color: var(--btnhover);
     transition: all linear 0.5s;
+}
+
+.welcome-text p{
+    font-size: 1.4vw;
+    text-align: center;
+    position: relative;
+    bottom: 5vh;
+    padding: 1vw;
 }
 
 
