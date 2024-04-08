@@ -221,6 +221,49 @@ margin-left: 23vw;
     margin-top: -19vh;
 }
 
+.select-brand-hover{
+    position: absolute;
+    z-index: 99;
+    height: 50vh;
+    width: 97vw;
+    display: flex;
+    margin-top: -2vh;
+    left: 1vw;
+    background-color:lightblue;
+    opacity: 0;
+
+    
+}
+
+.select-brand-hover a{
+text-decoration: none;
+display: inline-block;
+text-wrap: nowrap;
+font-size: 1.1vw;
+margin: 0.2vw;
+color: #000;
+}
+
+.select-brand-hover a:hover{
+    color: #444;
+}
+
+.link-1{
+    margin: 1vw;
+}
+
+.link-2{
+    margin: 1vw;
+}
+
+.link-3{
+    margin: 1vw;
+}
+
+.link-4{
+    margin: 1vw;
+}
+
 /*  */
 .slider-part {
     height: 80vh;
@@ -679,15 +722,19 @@ background-color: var(--btnhover);
     transition: all linear 0.3s;
 }
 
-.page4-part2 a:nth-child(4){
-    background-color: var(--text);
-    margin-left: 2vw;
+.other-brand{
+    margin-left: 12vw;
+    margin-top: -4.5vh;
 }
 
-.page4-part2 a:nth-child(4):hover{
+.other-brand a{
+    background-color: var(--text);
+}
+
+.other-brand a:hover{
 background-color: var(--background2);
 }
-
+        
 
 table {
     font-family: arial, sans-serif;
