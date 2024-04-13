@@ -135,36 +135,11 @@ margin-left: 0vw;
 
 .page1-content {
     position: relative;
-    margin-top: 5vh;
+    margin-top: 20vh;
     padding-top: 10vh;
     padding-bottom: 10vh;
     
 
-}
-
-.page1-content h1 {
-    font-size: 2vw;
-    font-family: poppins;
-    color: var(--text);
-    
-    font-weight: bolder;
-    text-align: center;
-    margin-left: 0vw;
-    margin-top: -7vh;
-    opacity: 0;
-}
-
-.page1-content h1:nth-child(2) {
-margin-top: 0vh;
-    font-size: 2vw;
-}
-
-
-.page1-content p {
-    margin-top: 5vh;
-text-align: center;
-    font-size: 1.4vw;
-    opacity: 0;    
 }
 
 .page1-content a {
@@ -256,11 +231,29 @@ margin-left: 3vw;
 
 }
 
+
+.page2-content{
+    position: absolute;
+    z-index: 3;
+    top: 30vh;
+    left: 17vw;
+}
+
+
+.page2-content h1{
+    font-size: 7.5vw;
+    color: #F7C566;
+    text-shadow: 0 0 1rem #000;
+    font-family: poppins;
+    line-height: 9vw;
+}
+
 .slider-container {
     position: relative;
     max-width: 1300px;
     margin: auto;
     padding-top: 5vh;
+    filter: blur(2px);
 }
 
 .slider {
