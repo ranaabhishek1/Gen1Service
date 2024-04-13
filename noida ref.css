@@ -195,61 +195,103 @@ margin-left: 23vw;
     
 }
 
-.brand-hover{
-    height: 50vh;
-    width: 50vw;
-    background-color: var(--background);
-    box-shadow: 0 0 0.2vw black;
-    position: absolute;
-    z-index: 9;
-    margin-left: 26vw;
-    margin-top: 0vh;
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 2vh;
-    border-radius: 2px;
-    opacity: 0;
+.nav-brand{
+ height: 35vh;
+ position: absolute;
+ left: 59vw;
+ margin-top: 0.1vh;
+ 
 }
 
-.brand-hover a{
-    text-decoration: none;
-    margin: 0.5vw;
-    color: #000;
+.links-container{
+    height: 30vh;
+    width: 55vw;
+    background-color: #FFFAB7;
+    border: 1px solid #888;
+    position: absolute;
+    z-index: 7;
+    top: 3vh;
+    margin-left: -39vw;
+    margin-top: 3vh;
+    display: none;
+    border-radius: 5px;
+}
+
+.brand-links1{
+    margin-top: 2vh;
+}
+
+.brand-links1 a{
+margin-left: 2vw;
+}
+
+.brand-links1 a:hover{
+    color: #333;
 }
 
 .brand-links2{
-    margin-top: -19vh;
+    margin-top: 2vh;
 }
 
-.select-brand-hover{
-    position: absolute;
-    z-index: 99;
-    height: 50vh;
-    width: 97vw;
-    display: flex;
-    margin-top: -2vh;
-    left: 1vw;
-    background-color:lightblue;
-    opacity: 0;
+.brand-links2 a{
+    margin-left: 2vw;
+    }
 
     
+.brand-links2 a:hover{
+    color: #333;
+}
+
+
+/* select brand btn hover */
+
+.slider-btn{
+position: absolute;
+z-index: 1;
+top: 95vh;
+left: 43vw;
+}
+
+
+.slider-btn>a:hover {
+    background-color: var(--btn);
+    }
+
+.slider-btn>a{
+    text-decoration: none;
+    padding: 1vw 2vw;
+    background-color: var(--btnhover);
+    color: #fff;
+border-radius: 50px;
+}
+
+
+.select-brand-hover{
+    height: 68vh;
+    width: 70vw;
+    position: absolute;
+    z-index: 7;
+    background-color: #FFFAB7;
+display: flex;
+margin-left:-26vw;
+margin-top: 3vh;
+border: 1px solid #333;
+border-radius: 5px;
+display: none;
 }
 
 .select-brand-hover a{
-text-decoration: none;
-display: inline-block;
-text-wrap: nowrap;
-font-size: 1.1vw;
-margin: 0.2vw;
-color: #000;
+    text-decoration: none;
+    color: #000;
 }
 
 .select-brand-hover a:hover{
-    color: #444;
+    color: #333;
 }
 
 .link-1{
     margin: 1vw;
+
 }
 
 .link-2{
@@ -303,25 +345,6 @@ display: block;
 z-index: 1;
 }
 
-.brand-btn{
-    position: absolute;
-    z-index: 2;
-    bottom: 4vh;
-left: 42vw;
-}
-
-.brand-btn a{
-    text-decoration: none;
-    color: var(--background);
-    background-color: var(--btn);
-    padding: 1vw 2vw;
-    font-family: poppins;
-    border-radius: 25px;
-}
-
-.brand-btn a:hover{
-    background-color: var(--btnhover);
-}
 
 /*  */
 /* end page1 */
