@@ -236,12 +236,26 @@ margin-left: 4vw;
     left: 18vw;
 }
 
+
 .page2-content h1{
-    font-size: 8vw;
-    color: #ffffff97;
+    font-size: 7.5vw;
+    color: #F7C566;
+    text-shadow: 0 0 1rem #000;
     font-family: poppins;
     line-height: 9vw;
+    margin-left: 5vw;
+    margin-top: 2vh;
 }
+
+.page2-content h2{
+    font-size: 2vw;
+    font-family: poppins;
+    margin-top:25vh;
+    margin-left: 18vw;
+    text-shadow: 0 0 0.5rem #000;
+    color: rgb(247, 185, 41);
+}
+
 
 .slider-container {
     position: relative;
