@@ -185,7 +185,7 @@ margin-left: 3vw;
 .navbar-mobile {
     background-color: var(--background2);
     position: absolute;
-    z-index: 1;
+    z-index: 9;
     margin-top: -85.5vh;
     height: 100vh;
     width: 100%;
@@ -234,7 +234,7 @@ margin-left: 3vw;
 
 .page2-content{
     position: absolute;
-    z-index: 3;
+    z-index: 1;
     top: 30vh;
     left: 17vw;
 }
@@ -250,7 +250,7 @@ margin-left: 3vw;
     margin-top: 2vh;
 }
 
-.page2-content h2{
+.page2-content p{
     font-size: 2vw;
     font-family: poppins;
     margin-top:25vh;
@@ -798,10 +798,6 @@ margin-top: 4vh;
 }
 
 
-
-
-
-
 .copyright p{
 margin-top: 15vh;
 text-align: center;
@@ -809,16 +805,15 @@ color: var(--background);
 }
 
 
-/* responsive part */
+/* responsive part */ 
 
 @media (max-width:440px){
 
     /* page1 media query - 440px */
     
     #page1{
-
-        width: 100%;
-        
+       width: 100%;
+       
     }
 
     .nav-left a {
@@ -827,7 +822,7 @@ color: var(--background);
         color: var(--text);
         text-transform: capitalize;
         font-weight: 600;
-        padding-left: 27vw;
+        padding-left: 15vw;
     }
 
     .nav-center a{
@@ -846,6 +841,7 @@ color: var(--background);
     background-color: var(--citybtn);
     padding: 1.3vh 2.7vw;
 margin-right: 18vw;
+display: none;
 }
 
 .nav-right2 a {
@@ -865,59 +861,17 @@ margin-right: 18vw;
     }
     
     .hamburger{
-        margin-top: -6vh;
+        margin-top: -5vh;
         display: block;
+
     }
     
     .nav-left a{
         font-size: 7vw;
         margin-left: -24vw;
     }
-    
-    .page1-content h1{
-        font-size: 8.5vw;
-        margin-left: -6vw;
-        margin-top: -8vh;
-    }
-    
-    .page1-content h1:nth-child(2){
-        font-size: 7vw;
-    }
-    
-    .page1-content p{
-        font-size:4.2vw;
-        text-wrap: wrap;
-        text-align: center;
-        padding: 0 2vw;
-        margin-top: 0;
-    }
-    
-    .page1-btns{
-        display: flex;
-        flex-direction: column;
-        gap: 3vh;
-        margin-top: 7vh;
-    
-    }
-    
-    .page1-btns a{
-        padding: 4vw 0vw;
-        width: 60%;
-        font-size: 4vw;
-        text-align: center;
-    }
 
-    
-    .page1-btns a:nth-child(1){
-                margin-left: 9vw;
-        }
-
-    .page1-btns a:nth-child(2){
-    width: 60%;
-    margin-left: 9vw;
-    }
-    
-    
+ 
     .navbar-mobile i{
         font-size: 11vw;
         margin-left: 5vw;
@@ -928,17 +882,23 @@ margin-right: 18vw;
 }
 
     .close-icon{
-        margin-top: 27vh;
+        bottom: 7vh;
         margin-left: 80vw;
+        position: relative;
+        z-index: 3;
     }
     
     .navbar-mobile{
-        height: 109vh;
+        height: 100vh;
+        padding-top: 8vh;
+        bottom: 0vh;
         
     }
     
     .navbar-mobile a{
         font-size: 8vw;
+        position: relative;
+        bottom: 10vh;
     }
     
     /* end media for page1 */
@@ -947,9 +907,53 @@ margin-right: 18vw;
 
 
 #page2 {
-height: 60vh;
     width: 100%;
+}
 
+
+.page2-content{
+    position: absolute;
+    z-index: 2;
+    top: 27vh;
+    left: 6vw;
+}
+
+
+.page2-content h1{
+    font-size: 9vw;
+    color: #F7C566;
+    text-shadow: 0 0 1rem #000;
+    font-family: poppins;
+    line-height: 9vw;
+    margin-left: 9vw;
+    margin-top: 1vh;
+}
+
+.page2-content p{
+    font-size: 4.3vw;
+    margin-left: 13vw;
+    margin-top: 3vh;
+
+}
+
+
+.slider-container {
+    position: relative;
+    max-width: 1300px;
+    margin: auto;
+    padding-top: 3vh;
+    filter: blur(2px);
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+    height: 65vh;
+}
+
+.slide {
+    flex: 0 0 100%;
+    overflow: hidden;
 }
 
 
@@ -979,6 +983,34 @@ button {
 .next {
     right: 0;
 }
+
+.page1-btns{
+    margin-top: 18vh;
+
+}
+.page1-content a{
+    font-size: 3.5vw;
+    text-transform: uppercase;
+    font-weight: normal;
+    background-color: var(--btn);
+    padding: 2vw 4vw;
+    border-radius: 0.2rem;
+    font-family: poppins;
+    color: var(--background);
+    text-decoration: none;
+    margin-left: 10vw;
+}
+
+
+.page1-content a:nth-child(2) {
+    background-color: var(--background2);
+    border: 1px solid #676060;
+    color: var(--background);
+    font-family: poppins;
+    font-weight: bolder;
+    margin-left: 3vw;
+}
+
 
 /* end page2 */
 

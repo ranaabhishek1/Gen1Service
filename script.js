@@ -14,7 +14,7 @@ hamburger.addEventListener("click",function(){
     
   mobileNav.style.display="block";
 gsap.from(mobileNav,{
-  y:"-60%",
+  y:"-30%",
   duration:0.4,
 })   
 })
