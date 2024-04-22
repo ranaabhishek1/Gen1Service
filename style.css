@@ -810,6 +810,7 @@ color: var(--background);
 @media (max-width:440px){
 
     /* page1 media query - 440px */
+
     
     #page1{
        width: 100%;
@@ -1189,10 +1190,9 @@ bottom: 45vh;
 
 
 #page4 {
-    min-height: 100vh;
+height: 240vh;
     width: 100%;
     background-color: var(--background2);
-    padding-bottom: 10vh;
     position: relative;
     bottom: 90vh;
 }
@@ -1286,26 +1286,27 @@ bottom: 45vh;
 
 /* page4 part 2 start */
 .page4-part2{
-    height: 35vh;
+    height: 23vh;
     width: 100%;
+    position: relative;
+    bottom: 5vh;
 }
 
 .page4-part2 h6{
     font-size: 7vw;
-    padding-top: 7vh;
-    margin-bottom: 1vh;
+    padding-top: 4vh;
 }
 
 .page4-part2 h5{
     font-size: 6.5vw;
-    
+margin-bottom: 3vh;    
 }
 
 .page4-part2 a{
-    font-size: 6vw;
-    padding: 3vw 8vw;
-    margin-left:21vw;
-    margin-top: -5vh;
+    font-size: 4vw;
+    padding: 2vw 8vw;
+    margin-left:30vw;
+
 }
 
 /* page4 part 2 end */
@@ -1314,25 +1315,87 @@ bottom: 45vh;
 
 /* page 5 start */
 
+
 #page5{
-    height: 40vh;
+    height: 60vh;
     width: 100%;
+    background-color: var(--background2);
+    position: relative;
+    bottom: 91vh;
 }
 
-.footer{
-    display: flex;
-    flex-direction: column;
-}
 
 .footer p{
-    font-size: 8vw;
-    margin-bottom: 5vh;
+    font-size: 7vw;
+    color: var(--background);
+    font-family: poppins;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 3vh;
+}
+
+.footer-part2{
+    display: flex;
+    justify-content: flex-start;    
+    margin-top: 4vh;
+    margin-left: 20vw;
+    gap: 20vw;
+}
+
+.footer-part2 a{
+    font-size: 5vw;
+    text-transform: capitalize;
 }
 
 .footer a{
-    font-size:4.5vw;
-    margin-right: 2vw;
+    text-decoration: none;
+    margin-right: 5vw;
+    text-transform: capitalize;
+    color:#B5E203;
+    font-family: poppins;
+}
 
+.service-part{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: relative;
+    margin-top: 3vh;
+    gap: 2vh;
+    margin-right: 38vw;
+}
+
+.service-part a{
+    color: #fff;
+
+}
+.service-part a:hover{
+    color:#676060;
+}
+
+
+.city-part{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: -30vh;
+    margin-right: 3vw;
+    gap: 2vh;
+}
+
+.city-part a{
+ color: #fff;   
+}
+
+.city-part a:hover{
+    color: #676060;
+}
+
+
+.copyright p{
+margin-top: 8vh;
+text-align: center;
+color: var(--background);
 }
 
 /* page 5 end */
