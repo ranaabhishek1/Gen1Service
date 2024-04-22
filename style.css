@@ -828,7 +828,7 @@ color: var(--background);
     .nav-center a{
         display: none;
     }
-    
+
     .nav-right{
         display: none;
     }
@@ -986,12 +986,13 @@ button {
 
 .page1-btns{
     margin-top: 18vh;
+    
 
 }
 .page1-content a{
     font-size: 3.5vw;
     text-transform: uppercase;
-    font-weight: normal;
+    font-weight: 600;
     background-color: var(--btn);
     padding: 2vw 4vw;
     border-radius: 0.2rem;
@@ -999,6 +1000,7 @@ button {
     color: var(--background);
     text-decoration: none;
     margin-left: 10vw;
+    border: 1px solid #ffffff8d;
 }
 
 
@@ -1009,6 +1011,7 @@ button {
     font-family: poppins;
     font-weight: bolder;
     margin-left: 3vw;
+    border: 1px solid #ffffff8d;
 }
 
 
