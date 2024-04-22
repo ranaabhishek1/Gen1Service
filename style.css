@@ -985,7 +985,7 @@ button {
 }
 
 .page1-btns{
-    margin-top: 18vh;
+    margin-top: 8vh;
     
 
 }
@@ -1030,6 +1030,8 @@ button {
 #page3{
     height: 438vh;
 width: 100%;
+position: relative;
+bottom: 45vh;
 }
 
 #page3 h3{
