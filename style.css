@@ -1033,6 +1033,7 @@ button {
 width: 100%;
 position: relative;
 bottom: 45vh;
+overflow-y: hidden;
 }
 
 #page3 h3{
@@ -1195,6 +1196,7 @@ height: 240vh;
     background-color: var(--background2);
     position: relative;
     bottom: 90vh;
+    overflow-y: hidden;
 }
 
 
@@ -1317,11 +1319,11 @@ margin-bottom: 3vh;
 
 
 #page5{
-    height: 60vh;
+    height: 50vh;
     width: 100%;
     background-color: var(--background2);
-    position: relative;
-    bottom: 91vh;
+    margin-top: -92vh;
+    overflow-y: hidden;
 }
 
 
@@ -1331,7 +1333,7 @@ margin-bottom: 3vh;
     font-family: poppins;
     text-transform: capitalize;
     text-align: center;
-    padding-top: 3vh;
+    padding-top: 1vh;
 }
 
 .footer-part2{
@@ -1361,12 +1363,13 @@ margin-bottom: 3vh;
     align-items: end;
     position: relative;
     margin-top: 3vh;
-    gap: 2vh;
-    margin-right: 38vw;
+    gap: 1vh;
+    margin-right: 40vw;
 }
 
 .service-part a{
     color: #fff;
+    font-size: 3.5vw;
 
 }
 .service-part a:hover{
@@ -1378,13 +1381,14 @@ margin-bottom: 3vh;
     display: flex;
     flex-direction: column;
     align-items: end;
-    margin-top: -30vh;
+    margin-top: -22vh;
     margin-right: 3vw;
-    gap: 2vh;
+    gap: 1vh;
 }
 
 .city-part a{
  color: #fff;   
+ font-size: 3.5vw;
 }
 
 .city-part a:hover{
@@ -1393,7 +1397,7 @@ margin-bottom: 3vh;
 
 
 .copyright p{
-margin-top: 8vh;
+margin-top: 5vh;
 text-align: center;
 color: var(--background);
 }
