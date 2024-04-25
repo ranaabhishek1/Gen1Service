@@ -1,98 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | Gen1Service</title>
+    <title>Gen1Service</title>
     <link rel="shortcut icon" href="favicon/gen1service logo.jpg" type="image/x-icon">
-
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet">
-
+    
     <link rel="stylesheet" href="contact.css">
+        
 </head>
 <body>
 
-    <div id="main"> <!--start main-->
-    
-    <div id="page1">
-        <nav class="navbar">
+    <!-- code start from here -->
 
-            <div class="nav-left">
-                <a href="index.html">gen1service</a>
-            </div> <!--end nav left-->
+    <div id="main"> <!--start main from here-->
 
-            <div class="nav-center">
-                <a href="services.html">services</a>
-                <a href="about.html">about</a>
-                <a href="#">learn</a>
-                <a href="#">pricing</a>
-                <a href="#">⭐careers</a>
-            </div> <!--end nav center-->
+        <div id="page1">
+            <nav class="navbar">
 
-            <div class="nav-right">
-                <a href="contact.html">contact us</a>
-            </div> <!--end nav right-->
+                <div class="nav-left">
+                    <a href="index.html">gen1service</a>
+                </div> <!--end nav left-->
 
+                <div class="nav-center">
+                    <a href="services.html">services</a>
+                    <a href="about.html">about us</a>
+                    <a href="city.html">city</a>
+                    <a href="brand.html">brand</a>
 
-        </nav> <!--end nav-->
+                </div> <!--end nav center-->
 
-        <div class="hamburger">
-            <i class="ri-menu-3-fill"></i>
-        </div>
+                <div class="nav-right">
+                    <a href="contact.html">BOOK NOW</a>
+                </div> <!--end nav right-->
 
-        <div class="navbar-mobile">
-            <div class="close-icon">
-                <i class="ri-close-circle-fill"></i>
+                <div class="nav-right2">
+                    <a href="about.html">About Us</a>
+                </div>
+
+            </nav> <!--end nav-->
+
+            <div class="hamburger">
+                <i class="ri-menu-3-fill"></i>
             </div>
 
-            <a href="services.html">services</a>
-            <a href="about.html">about</a>
-            <a href="#">learn</a>
-            <a href="#">pricing</a>
-            <a href="#">careers</a>
 
-        </div> <!--navbar-mobile-->
+         
 
-    </div> <!-- end page1 -->
-
-    <div id="page2"> <!--page 2-->
-        <div class="form-container"> <!--form container-->
-        <form action=""> <!--form-->
-            <p class="form-text">Contact Us </p>
-                <div class="inputbox">
-
-                    <input type="text" name="" placeholder="Name" required="">
-
+            <div class="navbar-mobile">
+                <div class="close-icon">
+                    <i class="ri-close-circle-fill"></i>
                 </div>
+                <a href="services.html">services</a>
+                <a href="about.html">about</a>
+                <a href="city.html">city</a>
+                <a href="brand.html">brand</a>
+            </div> <!--navbar-mobile-->
+    
+    <form id="form">
 
-                <div class="inputbox">
-                    <input type="email" name="" placeholder="Email" required="">
+        <div class="form-heading">
+            <p>Fill Your Form </p>
+        </div>
 
-                </div>
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" name="fullName" class="input" required="" placeholder="Enter Your Full Name"><br><br>
+      
+      <label for="basicDetails">Contact Number:</label>
+      <input type="tel" id="basicDetails" name="basicDetails" class="input" pattern="[0-9]{10}" required="" placeholder="Enter Your Contact Number"><br><br>
+      
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" class="input" required="" placeholder="Enter Your Email"><br><br>
+      
+      <label for="category">Select Service Product:</label>
+      <select id="AC" name="Air Condidtinor">
+      
+        <option value="refrigerator">Refrigerator</option>
+            <option value="ac">Ac</option>
+            <option value="tv">Tv</option>
+            <option value="washing machine">washing Machine</option>
+            <option value="chimney">Chimney</option>    
+            <option value="mircowave">Microwave</option>
+            
+      </select><br><br>
+      
+      <label for="state">Select State:</label>
+      <select>
 
-                <div class="inputbox">
-                    <textarea name="message" placeholder="Your message" required=""></textarea>
+        <option value="uttar pradesh">Uttar Pradesh </option>
+        <option value="bihar">Bihar </option>
+        <option value="haryana">Haryana</option>
+        <option value="punjab">Punjab</option>
+    
+      
+        
+        <!-- options will go here -->
+      </select><br><br>
+      
+      <label for="city">Select City:</label>
+      <select id="city" name="city">
 
-                </div>
+            <option value="delhi">Delhi</option>
+            <option value="faridabad">Faridabad</option>
+            <option value="ghaziabad">Ghaziabad</option>
+            <option value="gurgaon">Gurgaon</option>
+            <option value="greater noida">Greater Noida</option>    
+            <option value="noida">Noida</option>
+            
+        
+      </select><br><br>
+      
+     
+      <label for="address">Address:</label>
+      <textarea id="address" class="input" name="address" placeholder="Enter Your Address"></textarea><br><br>
+      
+      <div>
+        <input type="checkbox" id="notARobot" name="notARobot">
+        <label for="notARobot">I'm not a robot</label>
+      </div><br>
+      
+      <input type="submit" class="submit" value="Submit">
+    </form>
+    
+    
 
-                <div class="sendbtn">
-                    <input type="submit" class="submitbtn" name="submit" value="Submit">
-                </div>
-            </div> <!--end form container-->
-        </form> <!--end form-->
-    </div> <!--end page2-->
+            
 
-
-
-</div> <!--end main-->
-<!-- ++++++++++++++++++++++++++++++++++++ -->
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
-integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
-crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-
-    <script src="ac.js"></script>
-</body>
-</html>
+        </div> <!-- end page1 -->
+    </div> <!--end main-->

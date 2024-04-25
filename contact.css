@@ -15,7 +15,10 @@
     --text2: #000;
     --btn: #2a786b;
     --btnhover: #1c5f54;
+    --citybtn: rgba(34, 70, 249, 0.914);
+    --citybtnHover: rgba(4, 45, 250, 0.914);
 }
+
 
 
 * {
@@ -29,16 +32,26 @@ html,
 body {
     height: 100%;
     width: 100%;
+    scroll-behavior: smooth;
 }
 
 
 /* start page1 */
 
+#page1 {
+    height: 100vh;
+    width: 100%;
+    
+    position: absolute;
+    z-index: 3;
+    
+}
+
 .navbar {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 5vh;
+padding-top: 3vh;    
 }
 
 .navbar a {
@@ -51,6 +64,7 @@ body {
     color: var(--text);
     text-transform: capitalize;
     font-weight: 600;
+    margin-left: 5vw;
 }
 
 .nav-center {
@@ -58,12 +72,15 @@ body {
     gap: 2vw;
     font-size: 1.3vw;
     text-transform: capitalize;
-
+margin-left: 18vw;
 }
 
 .nav-center a {
     color: var(--text2);
+
 }
+
+
 
 .nav-right {
     font-size: 1.2vw;
@@ -71,8 +88,8 @@ body {
     font-weight: 600;
     background-color: var(--btn);
     padding: 1vw 2.5vw;
-    border-radius: 0.2rem;
-
+    border-radius: 2vw;
+margin-left: 15vw;
 }
 
 .nav-right a {
@@ -84,9 +101,30 @@ body {
     background-color: var(--btnhover);
 }
 
+
+.nav-right2 {
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: var(--citybtn);
+    padding: 1vw 2.5vw;
+    border-radius: 2vw;
+margin-left: 0vw;
+}
+
+.nav-right2 a {
+    font-family: poppins;   
+    color: var(--background);
+}
+
+.nav-right2:hover {
+    background-color:var(--citybtnHover);
+}
+
+
 .hamburger {
     margin-left: 93vw;
-    
+    margin-top: -7vh;
     display: none;
 }
 
@@ -95,14 +133,60 @@ body {
     cursor: pointer;
 }
 
+.page1-content {
+    position: relative;
+    margin-top: 20vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    
+
+}
+
+.page1-content a {
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: var(--btn);
+    padding: 1vw 2.5vw;
+    border-radius: 0.2rem;
+    font-family: poppins;
+    color: var(--background);
+    text-decoration: none;
+    margin-left: 27vw;
+    
+}
+
+.page1-content a:hover {
+    background-color: var(--btnhover);
+}
+
+.page1-content a:nth-child(2) {
+    background-color: var(--background2);
+    border: 1px solid #676060;
+    color: var(--background);
+    font-family: poppins;
+    font-weight: bolder;
+margin-left: 3vw;
+}
+
+.page1-content a:nth-child(2):hover {
+    background-color: var(--text);
+    transition: all linear 0.4s;
+    color: var(--background);
+}
+
+.page1-btns {
+    margin-top: 49vh;
+    margin-left: 10vw;
+}
 
 /* navbar for mobile */
 
 .navbar-mobile {
     background-color: var(--background2);
     position: absolute;
-    z-index: 2;
-    margin-top: -30vh;
+    z-index: 9;
+    margin-top: -85.5vh;
     height: 100vh;
     width: 100%;
 
@@ -137,231 +221,72 @@ body {
 
 }
 
+#form{
+    height: 83vh;
+    width: 33vw;
+    background-color: lightblue;
+    margin-left: 35vw;
+    padding-top: 7vh;
+    padding-left: 3vw;
+    margin-top: 2vh;
+    border-radius: 1vw;
+}
+
+.form-heading{
+    height: 6vh;
+    width: 20vw;
+    text-align: center;
+    background-color: rgb(255, 179, 0);
+    margin-top: -3vh;
+    margin-bottom: 4vh;
+    margin-left: 3vw;
+    outline: 1px solid #888;
+}
+
+.form-heading p{
+    font-family: poppins;
+    text-transform: uppercase;
+    font-size: 1.6vw;
+    font-weight: 600;
+    color: var(--background);
+    text-shadow: 0 0 0.2rem #000;
+    
+}
+
 /* end page1 */
 
-/* start page2 */
-
-#page2{
-    height:81vh;
-    width: 100%;
-    
-    margin-top: 7vh;
-    
-}
-
-.form-container{
-    height: 70vh;
-    width: 35%;
-    /* background-color: var(--background); */
-    background-color: rgb(238, 243, 109);
-    box-shadow: 0 0 0.2rem black;
-    border-radius: 3px;
-    margin-left: 30vw;
-}
-
-form p{
-    font-size: 5vw;
-    text-align: center;
-    text-wrap: nowrap;
-    margin-bottom: 5vh;
-    font-weight: 600;
-    color: var(--background2);
-}
-
-input, textarea {
-    width: 50%;
-    padding:0.7vw;
-    margin-bottom: 1vh;
-    border: 0.1rem solid black;
-    border-radius: 3px;
-    margin-left: 8vw;
-    
-}
 
 
-.sendbtn .submitbtn {
-    width: 15vw;
-            background-color: rgba(0, 0, 255, 0.9);
-            color: white;
-            border: none;
-            font-size: 1.5vw;
-            font-family: poppins;
-            border-radius:3px;
-            margin-left:9vw;
-        cursor: pointer;
-        margin-top: 3vh;
-        }
-
-        .sendbtn .submitbtn:hover{
-            background-color: #051145;
-        }
-
-::placeholder{
-    color: rgb(18, 18, 62);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,sans-serif,cursive;
-    font-family: poppins;
-    font-size: 1.3vw;
-}
-
-/* end page2 */
-
-/* responsive  */
-
-@media (max-width:440px){
-
-    /* page1 media query - 440px */
-    
-    .nav-center a{
-        display: none;
-    }
-    
-    .nav-right{
-        display: none;
-    }
-    
-    .hamburger i{
-        font-size: 10vw;
-    margin-left: -8vw;
-    }
-    
-    .hamburger{
-        margin-top: -6vh;
-        display: block;
-    }
-    
-    .nav-left a{
-        font-size: 7vw;
-        margin-left: -24vw;
-    }
-    
-    .page1-content h1{
-        font-size: 8.5vw;
-        margin-left: -6vw;
-        margin-top: -8vh;
-    }
-    
-    .page1-content h1:nth-child(2){
-        font-size: 7vw;
-    }
-    
-    .page1-content p{
-        font-size: 4.1vw;
-        margin-left: -10vw;
-        margin-top: 0;
-    }
-    
-    .page1-btns{
-        display: flex;
-        flex-direction: column;
-        gap: 4vh;
-        margin-left: 12vw;
-        margin-top: 7vh;
-    }
-    
-    .page1-btns a{
-        padding: 4vw 0vw;
-        width: 60%;
-        font-size: 4vw;
-        text-align: center;
-    }
-    
-    .page1-btns a:nth-child(2){
-    width: 75%;
-    margin-left: -6vw;
-    }
-    
-    
-    .navbar-mobile i{
-        font-size: 11vw;
-        margin-left: 5vw;
-    
-        
-    }
-
-.navbar-mobile a:hover{
-    background-color: orange;
-    
-    
-}
-
-    .close-icon{
-        margin-top: 27vh;
-        margin-left: 80vw;
-    }
-    
-    .navbar-mobile{
-        height: 109vh;
-        
-    }
-    
-    .navbar-mobile a{
-        font-size: 8vw;
-    }
-
-    /* end media for page1 */
-
-/* start page2 */
-
-#page2{
-    height:50vh;
-    width: 100%;
-}
-
-.form-container{
-    height: 50vh;
-    width: 70%;
-    /* background-color: var(--background); */
-    background-color: rgb(238, 243, 109);
-    box-shadow: 0 0 0.2rem black;
-    border-radius: 3px;
-    margin-left: 15vw;
-}
-
-form p{
-    font-size: 8vw;
-    text-align: center;
-    text-wrap: nowrap;
-    margin-bottom: 5vh;
-    font-weight: 600;
-    color: var(--background2);
-    padding-top: 3vh;
-}
-
-input, textarea {
-    width: 50%;
+.input{
+    border: 1px solid transparent;
+    width: 17vw;
     height: 5vh;
-    margin-bottom: 1vh;
-    border: 0.1rem solid black;
-    border-radius: 3px;
-    margin-left: 15vw;
-    font-size: 5vw;
-}
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    background-color: #F3F3F3;
+    border-radius:5px;
+    transition: all 0.5s;
+  }
+  
+  .input:hover,
+  .input:focus {
+    border: 2px solid #4A9DEC;
+    box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+    background-color: white;
+  } 
+   
 
-
-.sendbtn .submitbtn {
-    width: 30vw;
-            background-color: rgba(0, 0, 255, 0.9);
-            color: white;
-            border: none;
-            font-size: 3.5vw;
-            font-family: poppins;
-            border-radius:3px;
-            margin-left:17vw;
-        cursor: pointer;
-        margin-top: 3vh;
-        }
-
-        .sendbtn .submitbtn:hover{
-            background-color: #051145;
-        }
-
-::placeholder{
-    color: rgb(18, 18, 62);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,sans-serif,cursive;
+  .submit{
+    padding: 0.5vw 3vw;
+    border: none;
+    background-color: var(--btn);
+    color: var(--background);
     font-family: poppins;
-    font-size: 4vw;
-}
+    margin-left: 8vw;
+    border-radius: 0.3vw;
+    font-size: 1.2vw;
+    cursor: pointer;
+  }
 
-    /* end page2 */
-}    
-    
+  
