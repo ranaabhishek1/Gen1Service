@@ -721,3 +721,322 @@ color: var(--background);
 
 
 /* end page7 */
+
+
+
+
+/* responsive part */ 
+
+@media (max-width:440px){
+
+    /* page1 media query - 440px */
+
+
+    #page1{
+       width: 100%;
+       
+    }
+
+    .navbar{
+        padding-top: 10vh;
+    }
+
+    .nav-left a {
+        font-size: 1vw;
+        font-family: poppins;
+        color: var(--text);
+        text-transform: capitalize;
+        font-weight: 600;
+        padding-left: 15vw;
+    }
+
+    .nav-center a{
+        display: none;
+    }
+
+    .nav-right{
+        display: none;
+    }
+
+    
+.nav-right2 {
+    font-size: 2.2vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: var(--citybtn);
+    padding: 1.3vh 2.7vw;
+margin-right: 18vw;
+display: none;
+}
+
+.nav-right2 a {
+    font-family: poppins;
+    color: var(--background);
+    text-wrap: nowrap;
+}
+
+.nav-right2:hover {
+    background-color:var(--citybtnHover);
+}
+
+    
+    .hamburger i{
+        font-size: 10vw;
+    margin-left: -8vw;
+    }
+    
+    .hamburger{
+        margin-top: -6vh;
+        display: block;
+
+    }
+    
+    .nav-left a{
+        font-size: 7vw;
+        margin-left: -24vw;
+    }
+
+ 
+    .navbar-mobile i{
+        font-size: 11vw;
+        margin-left: 5vw;
+    }
+
+.navbar-mobile a:hover{
+    background-color: orange;    
+}
+
+    .close-icon{
+        bottom: 7vh;
+        margin-left: 80vw;
+        position: relative;
+        z-index: 3;
+    }
+    
+    .navbar-mobile{
+        height: 100vh;
+        padding-top: 8vh;
+        bottom: 0vh;
+        
+    }
+    
+    .navbar-mobile a{
+        font-size: 8vw;
+        position: relative;
+        bottom: 10vh;
+    }
+
+    
+.book-service a{
+    background-color: orangered;
+    font-size: 5vw;
+    padding: 0.7vw 0;
+    width: 100%;
+    color: var(--background);
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    z-index: 99;
+    text-decoration: none;
+    }
+    
+    /* end media for page1 */
+
+
+    
+#page1 h2{
+    font-size: 10vw;
+    text-align: center;
+    color: var(--text);
+    font-family: poppins;
+    margin-top: 5vh;
+    text-wrap: balance;    
+}
+
+/*  */
+/* end page1 */
+
+
+/* start page2 */
+#page2{
+    min-height: 100vh;
+    width: 100%;    
+    padding-bottom: 10vh;
+    margin-top: -58vh;
+}
+
+#page2 h3{
+    text-align: center;
+    font-size: 5.5vw;
+    font-family: poppins;
+}
+
+#page2 p{
+text-align: center;
+padding: 0vw 1vw;
+margin-top: 2vh;
+margin-bottom: 5vh;
+text-wrap: balance;
+margin-left: 3vw;
+margin-right: 3vw;
+}
+
+/* ++ */
+
+.ac-types{
+    display: flex;
+    flex-wrap: wrap;
+gap: 5vw;
+margin-left: 6vw;
+
+}
+
+.ac-card{
+height: 68vh;
+width: 42vw;
+box-shadow: 0 0 0.2rem black;
+border-radius: 10px;
+background-color: #E2E8EF;
+
+}
+
+.image-box{
+height: 30vh;
+background-color:#005660;
+}
+
+.image-box img{
+height: 25vh;
+width: 55vw;
+margin-top: 3vh;
+margin-left: -8vw;
+overflow: hidden;
+transition:all linear 0.2s;
+
+}
+
+.image-box img:hover{
+scale: 1.1;
+
+}
+
+.ac-card h2{
+    font-size: 3vw;
+text-align: center;
+
+margin-top: 3vh;
+}
+
+
+#ac-card2 h2{
+font-size:3vw;
+}
+
+#ac-card1 p{
+    margin-bottom: 1.5vh;
+}
+
+
+#ac-card2 p{
+    margin-bottom: 3vh;
+margin-right: 1vw;
+}
+
+
+#ac-card3 h2{
+    font-size: 3vw;
+margin-left: 1vw;
+}
+
+#ac-card3 p{
+margin-bottom: 1.5vh;
+}
+
+#ac-card4 p{
+margin-bottom: 1.5vh;
+}
+
+#ac-card5 img{
+    height: 25vh;
+width: 43vw;
+margin-left: -1vw;
+}
+
+#ac-card5 p{
+margin-right: 1vw;
+margin-bottom: 1.5vh;
+}
+
+
+#ac-card6 img{
+    height: 25vh;
+width: 43vw;
+margin-left: -1vw;
+}
+
+#ac-card6 h2{
+    font-size: 3vw;
+}
+
+#ac-card6 p{
+margin-right: 1vw;
+margin-top: 2vh;
+line-height: 1.5vh;
+margin-bottom: 0.3vh;
+}
+
+.ac-card p{
+text-wrap: wrap;
+margin-left: 2vw;
+margin-right: 2vw;
+margin-top: 1vh;
+line-height: 1.6vh;
+font-size: 2.2vw;
+
+}
+
+.ac-card span a{
+text-decoration: none;
+color:#FF4500;
+
+}
+
+.refri-btn{
+background-color:var(--btn);
+text-decoration: none;
+border: none;
+padding: 0.7vw 2vw;
+margin-left: 4vw;
+color: #fff;
+border-radius: 1vh;
+font-size: 2.5vw;
+font-family: poppins;
+cursor: pointer;   
+}
+
+.refri-btn:hover{
+background-color: var(--btnhover);
+}
+
+.call-btn{
+    background-color: var(--background2);
+    text-decoration: none;
+    border: none;
+    padding: 0.7vw 2vw;
+    border-radius: 1vh;
+    margin-top: 0vh;
+    margin-left: 2vw;
+    color: #fff;
+    font-size: 2.5vw;
+    font-family: poppins;
+    cursor: pointer;   
+    }
+    
+    .call-btn:hover{
+    background-color: var(--text);
+    }
+    
+/* ++ */
+/* end page2 */
+
+}
