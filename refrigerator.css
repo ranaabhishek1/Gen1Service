@@ -639,9 +639,6 @@ background-color: var(--btnhover);
 
 /* end page5 */
 
-
-
-
 /* start page7 */
 
 #page7{
@@ -831,7 +828,7 @@ display: none;
 .book-service a{
     background-color: orangered;
     font-size: 4vw;
-    padding: 0.7vw 0;
+    padding: 1vw 0;
     width: 100vw;
     color: var(--background);
     font-weight: bold;
@@ -1015,11 +1012,11 @@ color:#FF4500;
 background-color:var(--btn);
 text-decoration: none;
 border: none;
-padding: 0.7vw 2vw;
-margin-left: 6vw;
+padding: 1vw 3vw;
+margin-left: 3vw;
 color: #fff;
-border-radius: 1vh;
-font-size: 2vw;
+border-radius: 3vh;
+font-size: 2.5vw;
 font-family: poppins;
 cursor: pointer;   
 }
@@ -1032,12 +1029,12 @@ background-color: var(--btnhover);
     background-color: var(--background2);
     text-decoration: none;
     border: none;
-    padding: 0.7vw 2vw;
-    border-radius: 1vh;
+    padding: 1vw 3vw;
+    border-radius: 3vh;
     margin-top: 0vh;
     margin-left: 2vw;
     color: #fff;
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-family: poppins;
     cursor: pointer;   
     }
@@ -1258,6 +1255,167 @@ background-color: var(--btnhover);
 /* ++ */
 
 /* end page4 */
+
+
+
+/* start page5 */
+
+
+/*  */
+.slider-part {
+    height: 38vh;
+    width: 100%;
+    margin-top: -15vh;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10vh;
+    margin-top: 5vh;
+    position: relative;
+color: #fff;
+}
+
+.text-part{
+    position: absolute;
+    z-index: 2;
+    margin-top: 3.5vh;
+    font-size: 3vw;
+}
+
+
+
+/*  */
+
+
+/* page4 part 2 start */
+.page4-part2{
+    height: 22vh;
+    width: 100%;
+    position: relative;
+    
+}
+
+.page4-part2 h6{
+    font-size: 6vw;
+    padding-top: 3vh;
+}
+
+.page4-part2 h5{
+    font-size: 6.5vw;
+margin-bottom: 3vh;    
+}
+
+.page4-part2 a{
+    font-size: 3.5vw;
+    padding: 2vw 8vw;
+    margin-left:33vw;
+
+}
+
+/* page4 part 2 end */
+
+/* end page5 */
+
+
+/* start page7 */
+
+#page7{
+    height: 55vh;
+    width: 100%;
+    background-color: var(--background2);
+ padding-top: 5vh;  
+}
+
+
+
+.footer p{
+    font-size: 7vw;
+    color: var(--background);
+    font-family: poppins;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 1vh;
+}
+
+.footer-part2{
+    display: flex;
+    justify-content: flex-start;    
+    margin-top: 4vh;
+    margin-left: 20vw;
+    gap: 20vw;
+}
+
+.footer-part2 a{
+    font-size: 5vw;
+    text-transform: capitalize;
+}
+
+.footer a{
+    text-decoration: none;
+    margin-right: 5vw;
+    text-transform: capitalize;
+    color:#B5E203;
+    font-family: poppins;
+}
+
+.service-part{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: relative;
+    margin-top: 3vh;
+    gap: 1vh;
+    margin-right: 40vw;
+}
+
+.service-part a{
+    color: #fff;
+    font-size: 3.5vw;
+
+}
+.service-part a:hover{
+    color:#676060;
+}
+
+
+.city-part{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: -22vh;
+    margin-right: 3vw;
+    gap: 1vh;
+}
+
+.city-part a{
+ color: #fff;   
+ font-size: 3.5vw;
+}
+
+.city-part a:hover{
+    color: #676060;
+}
+
+
+.copyright p{
+margin-top: 5.5vh;
+text-align: center;
+color: var(--background);
+font-size: 3.5vw;
+}
+
+
+/* end page7 */
+
+
 
 
 
