@@ -1286,8 +1286,9 @@ color: #fff;
 .text-part{
     position: absolute;
     z-index: 2;
-    margin-top: 3.5vh;
-    font-size: 3vw;
+    margin-top: 3vh;
+    font-size: 3.3vw;
+    line-height: 2vh;
 }
 
 
