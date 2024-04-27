@@ -1062,7 +1062,7 @@ background-color: var(--btnhover);
 /* start page3 */
 
 #page3{
-    height: 30vh;
+    height: 35vh;
     width: 100%;
 }
 
@@ -1080,7 +1080,7 @@ background-color: var(--btnhover);
     text-align: center;
     text-wrap: balance;
     margin-top: -1vh;
-    font-size: 1.5vw;
+    font-size: 2vw;
     font-family: poppins;
     padding: 1vw;
 }
@@ -1104,7 +1104,7 @@ background-color: var(--btnhover);
     flex-direction: column;
     gap: 2vw;
     border-bottom: 1px solid #2e2d2d;
-    padding-bottom: 5vw;
+    padding-bottom: 4vw;
     margin-right: 1vw;
 }
 
@@ -1126,7 +1126,7 @@ background-color: var(--btnhover);
     flex-direction: column;
     gap: 2vw;
     border-bottom: 1px solid #2e2d2d;
-    padding-bottom: 5vw;
+    padding-bottom: 4vw;
     margin-right: 1vw;
 }
 
@@ -1153,7 +1153,7 @@ background-color: var(--btnhover);
     flex-direction: column;
     gap: 2vw;
     border-bottom: 1px solid #2e2d2d;
-    padding-bottom: 5vw;
+    padding-bottom: 4vw;
     margin-right: 1vw;
 }
 
@@ -1169,7 +1169,7 @@ background-color: var(--btnhover);
 
     gap: 2vw;
     border-bottom: 1px solid #2e2d2d;
-    padding-bottom: 5vw;
+    padding-bottom: 4vw;
     margin-right: 1vw;
 }
 
@@ -1222,10 +1222,10 @@ background-color: var(--btnhover);
 }
 
 .content-part p{
-    font-size: 1.5vw;
+    font-size: 2vw;
     text-align: center;
     text-wrap: balance;
-    line-height: 1.2vh;
+    line-height: 1.5vh;
     margin-top: -1vh;
     margin-bottom: 1vh;
 }
@@ -1259,6 +1259,8 @@ background-color: var(--btnhover);
     font-size: 1.3vw;
     line-height: 1vh;
     text-wrap: wrap;
+    padding-bottom: 2vh;
+    padding-top: 1vh;
 }
 
 /* ++ */
