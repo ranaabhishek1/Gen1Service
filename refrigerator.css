@@ -805,7 +805,7 @@ display: none;
 }
 
     .close-icon{
-        bottom: 7vh;
+        bottom: 2vh;
         margin-left: 80vw;
         position: relative;
         z-index: 3;
@@ -815,13 +815,14 @@ display: none;
         height: 100vh;
         padding-top: 8vh;
         bottom: 0vh;
+        position: fixed;
         
     }
     
     .navbar-mobile a{
         font-size: 8vw;
         position: relative;
-        bottom: 10vh;
+        bottom: 5vh;
     }
 
     

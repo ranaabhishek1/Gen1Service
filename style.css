@@ -893,7 +893,7 @@ display: none;
         height: 100vh;
         padding-top: 8vh;
         bottom: 0vh;
-        
+        position: fixed;
     }
     
     .navbar-mobile a{
