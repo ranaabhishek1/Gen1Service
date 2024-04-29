@@ -737,6 +737,7 @@ color: var(--background);
 
     .navbar{
         padding-top: 8vh;
+    
     }
 
     .nav-left a {
@@ -805,7 +806,7 @@ display: none;
 }
 
     .close-icon{
-        bottom: 7vh;
+        bottom: 2vh;
         margin-left: 80vw;
         position: relative;
         z-index: 3;
@@ -815,13 +816,14 @@ display: none;
         height: 100vh;
         padding-top: 8vh;
         bottom: 0vh;
+        position: fixed;
         
     }
     
     .navbar-mobile a{
         font-size: 8vw;
         position: relative;
-        bottom: 10vh;
+        bottom: 5vh;
     }
 
     
@@ -1248,8 +1250,7 @@ background-color: var(--btnhover);
     font-size: 3vw;
     line-height: 1.8vh;
     text-wrap: wrap;
-    padding-bottom: 2vh;
-    padding-top: 1vh;
+    margin-top: 2vh;
 }
 
 /* ++ */
@@ -1261,46 +1262,13 @@ background-color: var(--btnhover);
 /* start page5 */
 
 
-/*  */
-.slider-part {
-    height: 38vh;
-    width: 100%;
-    margin-top: -15vh;
-}
-
-.swiper {
-    width: 100%;
-    height: 100%;
-}
-
-.swiper-slide {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 10vh;
-    margin-top: 5vh;
-    position: relative;
-color: #fff;
-}
-
-.text-part{
-    position: absolute;
-    z-index: 2;
-    margin-top: 3vh;
-    font-size: 3.3vw;
-    line-height: 2vh;
-}
-
-
-
-/*  */
-
 
 /* page4 part 2 start */
 .page4-part2{
     height: 22vh;
     width: 100%;
     position: relative;
+    margin-top: -5vh;
     
 }
 
