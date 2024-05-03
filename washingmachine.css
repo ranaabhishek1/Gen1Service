@@ -485,6 +485,18 @@ background-color: var(--btnhover);
 }
 /* +++ */
 
+
+
+.page4-section-3{
+    padding-top: 8vh;
+    margin-left: 2vw;
+    display: flex;
+    gap: 2vw;
+    border-bottom: 1px solid #2e2d2d;
+    padding-bottom: 1vw;
+    margin-right: 1vw;
+}
+
 /* ++ */
 
 

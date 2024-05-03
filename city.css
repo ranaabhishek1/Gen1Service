@@ -95,13 +95,14 @@ margin-left: 18vw;
 
 
 
+
 .nav-right {
     font-size: 1.2vw;
     text-transform: uppercase;
     font-weight: 600;
     background-color: var(--btn);
     padding: 1vw 2.5vw;
-    border-radius: 0.2rem;
+    border-radius: 2vw;
 margin-left: 15vw;
 }
 
@@ -121,17 +122,17 @@ margin-left: 15vw;
     font-weight: 600;
     background-color: var(--citybtn);
     padding: 1vw 2.5vw;
-    border-radius: 0.2rem;
-margin-left: 2vw;
+    border-radius: 2vw;
+margin-left: 0vw;
 }
 
 .nav-right2 a {
-    font-family: poppins;
+    font-family: poppins;   
     color: var(--background);
 }
 
 .nav-right2:hover {
-    background-color: var(--btnhover);
+    background-color:var(--citybtnHover);
 }
 
 
@@ -225,22 +226,6 @@ margin-left: 2vw;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* end page1 */
 
 
@@ -267,7 +252,7 @@ margin-left: 2vw;
     }
 
     .nav-left a{
-        padding-left: 38vw;
+        padding-left: 20vw;
     }
     
     .nav-center a{
@@ -286,6 +271,7 @@ margin-left: 2vw;
     background-color: var(--citybtn);
     padding: 1.3vh 2.7vw;
 margin-right: 28vw;
+display: none;
 }
 
 .nav-right2 a {
@@ -396,16 +382,12 @@ position: relative;
 
 }
 
+
 .box a{
-    text-decoration: none;
-    background-color: var(--background2);
-    color: var(--background);
-    padding: 1.5vh 1.5vw;
-    position: relative;
-    top: 75%;
-    left: 10%;
-    text-align: center;
+    padding: 1vh 3vw;
     font-size: 3vw;
+    margin-left: -7vw;
+top: 1vh;
 }
 
 
