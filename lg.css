@@ -135,36 +135,11 @@ margin-left: 0vw;
 
 .page1-content {
     position: relative;
-    margin-top: 5vh;
+    margin-top: 20vh;
     padding-top: 10vh;
     padding-bottom: 10vh;
     
 
-}
-
-.page1-content h1 {
-    font-size: 2vw;
-    font-family: poppins;
-    color: var(--text);
-    
-    font-weight: bolder;
-    text-align: center;
-    margin-left: 0vw;
-    margin-top: -7vh;
-    opacity: 0;
-}
-
-.page1-content h1:nth-child(2) {
-margin-top: 0vh;
-    font-size: 2vw;
-}
-
-
-.page1-content p {
-    margin-top: 5vh;
-text-align: center;
-    font-size: 1.4vw;
-    opacity: 0;    
 }
 
 .page1-content a {
@@ -177,7 +152,7 @@ text-align: center;
     font-family: poppins;
     color: var(--background);
     text-decoration: none;
-    margin-left: 35vw;
+    margin-left: 27vw;
     
 }
 
@@ -210,7 +185,7 @@ margin-left: 3vw;
 .navbar-mobile {
     background-color: var(--background2);
     position: absolute;
-    z-index: 1;
+    z-index: 9;
     margin-top: -85.5vh;
     height: 100vh;
     width: 100%;
@@ -256,11 +231,40 @@ margin-left: 3vw;
 
 }
 
+
+.page2-content{
+    position: absolute;
+    z-index: 1;
+    top: 30vh;
+    left: 17vw;
+}
+
+
+.page2-content h1{
+    font-size: 7.5vw;
+    color: #F7C566;
+    text-shadow: 0 0 1rem #000;
+    font-family: poppins;
+    line-height: 9vw;
+    margin-left: 5vw;
+    margin-top: 2vh;
+}
+
+.page2-content p{
+    font-size: 2vw;
+    font-family: poppins;
+    margin-top:25vh;
+    margin-left: 18vw;
+    text-shadow: 0 0 0.5rem #000;
+    color: rgb(247, 185, 41);
+}
+
 .slider-container {
     position: relative;
     max-width: 1300px;
     margin: auto;
     padding-top: 5vh;
+    filter: blur(2px);
 }
 
 .slider {
@@ -299,6 +303,7 @@ button {
 .next {
     right: 0;
 }
+
 
 /* end page2 */
 
@@ -516,6 +521,14 @@ margin-top: 4vh;
     transition: all linear 0.5s;
 }
 
+.welcome-text p{
+    font-size: 1.4vw;
+    text-align: center;
+    position: relative;
+    bottom: 5vh;
+    padding: 1vw;
+}
+
 
 /* end page 3 */
 
@@ -540,7 +553,7 @@ margin-top: 4vh;
 
 #page4 p {
     color: #B5E203;
-    font-size: 4.5vw;
+    font-size: 4vw;
     font-family: poppins;
     font-weight: 800;
     text-align: center;
@@ -549,14 +562,14 @@ margin-top: 4vh;
 .page4-cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 3vw;
-    margin-left: 3.5vw;
-    margin-top: 10vh;
+    gap: 4vw;
+    margin-left: 13vw;
+    margin-top: 5vh;
 }
 
 .card {
-    height: 80vh;
-    width: 45vw;
+    height: 70vh;
+    width: 35vw;
     background-color: #FFFFFF;
     border-radius: 8px;
     cursor: pointer;
@@ -573,37 +586,37 @@ margin-top: 4vh;
     height: 20vh;
     width: 9vw;
     border-radius: 50%;
-    margin-left: 18vw;
-    margin-top: 8vh;
+    margin-left: 13vw;
+    margin-top: 5vh;
 }
 
 #card2 img{
     height: 20vh;
     width: 9vw;
     border-radius: 50%;
-    margin-left: 18vw;
-    margin-top: 8vh;
+    margin-left: 13vw;
+    margin-top: 5vh;
 }
 
 #card3 img{
     height: 20vh;
     width: 9vw;
     border-radius: 50%;
-    margin-left: 18vw;
-    margin-top: 8vh;
+    margin-left: 13vw;
+    margin-top: 5vh;
 }
 
 #card4 img{
     height: 20vh;
     width: 9vw;
     border-radius: 50%;
-    margin-left: 18vw;
-    margin-top: 8vh;
+    margin-left: 13vw;
+    margin-top: 5vh;
 }
 
 #card1 h2{
     text-align: center;
-    margin-top: 3vh;
+    margin-top: 2vh;
     color: var(--text);
     font-family: poppins;
 }
@@ -635,7 +648,7 @@ margin-top: 4vh;
 #card1 p{
     margin-top: 5vh;
     margin-left: 3vw;
-    font-size: 1.1vw;
+    font-size: 1vw;
     margin-right: 2vw;
     color: var(--text2);
 }
@@ -644,16 +657,17 @@ margin-top: 4vh;
 #card2 p{
     margin-top: 5vh;
     margin-left: 3vw;
-    font-size: 1.1vw;
+    font-size: 1vw;
     margin-right: 2vw;
     color: var(--text2);
+    
 }
 
 
 #card3 p{
     margin-top: 5vh;
     margin-left: 3vw;
-    font-size: 1.1vw;
+    font-size: 1vw;
     margin-right: 2vw;
     color: var(--text2);
 }
@@ -662,7 +676,7 @@ margin-top: 4vh;
 #card4 p{
     margin-top: 5vh;
     margin-left: 3vw;
-    font-size: 1.1vw;
+    font-size: 1vw;
     margin-right: 2vw;
     color: var(--text2);
 }
@@ -686,16 +700,16 @@ margin-top: 4vh;
 }
 
 .page4-part2 h5 {
-    font-size: 3vw;
+    font-size: 2.5vw;
     text-align: center;
     font-weight: 700;
     font-family: poppins;
     color: var(--text);
-    margin-bottom: 7vh;
+    margin-bottom: 5vh;
 }
 
 .page4-part2 a {
-    font-size: 1.7vw;
+    font-size: 1.4vw;
     text-transform: uppercase;
     font-weight: 600;
     background-color: var(--btn);
@@ -704,7 +718,7 @@ margin-top: 4vh;
     text-decoration: none;
     color: var(--background);
     font-family: poppins;
-    margin-left: 43vw;
+    margin-left: 45vw;
 }
 
 .page4-part2 a:hover{
@@ -784,10 +798,6 @@ margin-top: 4vh;
 }
 
 
-
-
-
-
 .copyright p{
 margin-top: 15vh;
 text-align: center;
@@ -795,16 +805,16 @@ color: var(--background);
 }
 
 
-/* responsive part */
+/* responsive part */ 
 
 @media (max-width:440px){
 
     /* page1 media query - 440px */
+
     
     #page1{
-
-        width: 100%;
-        
+       width: 100%;
+       
     }
 
     .nav-left a {
@@ -813,13 +823,13 @@ color: var(--background);
         color: var(--text);
         text-transform: capitalize;
         font-weight: 600;
-        padding-left: 27vw;
+        padding-left: 15vw;
     }
 
     .nav-center a{
         display: none;
     }
-    
+
     .nav-right{
         display: none;
     }
@@ -832,6 +842,7 @@ color: var(--background);
     background-color: var(--citybtn);
     padding: 1.3vh 2.7vw;
 margin-right: 18vw;
+display: none;
 }
 
 .nav-right2 a {
@@ -851,59 +862,17 @@ margin-right: 18vw;
     }
     
     .hamburger{
-        margin-top: -6vh;
+        margin-top: -5vh;
         display: block;
+
     }
     
     .nav-left a{
         font-size: 7vw;
         margin-left: -24vw;
     }
-    
-    .page1-content h1{
-        font-size: 8.5vw;
-        margin-left: -6vw;
-        margin-top: -8vh;
-    }
-    
-    .page1-content h1:nth-child(2){
-        font-size: 7vw;
-    }
-    
-    .page1-content p{
-        font-size:4.2vw;
-        text-wrap: wrap;
-        text-align: center;
-        padding: 0 2vw;
-        margin-top: 0;
-    }
-    
-    .page1-btns{
-        display: flex;
-        flex-direction: column;
-        gap: 3vh;
-        margin-top: 7vh;
-    
-    }
-    
-    .page1-btns a{
-        padding: 4vw 0vw;
-        width: 60%;
-        font-size: 4vw;
-        text-align: center;
-    }
 
-    
-    .page1-btns a:nth-child(1){
-                margin-left: 9vw;
-        }
-
-    .page1-btns a:nth-child(2){
-    width: 60%;
-    margin-left: 9vw;
-    }
-    
-    
+ 
     .navbar-mobile i{
         font-size: 11vw;
         margin-left: 5vw;
@@ -914,17 +883,23 @@ margin-right: 18vw;
 }
 
     .close-icon{
-        margin-top: 27vh;
+        bottom: 7vh;
         margin-left: 80vw;
+        position: relative;
+        z-index: 3;
     }
     
     .navbar-mobile{
-        height: 109vh;
-        
+        height: 100vh;
+        padding-top: 8vh;
+        bottom: 0vh;
+        position: fixed;
     }
     
     .navbar-mobile a{
         font-size: 8vw;
+        position: relative;
+        bottom: 10vh;
     }
     
     /* end media for page1 */
@@ -933,9 +908,53 @@ margin-right: 18vw;
 
 
 #page2 {
-height: 60vh;
     width: 100%;
+}
 
+
+.page2-content{
+    position: absolute;
+    z-index: 2;
+    top: 27vh;
+    left: 6vw;
+}
+
+
+.page2-content h1{
+    font-size: 9vw;
+    color: #F7C566;
+    text-shadow: 0 0 1rem #000;
+    font-family: poppins;
+    line-height: 9vw;
+    margin-left: 9vw;
+    margin-top: 1vh;
+}
+
+.page2-content p{
+    font-size: 4.3vw;
+    margin-left: 13vw;
+    margin-top: 3vh;
+
+}
+
+
+.slider-container {
+    position: relative;
+    max-width: 1300px;
+    margin: auto;
+    padding-top: 3vh;
+    filter: blur(2px);
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+    height: 65vh;
+}
+
+.slide {
+    flex: 0 0 100%;
+    overflow: hidden;
 }
 
 
@@ -966,6 +985,37 @@ button {
     right: 0;
 }
 
+.page1-btns{
+    margin-top: 8vh;
+    
+
+}
+.page1-content a{
+    font-size: 3.5vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: var(--btn);
+    padding: 2vw 4vw;
+    border-radius: 0.2rem;
+    font-family: poppins;
+    color: var(--background);
+    text-decoration: none;
+    margin-left: 10vw;
+    border: 1px solid #ffffff8d;
+}
+
+
+.page1-content a:nth-child(2) {
+    background-color: var(--background2);
+    border: 1px solid #676060;
+    color: var(--background);
+    font-family: poppins;
+    font-weight: bolder;
+    margin-left: 3vw;
+    border: 1px solid #ffffff8d;
+}
+
+
 /* end page2 */
 
 
@@ -981,6 +1031,9 @@ button {
 #page3{
     height: 438vh;
 width: 100%;
+position: relative;
+bottom: 45vh;
+overflow-y: hidden;
 }
 
 #page3 h3{
@@ -1002,7 +1055,7 @@ width: 100%;
 
 
 .box{
-    height: 60vh;
+    height: 58vh;
     width: 90vw;
 }
 
@@ -1012,69 +1065,72 @@ width: 100%;
 
 #refrigerator-box img{
     height: 25vh;
-    width: 70%;
-    margin-left: 14vw;
+    width: 80vw;
+    margin-left: 5vw;
 }
 
 #ac-box img{
     height: 25vh;
-    width: 72%;
-    margin-left: 13vw;
+    width: 80vw;
+    margin-left: 5vw;
 }
 
 #tv-box img{
     height: 25vh;
-    width: 70%;
-    margin-left: 13vw;
+    width: 80vw;
+    margin-left: 5vw;
 }
 
 #washingMachine-box img{
     height: 25vh;
-    width: 70%;
-    margin-left: 13vw;
+    width: 80vw;
+    margin-left: 5vw;
 }
 
 #chimni-box img{
     height: 25vh;
-    width: 70%;
-    margin-left: 13vw;
+    width: 80vw;
+    margin-left: 5vw;
 }
 
 #mircowave-box img{
     height: 25vh;
-    width: 70%;
-    margin-left: 13vw;
+    width: 80vw;
+    margin-left: 5vw;
 }
 
 #refrigerator-box p{
     margin-left: -2vw;
-    margin-top: 4vh;
+    margin-top: 3vh;
 }
 
 #refrigerator-box pre{
  font-size: 5vw;   
- margin-top: 2vh;
- margin-bottom: 4vh;
+ margin-top: 1vh;
  
 }
 
 #ac-box p{
- font-size: 8vw;   
+ font-size: 8vw; 
+ margin-top: 2vh;  
  margin-right: 7vw;
 }
 
 #ac-box pre{
     font-size: 5vw;
-    margin-bottom: 5vh;
+    margin-top: 2vh;
 }
 
 #tv-box p{
     margin-left: -1vw;
     font-size: 8vw;
+    margin-top: 2vh;  
+ margin-right: 7vw;
 }
 
 #tv-box pre{
     font-size: 5vw;
+    margin-top: 1vh;
 }
 
 #washingMachine-box p{
@@ -1084,7 +1140,8 @@ width: 100%;
 
 #washingMachine-box pre{
     font-size: 5vw;
-    margin-bottom: 5vh;
+    margin-top: 2vh;
+    margin-bottom: 7vh;
 }
 
 #chimni-box p{
@@ -1094,16 +1151,18 @@ width: 100%;
 
 #chimni-box pre{
     font-size: 5vw;
+    margin-top: 1vh;
 }
 
 #mircowave-box p{
     font-size: 8vw;
     margin-right: 4vw;
+    
 }
 
 #mircowave-box pre{
     font-size: 4.5vw;
-    margin-bottom: 6vh;
+    margin-bottom: 7vh;
 }
 
 .read-more a{
@@ -1114,12 +1173,33 @@ width: 100%;
 }
 
 .read-more{
-    margin-top: -2vh;
+    margin-top: -5vh;
+}
+
+.welcome-text p{
+    font-size: 3vw;
+    text-align: center;
+    position: relative;
+    bottom: 95vh;
+    padding: 1vw;
+    margin: 2vw;
 }
 
 /* end page3 */
 
 /* page 4 */
+
+
+#page4 {
+height: 240vh;
+    width: 100%;
+    background-color: var(--background2);
+    position: relative;
+    bottom: 90vh;
+    overflow-y: hidden;
+}
+
+
 #page4 h4{
     font-size: 7vw;
     margin-top: -3vh;
@@ -1137,8 +1217,9 @@ width: 100%;
 }
 
 .card{
-    height: 70vh;
-    width: 90vw;   
+    height: 45vh;
+    width: 85vw;   
+    margin-left: -5vw;
 }
 
 .card:hover{
@@ -1148,77 +1229,86 @@ width: 100%;
 #card1 img{
     height:15vh;
     width: 30vw;
-    margin-left: 30vw;
+    margin-left: 27vw;
 }
 
 #card2 img{
     height:15vh;
     width: 30vw;
-    margin-left: 30vw;
+    margin-left: 27vw;
     
 }
 
 #card3 img{
     height:15vh;
     width: 30vw;
-    margin-left: 30vw;
+    margin-left: 27vw;
 }
 
 #card4 img{
     height:15vh;
     width: 30vw;
-    margin-left: 30vw;
+    margin-left: 27vw;
 }
 
 
-#card1 pre{
+#card1 p{
     text-wrap: wrap;
-    font-size: 3.5vw;
+    font-size: 2.5vw;
+    font-weight: normal;
     padding: 0 2vw;
+    margin-top: 2vh;
 }
 
 
 
-#card2 pre{
+#card2 p{
     text-wrap: wrap;
-    font-size: 3.5vw;
+    font-size: 2.5vw;
+    font-weight: normal;
     padding: 0 2vw;
+    margin-top: 2vh;
 }
 
-#card3 pre{
+#card3 p{
     text-wrap: wrap;
-    font-size: 3.5vw;
+    font-size: 2.5vw;
+    font-weight: normal;
     padding: 0 2vw;
+    margin-top: 2vh;
 }
 
-#card4 pre{
+#card4 p{
     text-wrap: wrap;
-    font-size: 3.5vw;
+    font-size: 2.5vw;
+    font-weight: normal;
     padding: 0 2vw;
+    margin-top: 2vh;
 }
 
 /* page4 part 2 start */
 .page4-part2{
-    height: 35vh;
+    height: 23vh;
     width: 100%;
+    position: relative;
+    bottom: 5vh;
 }
 
 .page4-part2 h6{
-    font-size: 7vw;
-    padding-top: 7vh;
-    margin-bottom: 1vh;
+    font-size: 4vw;
+    padding-top: 4vh;
 }
 
 .page4-part2 h5{
-    font-size: 6.5vw;
-    
+    font-size: 5vw;
+margin-bottom: 2vh;    
 }
 
 .page4-part2 a{
-    font-size: 6vw;
-    padding: 3vw 8vw;
-    margin-left:21vw;
-    margin-top: -5vh;
+    font-size: 4vw;
+    padding: 2vw 8vw;
+    margin-left:30vw;
+
 }
 
 /* page4 part 2 end */
@@ -1227,25 +1317,90 @@ width: 100%;
 
 /* page 5 start */
 
+
 #page5{
-    height: 40vh;
+    height: 50vh;
     width: 100%;
+    background-color: var(--background2);
+    margin-top: -92vh;
+    overflow-y: hidden;
 }
 
-.footer{
-    display: flex;
-    flex-direction: column;
-}
 
 .footer p{
-    font-size: 8vw;
-    margin-bottom: 5vh;
+    font-size: 7vw;
+    color: var(--background);
+    font-family: poppins;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 1vh;
+}
+
+.footer-part2{
+    display: flex;
+    justify-content: flex-start;    
+    margin-top: 4vh;
+    margin-left: 20vw;
+    gap: 20vw;
+}
+
+.footer-part2 a{
+    font-size: 5vw;
+    text-transform: capitalize;
 }
 
 .footer a{
-    font-size:4.5vw;
-    margin-right: 2vw;
+    text-decoration: none;
+    margin-right: 5vw;
+    text-transform: capitalize;
+    color:#B5E203;
+    font-family: poppins;
+}
 
+.service-part{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: relative;
+    margin-top: 3vh;
+    gap: 1vh;
+    margin-right: 40vw;
+}
+
+.service-part a{
+    color: #fff;
+    font-size: 3.5vw;
+
+}
+.service-part a:hover{
+    color:#676060;
+}
+
+
+.city-part{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: -22vh;
+    margin-right: 3vw;
+    gap: 1vh;
+}
+
+.city-part a{
+ color: #fff;   
+ font-size: 3.5vw;
+}
+
+.city-part a:hover{
+    color: #676060;
+}
+
+
+.copyright p{
+margin-top: 5vh;
+text-align: center;
+color: var(--background);
+font-size: 3.5vw;
 }
 
 /* page 5 end */

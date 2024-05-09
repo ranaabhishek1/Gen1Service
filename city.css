@@ -35,6 +35,12 @@ body {
 
 /* book service message */
 
+
+.book-service{
+    position: absolute;
+    z-index: 2;
+}
+
 .book-service a{
 background-color: orangered;
 font-size: 2vw;
@@ -45,6 +51,7 @@ font-weight: bold;
 text-align: center;
 position: fixed;
 text-decoration: none;
+
 }
 
 /* end book service message */
@@ -235,6 +242,11 @@ margin-left: 0vw;
 
 
 /* book service message */
+
+.book-service{
+    position: absolute;
+    z-index: 2;
+}
 
 .book-service a{
     font-size: 4vw;

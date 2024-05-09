@@ -201,7 +201,7 @@ margin-left: 23vw;
     font-family: poppins;
     margin-top: 5vh;
     margin-right: 3vw;
-    
+    text-wrap: balance;
 }
 
 /*  */
@@ -259,6 +259,7 @@ z-index: 1;
     text-align: center;
     font-size: 2.5vw;
     font-family: poppins;
+    text-wrap: balance;
 }
 
 #page2 p{
@@ -310,7 +311,7 @@ scale: 1.1;
 .ac-card h2{
     font-size: 1.7vw;
 text-align: center;
-
+text-wrap: balance;
 margin-top: 3vh;
 }
 
@@ -321,6 +322,7 @@ margin-top: 3vh;
 
 #ac-card2 h2{
 font-size: 1.7vw;
+text-wrap: balance;
 }
 
 
@@ -334,6 +336,7 @@ margin-right: 1vw;
 #ac-card3 h2{
     font-size: 1.7vw;
 margin-left: 1vw;
+text-wrap: balance;
 }
 
 #ac-card3 p{
@@ -414,6 +417,7 @@ background-color: var(--btnhover);
     color: #051145;
     font-size: 2.2vw;
     margin-bottom: 3vh;
+    text-wrap: balance;
 }
 
 #page3  p{
@@ -456,6 +460,7 @@ background-color: var(--btnhover);
     margin-top: -2vh;
     margin-bottom: 3vh;
     color: var(--text);
+    text-wrap: balance;
 }
 
 /* ++ */
@@ -481,7 +486,7 @@ background-color: var(--btnhover);
     margin-left: 3vw;
     margin-top: -2vh;
     margin-bottom: 3vh;
-
+    text-wrap: balance;
 }
 /* +++ */
 
@@ -521,7 +526,7 @@ background-color: var(--btnhover);
     margin-left: 3vw;
     margin-top: -2vh;
     margin-bottom: 3vh;
-
+    text-wrap: balance;
 }
 
 /* ++ */
@@ -551,7 +556,7 @@ background-color: var(--btnhover);
     margin-left: 3vw;
     margin-top: -2vh;
     margin-bottom: 3vh;
-
+    text-wrap: balance;
 }
 
 .content-part p{
@@ -591,10 +596,6 @@ background-color: var(--btnhover);
 /* end page4 */
 
 /* start page5 */
-
-
-
-
 
 .page4-part2 {
     height: 30vh;
@@ -641,9 +642,6 @@ background-color: var(--btnhover);
 }
 
 /* end page5 */
-
-
-
 
 /* start page7 */
 

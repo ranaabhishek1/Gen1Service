@@ -248,6 +248,7 @@ margin-left: 3vw;
     line-height: 9vw;
     margin-left: 5vw;
     margin-top: 2vh;
+    text-wrap: balance;
 }
 
 .page2-content p{
@@ -322,6 +323,7 @@ button {
     margin-left: 42vw;
     text-transform: capitalize;
     color: #B6BDC5;
+    text-wrap: balance;
 }
 
 #page3 p {
@@ -549,6 +551,7 @@ margin-top: 4vh;
     font-weight: 600;
     text-align: center;
     padding-top: 5vh;
+    text-wrap: balance; 
 }
 
 #page4 p {
@@ -754,6 +757,7 @@ margin-top: 4vh;
 .footer-part2 a{
     font-size: 1.8vw;
     text-transform: capitalize;
+    text-wrap: balance;
 }
 
 .footer a{
@@ -799,7 +803,7 @@ margin-top: 4vh;
 
 
 .copyright p{
-margin-top: 15vh;
+margin-top:3vh;
 text-align: center;
 color: var(--background);
 }
@@ -928,6 +932,7 @@ display: none;
     line-height: 9vw;
     margin-left: 9vw;
     margin-top: 1vh;
+    text-wrap: balance;
 }
 
 .page2-content p{
@@ -1024,6 +1029,7 @@ button {
     font-size: 12vw;
     margin-left: 17vw;
     margin-top: -5vh;
+    text-wrap: balance;
 }
 /* end page2 */
 
@@ -1039,6 +1045,7 @@ overflow-y: hidden;
 #page3 h3{
     font-size: 8vw;
     margin-left: 35vw;
+    text-wrap: balance;
 }
 
 #page3 p{
@@ -1295,13 +1302,13 @@ height: 240vh;
 }
 
 .page4-part2 h6{
-    font-size: 7vw;
+    font-size: 5vw;
     padding-top: 4vh;
 }
 
 .page4-part2 h5{
-    font-size: 6.5vw;
-margin-bottom: 3vh;    
+    font-size: 5vw;
+margin-bottom: 1.8vh;    
 }
 
 .page4-part2 a{
@@ -1339,7 +1346,7 @@ margin-bottom: 3vh;
 .footer-part2{
     display: flex;
     justify-content: flex-start;    
-    margin-top: 4vh;
+    margin-top: 3vh;
     margin-left: 20vw;
     gap: 20vw;
 }
@@ -1381,7 +1388,7 @@ margin-bottom: 3vh;
     display: flex;
     flex-direction: column;
     align-items: end;
-    margin-top: -22vh;
+    margin-top: -24vh;
     margin-right: 3vw;
     gap: 1vh;
 }
@@ -1397,7 +1404,7 @@ margin-bottom: 3vh;
 
 
 .copyright p{
-margin-top: 5vh;
+margin-top: 1vh;
 text-align: center;
 color: var(--background);
 font-size: 3.5vw;

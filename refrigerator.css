@@ -201,7 +201,8 @@ margin-left: 23vw;
     color: var(--text);
     font-family: poppins;
     margin-top: 5vh;
-    margin-right: 3vw;
+    margin-right: 0vw;
+    text-wrap: balance;
     
 }
 
@@ -260,6 +261,7 @@ z-index: 1;
     text-align: center;
     font-size: 2.5vw;
     font-family: poppins;
+    text-wrap: balance;
 }
 
 #page2 p{
@@ -310,7 +312,7 @@ scale: 1.1;
 .ac-card h2{
     font-size: 1.7vw;
 text-align: center;
-
+text-wrap: balance;
 margin-top: 3vh;
 }
 
@@ -423,6 +425,7 @@ background-color: var(--btnhover);
     color: #051145;
     font-size: 2.2vw;
     margin-bottom: 3vh;
+    text-wrap: balance;
 }
 
 #page3  p{
@@ -589,10 +592,6 @@ background-color: var(--btnhover);
 
 /* start page5 */
 
-
-
-
-
 .page4-part2 {
     height: 30vh;
     width: 100%;
@@ -719,9 +718,6 @@ color: var(--background);
 
 
 /* end page7 */
-
-
-
 
 /* responsive part */ 
 
@@ -868,6 +864,7 @@ display: none;
     text-align: center;
     font-size: 5.5vw;
     font-family: poppins;
+    text-wrap: balance;
 }
 
 #page2 p{
@@ -923,7 +920,7 @@ scale: 1.1;
 .ac-card h2{
     font-size: 3vw;
 text-align: center;
-
+text-wrap: balance;
 margin-top: 2vh;
 }
 
@@ -1064,6 +1061,7 @@ background-color: var(--btnhover);
     text-transform: capitalize;
     margin-bottom: 3vh;
     margin-top: -3vh;
+    text-wrap: balance;
 }
 
 #page3  p{
@@ -1105,6 +1103,7 @@ background-color: var(--btnhover);
     margin-top: -2vh;
     margin-bottom: 3vh;
     color: var(--text);
+    text-wrap: balance;
 }
 
 /* ++ */
@@ -1131,7 +1130,7 @@ background-color: var(--btnhover);
     margin-left: 3vw;
     margin-top: -2vh;
     margin-bottom: 3vh;
-
+    text-wrap: balance;
 }
 /* +++ */
 
@@ -1174,7 +1173,7 @@ background-color: var(--btnhover);
     margin-left: 3vw;
     margin-top: -2vh;
     margin-bottom: 3vh;
-
+    text-wrap: balance;
 }
 
 /* ++ */
@@ -1208,7 +1207,7 @@ background-color: var(--btnhover);
     margin-top: 1vh;
     text-align: center;
     margin-bottom: 3vh;
-
+    text-wrap: balance;
 }
 
 .content-part p{
