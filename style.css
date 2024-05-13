@@ -1356,6 +1356,10 @@ margin-bottom: 1.8vh;
     text-transform: capitalize;
 }
 
+.footer-part2 a:nth-child(2){
+    margin-top: -1vh;
+}
+
 .footer a{
     text-decoration: none;
     margin-right: 5vw;
@@ -1415,4 +1419,5 @@ font-size: 3.5vw;
 
 
 }
+
 
