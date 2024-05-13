@@ -241,12 +241,12 @@ margin-left: 3vw;
 
 
 .page2-content h1{
-    font-size: 7.5vw;
+    font-size: 6vw;
     color: #F7C566;
     text-shadow: 0 0 1rem #000;
     font-family: poppins;
-    line-height: 9vw;
-    margin-left: 5vw;
+    line-height: 100%;
+    margin-left: 4vw;
     margin-top: 2vh;
     text-wrap: balance;
 }
@@ -925,13 +925,13 @@ display: none;
 
 
 .page2-content h1{
-    font-size: 9vw;
+    font-size: 7vw;
     color: #F7C566;
     text-shadow: 0 0 1rem #000;
     font-family: poppins;
-    line-height: 9vw;
-    margin-left: 9vw;
-    margin-top: 1vh;
+    line-height: 100%;
+    margin-left: 8vw;
+    margin-top: -4vh;
     text-wrap: balance;
 }
 
