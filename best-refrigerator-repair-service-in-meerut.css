@@ -628,6 +628,37 @@ background-color: var(--btnhover);
 
 /* ++ */
 
+
+
+#page4 h2{
+    font-size: 1.1vw;
+    font-family: poppins;
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+    text-wrap: balance;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 0.5vw;
+    font-size: 0.9vw;
+    text-align: center;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #97debd;
+  }
+
+
 /* end page4 */
 
 /* start page5 */
@@ -1307,6 +1338,21 @@ background-color: var(--btnhover);
 
 /* ++ */
 
+
+#page4 h2{
+    font-size: 5vw;
+    text-wrap: balance;
+}
+
+td,th{
+    font-size: 1.5vw;
+    text-wrap: balance;
+    text-align: center  ;
+}
+
+
+
+
 /* end page4 */
 
 
@@ -1474,3 +1520,4 @@ font-size: 3.5vw;
 
 
 }
+
