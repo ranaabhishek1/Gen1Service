@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gen1Service</title>
+    <title>Gen1 Service | Best Home Appliances Repair Service Book Now </title>
     <link rel="shortcut icon" href="favicon/gen1service logo.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet">
     
@@ -60,73 +60,85 @@
     " method="POST" id="form">
 
         <div class="form-heading">
-            <p>Fill Your Form </p>
+            <p>Get in Touch  </p>
         </div>
 
       <label for="fullName">Full Name:</label>
-      <input type="text" id="fullName"  class="input" name="name" required placeholder="Enter Your Full Name"><br><br>
+      <input type="text" id="fullName"  class="input" name="name" required placeholder="Enter Your Full Name"><br>
       
       <label for="basicDetails">Contact Number:</label>
-      <input type="tel" id="basicDetails" name="name" required class="input" pattern="[0-9]{10}" placeholder="Enter Your Contact Number"><br><br>
+      <input type="tel" id="basicDetails" name="name" required class="input" pattern="[0-9]{10}" placeholder="Enter Your Contact Number"><br>
       
       <label for="email">Your Email:</label>
-      <input type="email" id="email" name="name" required class="input"  placeholder="Enter Your Email"><br><br>
+      <input type="email" id="email" name="name" required class="input"  placeholder="Enter Your Email"><br>
       
       <label for="category">Select Service Product:</label>
       <select id="AC" name="Air Condidtinor">
       
-        <option value="refrigerator">Refrigerator</option>
-            <option value="ac">Ac</option>
-            <option value="tv">Tv</option>
-            <option value="washing machine">washing Machine</option>
-            <option value="chimney">Chimney</option>    
-            <option value="mircowave">Microwave</option>
-            
-      </select><br><br>
-      
-      <label for="state">Select State:</label>
-      <select>
+        <option value="refrigerator">REFRIGERATOR</option>
+            <option value="ac">AC | AIR CONDIDTINOR</option>
+            <option value="tv">LED/LCD/TV</option>
+            <option value="washing machine">WASHING MACHINE</option>
+            <option value="chimney">KITCHEN CHIMNEY</option>    
+            <option value="mircowave">MICROWAVE OVEN </option>
+            <option value="camera">CCTV CAMERA</option>    
+            <option value="laptop">LAPTOP</option>
 
-        <option value="uttar pradesh">Uttar Pradesh </option>
-        <option value="bihar">Bihar </option>
-        <option value="haryana">Haryana</option>
-        <option value="punjab">Punjab</option>
+            
+      </select><br>
     
-      
-        
-        <!-- options will go here -->
-      </select><br><br>
-      
-      <label for="city">Select City:</label>
-      <select id="city" name="city">
+    
+<label for="city">Select Your Location </label>
+<select id="city" onchange="populateAreas()">
+  <option value="none">My City is </option>
+  <option value="mzn">Muzaffarnagar</option>
+  <option value="meerut">Meerut</option>
+  <option value="delhi">Delhi</option>
+  <option value="ghaziabad">Ghaziabad</option>
+  <option value="gurgaon">Gurgaon</option>
+  <option value="greater noida">Greater Noida</option>
+  <option value="noida">Noida</option>
+  <option value="faridabad">Faridabad</option>
+  
+  <!-- Add more city options as needed -->
+</select>
 
-            <option value="delhi">Delhi</option>
-            <option value="faridabad">Faridabad</option>
-            <option value="ghaziabad">Ghaziabad</option>
-            <option value="gurgaon">Gurgaon</option>
-            <option value="greater noida">Greater Noida</option>    
-            <option value="noida">Noida</option>
-            
+<br> 
+
+<div id="areaContainer" style="display: none;">
+  <label for="area">Select Your area:</label>
+  <select id="area" onchange="populateVillages()">
+    <!-- Area options will be populated dynamically based on the selected city -->
+  </select>
+</div>
+
+
+<div id="villageContainer" style="display: none;">
+  <label for="village">Select your village name:</label>
+  <select id="village">
+    <!-- Village options will be populated dynamically based on the selected area -->
+  </select>
+</div>
+ 
+      <div> 
+
         
-      </select><br><br>
-      
      
-      <label for="address">Address:</label>
-      <textarea id="address" class="input" name="address" placeholder="Enter Your Address"></textarea><br><br>
-      
-      <div>
-        <input type="checkbox" id="notARobot" name="notARobot">
-        <label for="notARobot">I'm not a robot</label>
-      </div><br>
-      
       <input type="submit" class="submit" value="Submit">
     </form>
     
-    
-
-            
 
         </div> <!-- end page1 -->
+
+<!--  -->
+
+<!--  -->
+
+
+
+
+
+
     </div> <!--end main-->
 
 <script src="contact.js"></script>
