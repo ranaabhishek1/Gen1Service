@@ -56,8 +56,7 @@
                 <a href="brand.html">brand</a>
             </div> <!--navbar-mobile-->
     
-    <form action="https://formsubmit.co/gen1servicecenter@gmail.com
-    " method="POST" id="form">
+    <form action="https://formspree.io/f/mbjnbvdy" method="POST" id="form">
 
         <div class="form-heading">
             <p>Get in Touch  </p>
@@ -67,60 +66,32 @@
       <input type="text" id="fullName"  class="input" name="name" required placeholder="Enter Your Full Name"><br>
       
       <label for="basicDetails">Contact Number:</label>
-      <input type="tel" id="basicDetails" name="name" required class="input" pattern="[0-9]{10}" placeholder="Enter Your Contact Number"><br>
+      <input type="tel" id="basicDetails" name="phone number" required class="input" pattern="[0-9]{10}" placeholder="Enter Your Contact Number"><br>
       
       <label for="email">Your Email:</label>
-      <input type="email" id="email" name="name" required class="input"  placeholder="Enter Your Email"><br>
+      <input type="email" id="email" name="email" required class="input"  placeholder="Enter Your Email"><br> <br>
       
-      <label for="category">Select Service Product:</label>
-      <select id="AC" name="Air Condidtinor">
+
       
-        <option value="refrigerator">REFRIGERATOR</option>
-            <option value="ac">AC | AIR CONDIDTINOR</option>
-            <option value="tv">LED/LCD/TV</option>
-            <option value="washing machine">WASHING MACHINE</option>
-            <option value="chimney">KITCHEN CHIMNEY</option>    
-            <option value="mircowave">MICROWAVE OVEN </option>
-            <option value="camera">CCTV CAMERA</option>    
-            <option value="laptop">LAPTOP</option>
+      <label for="sports">Select your favorite sports:</label><br> <br>
+        
+      <input type="checkbox" id="soccer" name="sports" value="Soccer">
+      <label for="soccer"> Soccer</label> 
+      
+      <input type="checkbox" id="basketball" name="sports" value="Basketball">
+      <label for="basketball"> Basketball</label>
+      
+      <input type="checkbox" id="baseball" name="sports" value="Baseball">
+      <label for="baseball"> Baseball</label> <br>
+      
+      <input type="checkbox" id="tennis" name="sports" value="Tennis">
+      <label for="tennis"> Tennis</label>
+      
+      <input type="checkbox" id="swimming" name="sports" value="Swimming">
+      <label for="swimming"> Swimming</label>
+      
+      
 
-            
-      </select><br>
-    
-    
-<label for="city">Select Your Location </label>
-<select id="city" onchange="populateAreas()">
-  <option value="none">My City is </option>
-  <option value="mzn">Muzaffarnagar</option>
-  <option value="meerut">Meerut</option>
-  <option value="delhi">Delhi</option>
-  <option value="ghaziabad">Ghaziabad</option>
-  <option value="gurgaon">Gurgaon</option>
-  <option value="greater noida">Greater Noida</option>
-  <option value="noida">Noida</option>
-  <option value="faridabad">Faridabad</option>
-  
-  <!-- Add more city options as needed -->
-</select>
-
-<br> 
-
-<div id="areaContainer" style="display: none;">
-  <label for="area">Select Your area:</label>
-  <select id="area" onchange="populateVillages()">
-    <!-- Area options will be populated dynamically based on the selected city -->
-  </select>
-</div>
-
-
-<div id="villageContainer" style="display: none;">
-  <label for="village">Select your village name:</label>
-  <select id="village">
-    <!-- Village options will be populated dynamically based on the selected area -->
-  </select>
-</div>
- 
-      <div> 
 
         
      
@@ -130,17 +101,69 @@
 
         </div> <!-- end page1 -->
 
-<!--  -->
-
-<!--  -->
-
-
-
-
-
-
     </div> <!--end main-->
 
 <script src="contact.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+<!--  -->
+<!-- 
+<label for="category">Select Service Product:</label>
+<select id="AC" name="service Product">
+
+  <option value="refrigerator" name="refrigerator">REFRIGERATOR</option>
+      <option value="ac" name="ac">AC | AIR CONDIDTINOR</option>
+      <option value="tv" name="led/lcd/tv">LED/LCD/TV</option>
+      <option value="washing machine" name="washing machine">WASHING MACHINE</option>
+      <option value="chimney" name="kitchen chimney">KITCHEN CHIMNEY</option>    
+      <option value="mircowave" name="mircowave oven">MICROWAVE OVEN </option>
+      <option value="camera" name="cctv camera">CCTV CAMERA</option>    
+      <option value="laptop" name="laptop">LAPTOP</option>
+
+      
+</select><br>
+
+
+<label for="city" name="location">Select Your Location </label>
+<select id="city" onchange="populateAreas()">
+<option value="none" name="city">My City is </option>
+<option value="mzn" name="Muzaffarnagar">Muzaffarnagar</option>
+<option value="meerut" name="meerut">Meerut</option>
+<option value="delhi" name="delhi">Delhi</option>
+<option value="ghaziabad" name="ghaziabad">Ghaziabad</option>
+<option value="gurgaon" name="gurgaon">Gurgaon</option>
+<option value="greater noida" name="greater noida">Greater Noida</option>
+<option value="noida" name="noida">Noida</option>
+<option value="faridabad" name="faridabad">Faridabad</option>
+
+</select>
+
+<br> 
+
+<div id="areaContainer" style="display: none;">
+<label for="area">Select Your area:</label>
+<select id="area" onchange="populateVillages()">
+
+</select>
+</div>
+
+
+<div id="villageContainer" style="display: none;">
+<label for="village">Select your village name:</label>
+<select id="village">
+
+</select>
+</div>
+
+<div> 
+ -->
