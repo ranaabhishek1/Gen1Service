@@ -1484,8 +1484,8 @@ font-size: 3.5vw;
 
 
 /* START  RESPONSIVE FOR LARGE DESKTOP SCREEN SIZES ✅ */
-
-@media (max-width:1920px){
+ 
+@media (min-width:1300px){
 
 
     .nav-left a {
@@ -1538,9 +1538,7 @@ font-size: 3.5vw;
     margin-left: 22vw;
 }
 
-/* end page1 */
 
-/* page 2 start from here */
 
 #page2 {
     height: 100vh;
@@ -1587,12 +1585,9 @@ font-size: 3.5vw;
 
 
 
-/* end page2 */
-
-/* page 3 start from here */
 
 #page3 {
-    height: 300vh;
+    height: 245vh;
     width: 100%;
     background-color: var(--background);
     padding-top: 3vh;    
@@ -1623,15 +1618,13 @@ font-size: 3.5vw;
     justify-content: center;
     gap: 4vw;
     padding-top: 4vh;
-
-    
 }
 
 .box {
-    height: 78vh;
+    height: 65vh;
     width: 28vw;
     background-color:#E2E8EF;
-    border-radius: 8px;
+    border-radius: 10px;
     transition: all linear 0.3s;
     cursor: pointer;
 }
@@ -1640,58 +1633,53 @@ font-size: 3.5vw;
     scale: 1.1;
 }
 
-
-
-/* all the box images available here */
-
-
 #refrigerator-box img{
-    height: 35vh;
-    width: 75%;
+    height: 30vh;
+    width: 85%;
     margin-top: 4vh;
-    margin-left: 4vw;
-    border-radius: 5px;
+    margin-left: 2vw;
+    border-radius: 8px;
 }
 
 #ac-box img{
-    height: 35.5vh;
-    width: 75%;
+    height: 30vh;
+    width: 85%;
     margin-top: 4vh;
-    margin-left: 4vw;
-    border-radius: 5px;
+    margin-left: 2vw;
+    border-radius: 8px;
 }
 
 #tv-box img{
-height: 35vh;
-width: 75%;
-    margin-left: 4vw;
+    height: 30vh;
+    width: 85%;
+    margin-left: 2vw;
 margin-top: 4vh;
-border-radius: 5px;
+border-radius: 8px;
 }
 
 #washingMachine-box img{
-    height: 35vh;
-    width: 75%;
+    height: 30vh;
+    width: 85%;
     margin-top: 3vh;
-    margin-left: 4vw;
+    margin-left: 2vw;
     margin-top: 3vh;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 #chimni-box img{
-    height: 35vh;
-    width: 75%;
+    height: 30vh;
+    width: 85%;
     margin-top: 5vh;
-    margin-left: 4vw;
-    border-radius: 5px;
+    margin-left: 2vw;
+    border-radius: 8px;
 }
 
 #mircowave-box img{
-    height: 35vh;
-    width: 75%;
+    height: 30vh;
+    width: 85%;
 margin-top: 4vh;
-    margin-left: 4vw;
-    border-radius: 5px;
+    margin-left: 2vw;
+    border-radius: 8px;
 }
 
 #refrigerator-box p{
@@ -1796,7 +1784,7 @@ margin-top: 4vh;
     font-family: poppins;
     font-weight: 600;
     margin-left: 8vw;
- border-radius: 5px;   
+ border-radius: 8px;   
 }
 
 .read-more a:hover{
@@ -1810,14 +1798,14 @@ margin-top: 4vh;
     position: relative;
     bottom: 5vh;
     padding: 1vw;
-}
+} 
 
 
 /* end page 3 */
 
 /* start page4 */
 
-#page4 {
+ #page4 {
     min-height: 100vh;
     width: 100%;
     background-color: var(--background2);
@@ -1847,15 +1835,15 @@ margin-top: 4vh;
     display: flex;
     flex-wrap: wrap;
     gap: 4vw;
-    margin-left: 13vw;
+    margin-left: 11vw;
     margin-top: 5vh;
 }
 
 .card {
-    height: 70vh;
-    width: 35vw;
+    height: 62vh;
+    width: 38vw;
     background-color: #FFFFFF;
-    border-radius: 8px;
+    border-radius: 10px;
     cursor: pointer;
     transition: all linear 0.3s;
 }
@@ -1868,7 +1856,7 @@ margin-top: 4vh;
 
 #card1 img{
     height: 20vh;
-    width: 9vw;
+    width: 12vw;
     border-radius: 50%;
     margin-left: 13vw;
     margin-top: 5vh;
@@ -1876,7 +1864,7 @@ margin-top: 4vh;
 
 #card2 img{
     height: 20vh;
-    width: 9vw;
+    width: 12vw;
     border-radius: 50%;
     margin-left: 13vw;
     margin-top: 5vh;
@@ -1884,7 +1872,7 @@ margin-top: 4vh;
 
 #card3 img{
     height: 20vh;
-    width: 9vw;
+    width: 12vw;
     border-radius: 50%;
     margin-left: 13vw;
     margin-top: 5vh;
@@ -1892,7 +1880,7 @@ margin-top: 4vh;
 
 #card4 img{
     height: 20vh;
-    width: 9vw;
+    width: 12vw;
     border-radius: 50%;
     margin-left: 13vw;
     margin-top: 5vh;
@@ -1903,6 +1891,7 @@ margin-top: 4vh;
     margin-top: 2vh;
     color: var(--text);
     font-family: poppins;
+    font-size: 2vw;
 }
 
 
@@ -1911,6 +1900,7 @@ margin-top: 4vh;
     margin-top: 3vh;
     color: var(--text);
     font-family: poppins;
+    font-size: 2vw;
 }
 
 
@@ -1919,6 +1909,7 @@ margin-top: 4vh;
     margin-top: 3vh;
     color: var(--text);
     font-family: poppins;
+    font-size: 2vw;
 }
 
 
@@ -1927,21 +1918,23 @@ margin-top: 4vh;
     margin-top: 3vh;
     color: var(--text);
     font-family: poppins;
+    font-size: 2vw;
 }
 
 #card1 p{
     margin-top: 5vh;
     margin-left: 3vw;
-    font-size: 1vw;
+    font-size: 1.1vw;
     margin-right: 2vw;
     color: var(--text2);
+
 }
 
 
 #card2 p{
     margin-top: 5vh;
     margin-left: 3vw;
-    font-size: 1vw;
+    font-size: 1.1vw;
     margin-right: 2vw;
     color: var(--text2);
     
@@ -1951,7 +1944,7 @@ margin-top: 4vh;
 #card3 p{
     margin-top: 5vh;
     margin-left: 3vw;
-    font-size: 1vw;
+    font-size: 1.1vw;
     margin-right: 2vw;
     color: var(--text2);
 }
@@ -1960,13 +1953,13 @@ margin-top: 4vh;
 #card4 p{
     margin-top: 5vh;
     margin-left: 3vw;
-    font-size: 1vw;
+    font-size: 1.1vw;
     margin-right: 2vw;
     color: var(--text2);
 }
 
 .page4-part2 {
-    height: 40vh;
+    height: 30vh;
     width: 100%;
     background-color: var(--background);
     margin-top: 10vh;
@@ -2009,15 +2002,13 @@ margin-top: 4vh;
     background-color: var(--btnhover);
     transition: all linear 0.3s;
 }
-
-/* end page 4 */
+ */
 
 #page5{
-    height: 67vh;
+    height: 60vh;
     width: 100%;
     background-color: var(--background2);
 }
-
 
 .footer p{
     font-size: 4vw;
@@ -2054,7 +2045,7 @@ margin-top: 4vh;
     display: flex;
     justify-content: flex-end;    
     align-items: center;
-    margin-top: -25vh;
+    margin-top: -15vh;
     gap: 2vw;
 }
 
@@ -2095,7 +2086,7 @@ margin-top: 4vh;
     display: flex;
     flex-direction: column;
     align-items: end;
-    margin-top: -36vh;
+    margin-top: -27vh;
     gap: 1vh;
 }
 
@@ -2119,5 +2110,4 @@ color: var(--background);
 
 
 
-}
-/* END RESPONSIVE FOR LARGE DESKTOP SCREEN SIZES  */
+} 
