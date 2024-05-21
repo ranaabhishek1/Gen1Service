@@ -311,7 +311,7 @@ button {
 /* page 3 start from here */
 
 #page3 {
-    height: 220vh;
+    height: 310vh;
     width: 100%;
     background-color: var(--background);
     padding-top: 3vh;    
@@ -1061,7 +1061,7 @@ button {
 
 /* page3 */
 #page3{
-    height: 438vh;
+    height: 620vh;
 width: 100%;
 position: relative;
 bottom: 45vh;
@@ -1483,3 +1483,641 @@ font-size: 3.5vw;
 }
 
 
+/* START  RESPONSIVE FOR LARGE DESKTOP SCREEN SIZES ✅ */
+
+@media (max-width:1920px){
+
+
+    .nav-left a {
+        font-size: 3vw;
+        margin-left: 3vw;
+    }
+
+.nav-center{
+    margin-left: 13vw;
+}
+
+    .nav-center a {
+        font-size: 1.7vw;
+    }
+
+    .nav-right {
+        font-size: 1.2vw;
+        padding: 1vw 2.5vw;
+        border-radius: 2vw;
+        margin-left: 11vw;
+    }
+
+    .nav-right2{
+        font-size: 1.2vw;
+        padding: 1vw 2.5vw;
+        border-radius: 2vw;
+        margin-left: -1vw;
+    }
+
+
+ 
+#page1 {
+    height: 100vh;
+    width: 100%;
+    
+    position: absolute;
+    z-index: 3;
+    
+}
+
+.page1-content {
+    position: relative;
+    margin-top: 17vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.page1-content a{
+    font-size: 1.3vw;
+    margin-left: 22vw;
+}
+
+/* end page1 */
+
+/* page 2 start from here */
+
+#page2 {
+    height: 100vh;
+    width: 100%;
+
+}
+
+
+.page2-content{
+    position: absolute;
+    z-index: 1;
+    top: 30vh;
+    left: 17vw;
+}
+
+
+.page2-content h1{
+    font-size: 5vw;
+    color: #fceb06;
+    text-shadow: 0 0 1rem #000000;
+    font-family: poppins;
+    line-height: 100%;
+    margin-left: 6vw;
+    margin-top:0vh;
+    text-wrap: balance;
+}
+
+.page2-content p{
+    font-size: 2vw;
+    font-family: poppins;
+    margin-top:3vh;
+    margin-left: 20vw;
+    text-shadow: 0 0 0.5rem #000;
+    color: rgb(247, 185, 41);
+}
+
+.slider-container {
+    position: relative;
+    max-width: 2000px;
+    margin: auto;
+    padding-top: 5vh;
+    filter: blur(2px);
+}
+
+
+
+/* end page2 */
+
+/* page 3 start from here */
+
+#page3 {
+    height: 300vh;
+    width: 100%;
+    background-color: var(--background);
+    padding-top: 3vh;    
+}
+
+#page3 h3 {
+    font-size: 2.5vw;
+    padding-top: 6vh;
+    margin-left: 42vw;
+    text-transform: capitalize;
+    color: #B6BDC5;
+    text-wrap: balance;
+}
+
+#page3 p {
+    font-size: 5vw;
+    margin-left: 22vw;
+    text-transform: capitalize;
+    font-family: poppins;
+    color: #232323;
+    font-weight: 800;
+}
+
+.services-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+    padding-top: 4vh;
+
+    
+}
+
+.box {
+    height: 78vh;
+    width: 28vw;
+    background-color:#E2E8EF;
+    border-radius: 8px;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
+
+.box:hover{
+    scale: 1.1;
+}
+
+
+
+/* all the box images available here */
+
+
+#refrigerator-box img{
+    height: 35vh;
+    width: 75%;
+    margin-top: 4vh;
+    margin-left: 4vw;
+    border-radius: 5px;
+}
+
+#ac-box img{
+    height: 35.5vh;
+    width: 75%;
+    margin-top: 4vh;
+    margin-left: 4vw;
+    border-radius: 5px;
+}
+
+#tv-box img{
+height: 35vh;
+width: 75%;
+    margin-left: 4vw;
+margin-top: 4vh;
+border-radius: 5px;
+}
+
+#washingMachine-box img{
+    height: 35vh;
+    width: 75%;
+    margin-top: 3vh;
+    margin-left: 4vw;
+    margin-top: 3vh;
+    border-radius: 5px;
+}
+
+#chimni-box img{
+    height: 35vh;
+    width: 75%;
+    margin-top: 5vh;
+    margin-left: 4vw;
+    border-radius: 5px;
+}
+
+#mircowave-box img{
+    height: 35vh;
+    width: 75%;
+margin-top: 4vh;
+    margin-left: 4vw;
+    border-radius: 5px;
+}
+
+#refrigerator-box p{
+    font-size: 2vw;
+    text-align: center;
+    margin-left: -1vw;
+    margin-top: 4vh;
+    color: var(--text);
+    border-radius: 5px;
+}
+#refrigerator-box pre{
+    font-size: 1.3vw;
+    margin-top: 3vh;
+    text-align: center;
+    margin-bottom: 6vh;
+    border-radius: 5px;
+}
+
+
+#ac-box p{
+    font-size: 2vw;
+    text-align: center;
+    margin-left: -1vw;
+    margin-top: 3.5vh;
+    color: var(--text);
+}
+#ac-box pre{
+    font-size: 1.3vw;
+    margin-top: 3vh;
+    text-align: center;
+    margin-bottom: 7vh;
+}
+
+#tv-box p{
+    font-size: 2vw;
+    text-align: center;
+    margin-left: -1vw;
+    margin-top: 4vh;
+    color: var(--text);
+}
+#tv-box pre{
+    font-size: 1.3vw;
+    margin-top: 3vh;
+    text-align: center;
+    margin-bottom: 7vh;
+}
+
+#washingMachine-box p{
+    font-size: 1.8vw;
+    text-align: center;
+    margin-left: -1vw;
+    margin-top: 4vh;
+    color: var(--text);
+}
+#washingMachine-box pre{
+    font-size: 1.3vw;
+    margin-top: 3vh;
+    text-align: center;
+    margin-bottom: 7vh;
+}
+
+
+#chimni-box p{
+    font-size: 2vw;
+    text-align: center;
+    margin-left: -1vw;
+    margin-top: 2vh;
+    color: var(--text);
+}
+#chimni-box pre{
+    font-size: 1.3vw;
+    margin-top: 3vh;
+    text-align: center;
+    margin-bottom: 11vh;
+}
+
+
+#mircowave-box p{
+    font-size: 2vw;
+    text-align: center;
+    margin-left: -1vw;
+    margin-top: 2vh;
+    color: var(--text);
+}
+#mircowave-box pre{
+    font-size: 1.3vw;
+    margin-top: 3vh;
+    text-align: center;
+    margin-bottom: 9vh;
+}
+
+.read-more{
+    margin-top: -2vh;
+}
+
+.read-more a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: var(--btn);
+    color: var(--background);
+    padding: 1vw 2.5vw;
+    font-family: poppins;
+    font-weight: 600;
+    margin-left: 8vw;
+ border-radius: 5px;   
+}
+
+.read-more a:hover{
+    background-color: var(--btnhover);
+    transition: all linear 0.5s;
+}
+
+.welcome-text p{
+    font-size: 1.4vw;
+    text-align: center;
+    position: relative;
+    bottom: 5vh;
+    padding: 1vw;
+}
+
+
+/* end page 3 */
+
+/* start page4 */
+
+#page4 {
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--background2);
+    padding-bottom: 10vh;
+}
+
+#page4 h4 {
+    color: #B6BDC5;
+    text-transform: capitalize;
+    font-size: 2vw;
+    font-family: poppins;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 5vh;
+    text-wrap: balance; 
+}
+
+#page4 p {
+    color: #B5E203;
+    font-size: 4vw;
+    font-family: poppins;
+    font-weight: 800;
+    text-align: center;
+}
+
+.page4-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4vw;
+    margin-left: 13vw;
+    margin-top: 5vh;
+}
+
+.card {
+    height: 70vh;
+    width: 35vw;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+
+.card:hover{
+    scale: 1.05;
+}
+
+
+
+#card1 img{
+    height: 20vh;
+    width: 9vw;
+    border-radius: 50%;
+    margin-left: 13vw;
+    margin-top: 5vh;
+}
+
+#card2 img{
+    height: 20vh;
+    width: 9vw;
+    border-radius: 50%;
+    margin-left: 13vw;
+    margin-top: 5vh;
+}
+
+#card3 img{
+    height: 20vh;
+    width: 9vw;
+    border-radius: 50%;
+    margin-left: 13vw;
+    margin-top: 5vh;
+}
+
+#card4 img{
+    height: 20vh;
+    width: 9vw;
+    border-radius: 50%;
+    margin-left: 13vw;
+    margin-top: 5vh;
+}
+
+#card1 h2{
+    text-align: center;
+    margin-top: 2vh;
+    color: var(--text);
+    font-family: poppins;
+}
+
+
+#card2 h2{
+    text-align: center;
+    margin-top: 3vh;
+    color: var(--text);
+    font-family: poppins;
+}
+
+
+#card3 h2{
+    text-align: center;
+    margin-top: 3vh;
+    color: var(--text);
+    font-family: poppins;
+}
+
+
+#card4 h2{
+    text-align: center;
+    margin-top: 3vh;
+    color: var(--text);
+    font-family: poppins;
+}
+
+#card1 p{
+    margin-top: 5vh;
+    margin-left: 3vw;
+    font-size: 1vw;
+    margin-right: 2vw;
+    color: var(--text2);
+}
+
+
+#card2 p{
+    margin-top: 5vh;
+    margin-left: 3vw;
+    font-size: 1vw;
+    margin-right: 2vw;
+    color: var(--text2);
+    
+}
+
+
+#card3 p{
+    margin-top: 5vh;
+    margin-left: 3vw;
+    font-size: 1vw;
+    margin-right: 2vw;
+    color: var(--text2);
+}
+
+
+#card4 p{
+    margin-top: 5vh;
+    margin-left: 3vw;
+    font-size: 1vw;
+    margin-right: 2vw;
+    color: var(--text2);
+}
+
+.page4-part2 {
+    height: 40vh;
+    width: 100%;
+    background-color: var(--background);
+    margin-top: 10vh;
+
+}
+
+.page4-part2 h6 {
+    font-size: 2vw;
+    color: #000;
+    text-transform: capitalize;
+    padding-top: 5vh;
+    text-align: center;
+    font-weight: 700;
+    font-family: poppins;
+}
+
+.page4-part2 h5 {
+    font-size: 2.5vw;
+    text-align: center;
+    font-weight: 700;
+    font-family: poppins;
+    color: var(--text);
+    margin-bottom: 5vh;
+}
+
+.page4-part2 a {
+    font-size: 1.4vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: var(--btn);
+    padding: 1vw 2vw;
+    border-radius: 2vw;
+    text-decoration: none;
+    color: var(--background);
+    font-family: poppins;
+    margin-left: 45vw;
+}
+
+.page4-part2 a:hover{
+    background-color: var(--btnhover);
+    transition: all linear 0.3s;
+}
+
+/* end page 4 */
+
+#page5{
+    height: 67vh;
+    width: 100%;
+    background-color: var(--background2);
+}
+
+
+.footer p{
+    font-size: 4vw;
+    color: var(--background);
+    font-family: poppins;
+    text-transform: capitalize;
+    margin-left: 3vw;
+}
+
+
+.footer h6{
+    color: var(--background);
+    font-weight: normal;
+    font-size: 1.2vw;
+    margin-left: 3vw;
+    margin-top: 3vh;
+}
+
+.footer-icons{
+ position: relative;
+ top: 8vh;
+ margin-left: 10vw;
+
+}
+
+
+.footer i{
+    color: var(--background);
+    font-size: 2vw;
+ margin-left: -3vw;   
+}
+
+.footer-part2{
+    display: flex;
+    justify-content: flex-end;    
+    align-items: center;
+    margin-top: -25vh;
+    gap: 2vw;
+}
+
+.footer-part2 a{
+    font-size: 1.8vw;
+    text-transform: capitalize;
+    text-wrap: balance;
+}
+
+.footer a{
+    text-decoration: none;
+    margin-right: 5vw;
+    text-transform: capitalize;
+    color:#B5E203;
+    font-family: poppins;
+}
+
+.service-part{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 13vw;
+    margin-top: 3vh;
+    gap: 2vh;
+}
+
+.service-part a{
+    color: #fff;
+    font-size: 1.2vw;
+
+}
+.service-part a:hover{
+    color:#676060;
+}
+
+
+.city-part{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: -36vh;
+    gap: 1vh;
+}
+
+.city-part a{
+ color: #fff;   
+ font-size: 1.2vw;
+}
+
+.city-part a:hover{
+    color: #676060;
+}
+
+
+.copyright p{
+margin-top:10vh;
+text-align: center;
+color: var(--background);
+}
+
+
+
+
+
+}
+/* END RESPONSIVE FOR LARGE DESKTOP SCREEN SIZES  */
