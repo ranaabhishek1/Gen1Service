@@ -243,8 +243,8 @@ margin-left: 15vw;
 }
 
 .card{
-    height: 25vh;
-    width: 12vw;
+    height: 20vh;
+    width: 10vw;
     background-color: var(--background);
     border-radius: 1vw;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -258,12 +258,12 @@ margin-left: 15vw;
 .card img{
     position: absolute;
     height: 5vh;
-    margin-top: 5vh;
+    margin-top: 4vh;
     margin-left: 2vw;
 }
 
 .card>p{
-    margin-top: 17vh;
+    margin-top: 13vh;
     font-family: poppins;
     font-family: pro;
     font-size: 1.4vw;

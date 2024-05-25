@@ -1414,6 +1414,7 @@ margin-bottom: 1.8vh;
     font-size: 5vw;
     text-transform: capitalize;
     font-size: 4vw;
+    margin-left: 22vw;
 }
 
 
@@ -1423,11 +1424,7 @@ display: none;
 
 
 .footer-part2 a:nth-child(3){
-    margin-left: 11vw;
-}
-
-.footer-part2 a:nth-child(4){
-    margin-left: 17vw;
+    margin-left: 19vw;
 }
 
 
@@ -1446,7 +1443,7 @@ display: none;
     position: relative;
     margin-top: 2vh;
     gap: 1vh;
-    margin-right: 35vw;
+    margin-right: 40vw;
 }
 
 .service-part a{
