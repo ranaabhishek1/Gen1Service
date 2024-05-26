@@ -741,18 +741,15 @@ margin-top: 4vh;
 /* end page 4 */
 
 #page5{
-    height: 64vh;
+    height: 73vh;
     width: 100%;
     background-color: var(--background2);
 }
 
-
-.footer p{
-    font-size: 4vw;
-    color: var(--background);
-    font-family: poppins;
-    text-transform: capitalize;
-    margin-left: 3vw;
+.footer img{
+    height: 30vh;
+    width: 48vh;
+    margin-top: -13vh;
 }
 
 
@@ -761,12 +758,12 @@ margin-top: 4vh;
     font-weight: normal;
     font-size: 1.2vw;
     margin-left: 3vw;
-    margin-top: 3vh;
+    
 }
 
 .footer-icons{
  position: relative;
- top: 8vh;
+ top: 4vh;
  margin-left: 10vw;
 
 }
@@ -775,14 +772,14 @@ margin-top: 4vh;
 .footer i{
     color: var(--background);
     font-size: 2vw;
- margin-left: -3vw;   
+ margin-left: -4vw;   
 }
 
 .footer-part2{
     display: flex;
     justify-content: flex-end;    
     align-items: center;
-    margin-top: -25vh;
+    margin-top: -32vh;
     gap: 2vw;
 }
 
@@ -823,7 +820,7 @@ margin-top: 4vh;
     display: flex;
     flex-direction: column;
     align-items: end;
-    margin-top: -36vh;
+    margin-top: -53vh;
     gap: 1vh;
 }
 
@@ -838,7 +835,7 @@ margin-top: 4vh;
 
 
 .copyright p{
-margin-top:10vh;
+margin-top:22vh;
 text-align: center;
 color: var(--background);
 }
@@ -1233,7 +1230,7 @@ overflow-y: hidden;
 
 
 #page4 {
-height: 240vh;
+height: 235vh;
     width: 100%;
     background-color: var(--background2);
     position: relative;
@@ -1361,35 +1358,36 @@ margin-bottom: 1.8vh;
 
 
 #page5{
-    height: 65vh;
+    height: 75vh;
     width: 100%;
     background-color: var(--background2);
     margin-top: -92vh;
     overflow-y: hidden;
 }
 
-
-.footer p{
-    font-size: 5.5vw;
-    color: var(--background);
-    font-family: poppins;
-    text-transform: capitalize;
-    padding-top: 1vh;
+.footer img{
+    margin-left: 18vw;
+    height: 20vh;
+    width: 30vh;
+    margin-top: -2vh;
 }
+
 
 
 .footer h6{
     color: var(--background);
     font-weight: normal;
-    font-size: 4.2vw;
-    margin-left: 46vw;
+    font-size: 3.3vw;
+    text-wrap: nowrap;
+    margin-left: 15vw;
     margin-top: -4vh;
+
 }
 
 .footer-icons{
  position: relative;
  top: 3vh;
- margin-left: 35vw;
+ margin-left: 25vw;
 
 }
 
