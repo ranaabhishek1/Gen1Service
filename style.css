@@ -2035,13 +2035,13 @@ margin-top: 4vh;
     color: var(--background);
     font-weight: normal;
     font-size: 1.2vw;
-    margin-left: 3vw;
-    margin-top: 3vh;
+    margin-left: 5vw;
+    margin-top: -3vh;
 }
 
 .footer-icons{
  position: relative;
- top: 8vh;
+ top: 12vh;
  margin-left: 10vw;
 
 }

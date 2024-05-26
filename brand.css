@@ -242,6 +242,10 @@ margin-left: 15vw;
     margin-top: 3vh;
 }
 
+.brand-cards a{
+    text-decoration: none;
+}
+
 .card{
     height: 20vh;
     width: 10vw;
@@ -257,22 +261,26 @@ margin-left: 15vw;
 
 .card img{
     position: absolute;
-    height: 5vh;
+    height: 5.2%;
+    width: 5.5%;
     margin-top: 4vh;
     margin-left: 2vw;
 }
 
-.card>p{
-    margin-top: 13vh;
-    font-family: poppins;
+
+.card p{
     font-family: pro;
-    font-size: 1.4vw;
-    font-weight: 500;
+    font-size: 1.3vw;
     text-transform: uppercase;
     text-decoration: none;
-    position: absolute;
     color: #000;
-    margin-left: 2vw;
+    text-align: center;
+    position: relative;
+    top: 13vh;
+}
+
+#card34>p{
+    font-size: 1vw;
 }
 
 
