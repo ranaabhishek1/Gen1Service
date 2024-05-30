@@ -68,7 +68,7 @@ text-decoration: none;
 #page1 {
     height: 100vh;
     width: 100%;
-    background-color: var(--background);
+    background-color: #E2E8EF;
     
 }
 
@@ -205,36 +205,33 @@ margin-left: 0vw;
 .city-boxes{
     display: flex;
     flex-wrap: wrap;
-    
+    margin-top: 7vh;
+    margin-left: 1vw;
+    gap: 1vw;
 }
 
 .box{
     height: 30vh;
-    width: 25%;
-        background-color: #E2E8EF;
-    margin-left: 6vw;
-    margin-top: 5vh;
-    
+    width: 15vw;
+    background-color: var(--background);
+    border-radius: 1vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+}
+
+.box img{
+    height: 80%;
+    width: 90%;
 }
 
 .box a{
     text-decoration: none;
-    background-color: var(--background2);
-    color: var(--background);
-    padding: 1vh 1.3vw;
-    position: relative;
-    top: 0.5vh;
-    left: 28%;
-    text-align: center;
-    font-size: 1vw;
-}
+color: #000;
+font-size: 1.2vw;
 
-.box img{
-    height: 24vh;
-    width: 100%;
-    position: relative;
-    z-index: 1;
-    border: 1px solid #999;
+    
+    font-family: pro;
+    border-radius: 0.1vw;
 }
 
 
@@ -388,28 +385,6 @@ display: none;
     flex-wrap: wrap;
     
 }
-
-.box{
-    height: 30vh;
-    width: 40%;
-        background-color: #E2E8EF;
-    margin-left: 6vw;
-    margin-top: 5vh;
-position: relative;    
-
-}
-
-
-.box a{
-    padding: 1vh 3vw;
-    font-size: 3vw;
-    margin-left: -7vw;
-top: 1vh;
-}
-
-
-
-
     /* end media for page1 */
  
     
