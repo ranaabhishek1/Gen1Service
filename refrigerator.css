@@ -628,7 +628,7 @@ background-color: var(--btnhover);
     text-decoration: none;
     color: var(--background);
     font-family: poppins;
-    margin-left: 45vw;
+    margin-left: 41vw;
 }
 
 .page4-part2 a:hover{
@@ -1316,8 +1316,8 @@ margin-bottom: 3vh;
 
 .page4-part2 a{
     font-size: 3.5vw;
-    padding: 2vw 8vw;
-    margin-left:33vw;
+    padding: 2vw 4vw;
+    margin-left:28vw;
 
 }
 
