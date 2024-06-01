@@ -852,9 +852,20 @@ color: var(--background);
        width: 100%;
     }
 
+    .nav-left{
+        margin-left: -20vw;
+    }
+
     .nav-left img{
         width: 45vw;
-        margin-left: 20vw;
+        
+    }
+
+    
+
+    .nav-center{
+        display: none;
+        
     }
 
     
