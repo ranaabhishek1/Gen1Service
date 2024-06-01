@@ -232,7 +232,7 @@ margin-left: 23vw;
 #page1 h1{
     font-size: 6vw;
     text-align: center;
-    color: var(--text);
+    color: white;
     font-family: poppins;
     margin-top: 3vh;
     line-height: 18vh;
