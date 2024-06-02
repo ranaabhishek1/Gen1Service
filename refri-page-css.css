@@ -53,26 +53,139 @@ overflow-x: hidden;
 
 
 /* start page1 */
-
 .navbar {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 14vh;
+    height: 25vh;
+    padding-top: 12vh;
 }
 
 .navbar a {
     text-decoration: none;
 }
 
-.nav-left a {
-    font-size: 2vw;
-    font-family: poppins;
-    color: var(--text);
-    text-transform: capitalize;
-    font-weight: 600;
-    margin-left: 3vw;
+
+.nav-left img{
+    height: 35vh;
+    width: 14vw;
+    position: relative;
+    margin-top: 5vh;
 }
+
+.nav-center {
+    display: flex;
+    gap: 2vw;
+    font-size: 1.3vw;
+    text-transform: capitalize;
+margin-left: 23vw;
+}
+
+.nav-center a {
+    color: var(--text2);
+}
+
+.nav-right {
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: var(--btn);
+    padding: 1vw 2.5vw;
+    border-radius: 5vh;
+    margin-left: 16vw;
+    cursor: pointer;
+
+}
+
+.nav-right a {
+    font-family: poppins;
+    color: var(--background);
+ 
+}
+
+
+.nav-right:hover {
+    background-color: var(--btnhover);
+}
+
+.nav-right2 {
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: var(--brandbtn);
+    padding: 1vw 2vw;
+    border-radius: 5vh;
+    cursor: pointer;
+    
+
+}
+
+.nav-right2 a {
+    font-family: poppins;
+    color: var(--background);
+ 
+}
+
+
+.nav-right2:hover {
+    background-color: var(--brandbtnHover);
+}
+
+
+
+.hamburger {
+    margin-left: 93vw;
+    margin-top: -7vh;
+    display: none;
+}
+
+.hamburger i {
+    font-size: 2.2vw;
+    cursor: pointer;
+}
+
+
+/* navbar for mobile */
+
+.navbar-mobile {
+    background-color: var(--background2);
+    position: absolute;
+    z-index: 2;
+    margin-top: -30vh;
+    height: 100vh;
+    width: 100%;
+
+    display: none;
+}
+
+.navbar-mobile i {
+    font-size: 3vw;
+    color: var(--background);
+    margin-left: 75vw;
+
+}
+
+.close-icon {
+    margin-top: 5vh;
+    margin-left: 6vw;
+    cursor: pointer;
+
+
+}
+
+.navbar-mobile a {
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-size: 3vw;
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+    margin-bottom: 1vw;
+
+}
+
 
 .nav-center {
     display: flex;
@@ -241,10 +354,11 @@ margin-left: 23vw;
     position: absolute;
 }
 
-#page1 img{
+.home-back img{
     width: 100%;
     margin-top: 3vh;
-    height: 65vh;
+    height: 64vh;
+    
 }
 
 /*  */
@@ -295,7 +409,7 @@ z-index: 1;
     min-height: 100vh;
     width: 100%;    
     padding-bottom: 10vh;
-    margin-top: -8vh;
+    
 
 }
 
@@ -303,6 +417,7 @@ z-index: 1;
     text-align: center;
     font-size: 2.5vw;
     font-family: poppins;
+
 }
 
 #page2 p{
@@ -717,7 +832,7 @@ margin-top: -9vh;
 /* end page5 */
 
 /* start page6 */
-#page6{
+#page7{
     height: 87vh;
     width: 100%;
     background-color: var(--background2);
@@ -835,15 +950,14 @@ color: var(--background);
 
     .navbar{
         padding-top: 8vh;
+        height: 15vh;
     }
 
-    .nav-left a {
-        font-size: 1vw;
-        font-family: poppins;
-        color: var(--text);
-        text-transform: capitalize;
-        font-weight: 600;
-        padding-left: 15vw;
+   
+    .nav-left img{
+        width: 50vw;
+        margin-left: 10vw;
+        margin-top: 2vh;
     }
 
     .nav-center a{
@@ -1616,6 +1730,25 @@ font-size: 3.5vw;
         font-size: 1.3vw;
     }
 
+    #page2 h3 {
+        font-size: 3vw;
+    }
+
+    #page2 p {
+        font-size: 1vw;
+    }
+
+    
+    #page3 h3 {
+        font-size: 3vw;
+    }
+
+    #page3 p {
+        font-size: 1vw;
+    }
+
+
+
     .ac-card {
         height: 100vh;
      
@@ -1630,6 +1763,37 @@ font-size: 3.5vw;
         line-height: 2.5vh;
         
     }
+
+    
+    .page4-section-3 {
+        padding-bottom: 3vw;
+    }
+
+    .page4-section2 {
+        padding-bottom: 3vw;
+    }
+
+    .page4-section4 {
+        padding-bottom: 3vw;
+    }
+
+    .page4-section-1 {
+        padding-bottom: 3vw;
+    }
+
+    .content-part p {
+        margin-bottom: 5vh;
+    }
+
+
+
+.page4-text h5{
+    font-size: 1vw;
+}
+
+.page4-part2 a {
+    margin-left: 45vw;
+}
     
 
     #page6{
@@ -1639,6 +1803,15 @@ font-size: 3.5vw;
     .city-part{
         margin-top: -48vh;
     }
+
+#page7{
+    height: 85vh;
+}
+
+.copyright p{
+    margin-top: 28vh;
+}
+
 
 }
 
