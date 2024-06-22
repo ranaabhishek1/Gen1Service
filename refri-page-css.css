@@ -53,137 +53,33 @@ overflow-x: hidden;
 
 
 /* start page1 */
+
 .navbar {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 25vh;
-    padding-top: 12vh;
+    padding-top: 14vh;
 }
 
 .navbar a {
     text-decoration: none;
 }
 
-
 .nav-left img{
-    height: 35vh;
-    width: 14vw;
+    height: 5vh;
+    width: 15vw;
     position: relative;
-    margin-top: 5vh;
-}
-
-.nav-center {
-    display: flex;
-    gap: 2vw;
-    font-size: 1.3vw;
-    text-transform: capitalize;
-margin-left: 23vw;
-}
-
-.nav-center a {
-    color: var(--text2);
-}
-
-.nav-right {
-    font-size: 1.2vw;
-    text-transform: uppercase;
-    font-weight: 600;
-    background-color: var(--btn);
-    padding: 1vw 2.5vw;
-    border-radius: 5vh;
-    margin-left: 16vw;
-    cursor: pointer;
-
-}
-
-.nav-right a {
-    font-family: poppins;
-    color: var(--background);
- 
-}
-
-
-.nav-right:hover {
-    background-color: var(--btnhover);
-}
-
-.nav-right2 {
-    font-size: 1.2vw;
-    text-transform: uppercase;
-    font-weight: 600;
-    background-color: var(--brandbtn);
-    padding: 1vw 2vw;
-    border-radius: 5vh;
-    cursor: pointer;
+    bottom: 2vh;
     
-
 }
 
-.nav-right2 a {
+.nav-left a {
+    font-size: 2vw;
     font-family: poppins;
-    color: var(--background);
- 
-}
-
-
-.nav-right2:hover {
-    background-color: var(--brandbtnHover);
-}
-
-
-
-.hamburger {
-    margin-left: 93vw;
-    margin-top: -7vh;
-    display: none;
-}
-
-.hamburger i {
-    font-size: 2.2vw;
-    cursor: pointer;
-}
-
-
-/* navbar for mobile */
-
-.navbar-mobile {
-    background-color: var(--background2);
-    position: absolute;
-    z-index: 2;
-    margin-top: -30vh;
-    height: 100vh;
-    width: 100%;
-
-    display: none;
-}
-
-.navbar-mobile i {
-    font-size: 3vw;
-    color: var(--background);
-    margin-left: 75vw;
-
-}
-
-.close-icon {
-    margin-top: 5vh;
-    margin-left: 6vw;
-    cursor: pointer;
-
-
-}
-
-.navbar-mobile a {
-    text-decoration: none;
-    color: #FFFFFF;
+    color: var(--text);
     text-transform: capitalize;
-    font-size: 3vw;
-    font-family: poppins;
-    display: flex;
-    justify-content: center;
-    margin-top: 4vh;
-    margin-bottom: 1vw;
-
+    font-weight: 600;
+    margin-left: 5vw;
 }
 
 
@@ -206,7 +102,7 @@ margin-left: 23vw;
     background-color: var(--btn);
     padding: 1vw 2.5vw;
     border-radius: 5vh;
-    margin-left: 16vw;
+    margin-left: 15vw;
     cursor: pointer;
 
 }
@@ -303,7 +199,7 @@ margin-left: 23vw;
 .page1-btns{
     position: absolute;
     margin-top: 55vh;
-    margin-left: 35vw;
+    margin-left: 34vw;
 }
 
 .page1-btns a{
@@ -354,11 +250,10 @@ margin-left: 23vw;
     position: absolute;
 }
 
-.home-back img{
+#page1 img{
     width: 100%;
     margin-top: 3vh;
-    height: 64vh;
-    
+    height: 65vh;
 }
 
 /*  */
@@ -409,7 +304,7 @@ z-index: 1;
     min-height: 100vh;
     width: 100%;    
     padding-bottom: 10vh;
-    
+    margin-top: -8vh;
 
 }
 
@@ -417,7 +312,6 @@ z-index: 1;
     text-align: center;
     font-size: 2.5vw;
     font-family: poppins;
-
 }
 
 #page2 p{
@@ -832,8 +726,8 @@ margin-top: -9vh;
 /* end page5 */
 
 /* start page6 */
-#page7{
-    height: 87vh;
+#page6{
+    height: 95vh;
     width: 100%;
     background-color: var(--background2);
 }
@@ -927,7 +821,7 @@ margin-top: -9vh;
 
 
 .copyright p{
-margin-top:22vh;
+margin-top:20vh;
 text-align: center;
 color: var(--background);
 }
@@ -950,14 +844,15 @@ color: var(--background);
 
     .navbar{
         padding-top: 8vh;
-        height: 15vh;
     }
 
-   
-    .nav-left img{
-        width: 50vw;
-        margin-left: 10vw;
-        margin-top: 2vh;
+    .nav-left a {
+        font-size: 1vw;
+        font-family: poppins;
+        color: var(--text);
+        text-transform: capitalize;
+        font-weight: 600;
+        padding-left: 15vw;
     }
 
     .nav-center a{
@@ -1075,6 +970,20 @@ display: none;
 .page1-btns{
     margin-top: 25vh;
     margin-left: 20vw;
+}
+
+
+.page1-btns a:nth-child(1){
+    padding: 1.7vw 1.8vw;
+    border-radius: 0.8vw;
+    font-size: 3.5vw;
+}
+
+
+.page1-btns a:nth-child(2){
+    padding: 1.7vw 1.8vw;
+    border-radius: 0.8vw;
+    font-size: 3.5vw;
 }
 
 /*  */
@@ -1314,7 +1223,7 @@ background-color: var(--btnhover);
 #page4{
     min-height: 100vh;
     width: 100%;
-    padding-bottom: 10vh;
+    
 }
 
 
@@ -1574,7 +1483,7 @@ margin-bottom: 2vh;
 /* start page7 */
 
 #page6{
-    height: 86vh;
+    height: 90vh;
     width: 100%;
     background-color: var(--background2);
     margin-top: 0vh;
@@ -1638,15 +1547,20 @@ display: none;
 
 
 .footer-part2 a:nth-child(2){
+    display: none;
+    }
+    
+
+.footer-part2 a:nth-child(3){
     position: absolute;
-    margin-top: 85vh;
-    margin-left: 45vw;
+    margin-top: 0vh;
+    margin-left: 20vw;
     }
     
 
 
-.footer-part2 a:nth-child(3){
-    margin-left: 19vw;
+.footer-part2 a:nth-child(4){
+    margin-left: 75vw;
 }
 
 
@@ -1698,7 +1612,7 @@ display: none;
 
 
 .copyright p{
-margin-top: 17vh;
+margin-top: 12vh;
 text-align: center;
 color: var(--background);
 font-size: 3.5vw;
@@ -1707,55 +1621,74 @@ font-size: 3.5vw;
 
 /* end page7 */
 
-
 }
+
+
+
+
+
+
+
 
 /* for large screen sizes (Desktop ) */
 
-@media (min-width:1300px){
+@media (min-width:1500px){
 
     .navbar {
         padding-top: 10vh;
     }
 
+    .page1-btns{
+        margin-left: 25vw;
+    }
+
     .page1-btns a:nth-child(1){
         background-color: var(--btn);
-        padding: 0.5vw 1.5vw;
+        padding: 1vw 1.5vw;
         border-radius: 0.5vw;
-        font-size: 1.3vw;
+        font-size: 1.7vw;
     }
 
     .page1-btns a:nth-child(2){
-
-        font-size: 1.3vw;
+        font-size: 1.7vw;
+        padding: 1vw 1.5vw;
     }
-
-    #page2 h3 {
-        font-size: 3vw;
-    }
-
-    #page2 p {
-        font-size: 1vw;
-    }
-
-    
-    #page3 h3 {
-        font-size: 3vw;
-    }
-
-    #page3 p {
-        font-size: 1vw;
-    }
-
-
 
     .ac-card {
         height: 100vh;
      
     }
 
+    #page1 h1{
+        font-size: 6vw;
+        text-align: center;
+        color: white;
+        font-family: poppins;
+        margin-top: 3vh;
+        line-height: 12vh;
+        padding-top: 12vh;
+        margin-right: 3vw;
+        position: absolute;
+    }
+
+    #page2 h3{
+        font-size: 3.3vw;
+    }
+
 #page2 p{
-    margin-bottom: 8vh;
+    margin-bottom: 10vh;
+    font-size: 1.7vw;
+}
+
+.ac-types{
+    margin-left: 2vw;
+}
+
+.ac-card{
+    height: 115vh;
+    width: 30%;
+    margin-left: 1vw;
+border-radius: 1vw;
 }
 
     .ac-card p{
@@ -1764,54 +1697,97 @@ font-size: 3.5vw;
         
     }
 
+    .refri-btn{
+        margin-left: 4vw;
+    }
     
-    .page4-section-3 {
-        padding-bottom: 3vw;
-    }
-
-    .page4-section2 {
-        padding-bottom: 3vw;
-    }
-
-    .page4-section4 {
-        padding-bottom: 3vw;
-    }
-
-    .page4-section-1 {
-        padding-bottom: 3vw;
-    }
-
-    .content-part p {
-        margin-bottom: 5vh;
-    }
+#page3 h3{
+    font-size: 4vw;
+}
 
 
+#page3 p{
+    font-size: 1.4vw;
+    margin: 1vw;
+}
 
-.page4-text h5{
-    font-size: 1vw;
+
+.page4-section1 {
+    padding-bottom: 5vh;
+}
+
+
+.page4-section2 {
+    padding-bottom: 5vh;
+}
+
+
+.page4-section-3 {
+    padding-bottom: 5vh;
+}
+
+
+.page4-section4 {
+    padding-bottom: 5vh;
+}
+
+
+.content-part h3 {
+    font-size: 3vw;
+}
+
+.content-part p {
+    font-size: 1.2vw;
+    margin-bottom: 4vh;
+}
+
+.click-call{
+    margin-left: 50vw;
+    font-size: 1.3vw;
+    
+}
+
+.page4-text h5 {
+    font-size: 1.5vw;
+    font-weight: normal;
+}
+
+.text-part{
+    font-size: 2vw;
+}
+
+#page4 h2{
+    font-size: 3vw;
+}
+
+.page4-part2 h6 {
+    font-size: 3vw;
+}
+
+
+.page4-part2 h5 {
+    font-size: 3vw;
 }
 
 .page4-part2 a {
-    margin-left: 45vw;
+    font-size: 2vw;
+    padding: 1vw 4vw;
+    border-radius: 3vw;
+    margin-left: 40vw;
 }
-    
 
     #page6{
         height: 80vh;
     }
 
     .city-part{
-        margin-top: -48vh;
+        margin-top: -39vh;
     }
 
-#page7{
-    height: 85vh;
-}
-
-.copyright p{
-    margin-top: 28vh;
-}
-
+    .copyright{
+        font-size: 1.7vw;
+        margin-top: 26vh;
+    }
 
 }
 

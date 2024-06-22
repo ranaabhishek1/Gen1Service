@@ -65,11 +65,8 @@ body {
 
 .nav-left img{
     height: 35vh;
-    width: 13vw;
-    
+    width: 14vw;
     margin-top: 10vh;
-    
-    
 }
 
 .nav-center {
@@ -297,7 +294,7 @@ margin-top: 8vh;
 
 
 .page4-part2 {
-    height: 48vh;
+    height: 40vh;
     width: 100%;
     background-color: beige;
     margin-top: 2vh;
@@ -324,7 +321,7 @@ margin-top: 8vh;
 }
 
 .page4-part2 a {
-    font-size: 1.7vw;
+    font-size: 1.5vw;
     text-transform: uppercase;
     font-weight: 600;
     background-color: var(--btn);
@@ -333,7 +330,7 @@ margin-top: 8vh;
     text-decoration: none;
     color: var(--background);
     font-family: poppins;
-    margin-left: 43vw;
+    margin-left: 41vw;
 }
 
 .page4-part2 a:hover{
@@ -342,7 +339,7 @@ margin-top: 8vh;
 }
 
 #page5{
-    height: 85vh;
+    height: 90vh;
     width: 100%;
     background-color: var(--background2);
 }
@@ -436,7 +433,7 @@ margin-top: 8vh;
 
 
 .copyright p{
-margin-top:22vh;
+margin-top:18vh;
 text-align: center;
 color: var(--background);
 }
@@ -454,6 +451,7 @@ color: var(--background);
     .book-service a {
         font-size: 4vw;
         padding: 3vw 0;
+        z-index: 99;
     }
 
     /* end book service message */
@@ -652,12 +650,12 @@ color: var(--background);
 }
 
 .page4-part2 h6{
-    font-size: 5.5vw;
+    font-size: 5vw;
     padding-top: 4vh;
 }
 
 .page4-part2 h5{
-    font-size: 6vw;
+    font-size: 5vw;
 margin-bottom: 3vh;    
 }
 
@@ -674,7 +672,7 @@ margin-bottom: 3vh;
 
 /* page 5 start */
 #page5{
-    height: 84vh;
+    height: 90vh;
     width: 100%;
     background-color: var(--background2);
     margin-top: -6vh;
@@ -738,15 +736,20 @@ display: none;
 
 
 .footer-part2 a:nth-child(2){
+    display: none;
+    }
+    
+
+.footer-part2 a:nth-child(3){
     position: absolute;
-    margin-top: 85vh;
-    margin-left: 45vw;
+    margin-top: 0vh;
+    margin-left: 20vw;
     }
     
 
 
-.footer-part2 a:nth-child(3){
-    margin-left: 19vw;
+.footer-part2 a:nth-child(4){
+    margin-left: 75vw;
 }
 
 
@@ -798,7 +801,7 @@ display: none;
 
 
 .copyright p{
-margin-top: 17vh;
+margin-top: 12vh;
 text-align: center;
 color: var(--background);
 font-size: 3.5vw;
@@ -813,88 +816,106 @@ font-size: 3.5vw;
 @media (min-width:1300px){
 
     .nav-left img{
-        width: 17vw;
+        width: 20vw;
+    }
+
+    .nav-center a{
+        font-size: 1.7vw;
+    }
+
+    #page2 h3{
+        font-size: 4vw;
+    }
+
+    .about-content h4 {
+        font-size: 4vw;
     }
 
 
     .about-content p {
-        font-size: 1.1vw;
+        font-size: 1.2vw;
     }
 
     .card{
-        height: 63vh;
+        height: 58vh;
         width: 28vw;
         background-color: rgba(128, 128, 128, 0.286);
-        border-radius: 12px;
+        border-radius: 0.5vw;
     
     }
 
     .card p{
-        font-size: 1vw;
+        font-size: 1.2vw;
     }
 
     #card1 img {
-        height: 20vh;
-        width: 10vw;
+        height: 18vh;
+        width: 12vw;
         border-radius: 50%;
-        margin-top: 8vh;
+        margin-top: 6vh;
+        margin-left: 8vw;
+    
     }
 
     #card1 h2{
-        font-size: 2vw;
+        font-size: 2.2vw;
     }
 
     #card1 h6{
-        font-size: 1.1vw;
+        font-size: 1.2vw;
     }
 
 
     #card2 img {
-        height: 20vh;
-        width: 10vw;
+        height: 18vh;
+        width: 12vw;
         border-radius: 50%;
-        margin-top: 8vh;
+        margin-top: 6vh;
+        margin-left: 8vw;
     }
 
+  
     #card2 h2{
-        font-size: 2vw;
+        font-size: 2.2vw;
     }
 
     #card2 h6{
-        font-size: 1.1vw;
+        font-size: 1.2vw;
     }
-
 
     #card3 img {
-        height: 20vh;
-        width: 10vw;
+        height: 18vh;
+        width: 12vw;
         border-radius: 50%;
-        margin-top: 8vh;
+        margin-top: 6vh;
+        margin-left: 8vw;
     }
 
+   
     #card3 h2{
-        font-size: 2vw;
+        font-size: 2.2vw;
     }
 
     #card3 h6{
-        font-size: 1.1vw;
+        font-size: 1.2vw;
     }
 
 .page4-part2{
-    height: 40vh;
+    height: 32vh;
 }
 
 #page5{
-    height: 80vh;
+    height: 75vh;
     padding-top: 4vh;
 }
 
 .city-part{
-    margin-top: -48vh;
+    margin-top: -39vh;
 }
 
 .copyright p{
-    margin-top: 25vh;
+    margin-top: 22vh;
+    font-size: 1.2vw;
 }
 
 }

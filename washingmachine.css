@@ -878,9 +878,7 @@ display: none;
     color: var(--text);
     font-family: poppins;
     margin-top: 7vh;
-    line-height: 6vh;
     text-wrap: balance;    
-    
 }
 
 /*  */
@@ -1504,11 +1502,6 @@ font-size: 3.5vw;
     .nav-left img{
         width: 17vw;
     }
-    
-
-    .page4-text h5 {
-        font-size: 1vw;
-    }
 
     #page2 h3 {
         font-size: 3vw;
@@ -1573,11 +1566,6 @@ font-size: 3.5vw;
 
     .city-part{
         margin-top: -48vh;
-    }
-
-
-    .page4-part2 a{
-        margin-left: 45vw;
     }
 
 .copyright p{

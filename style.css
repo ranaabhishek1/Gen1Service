@@ -61,7 +61,7 @@ margin-top: -16vh;
 
 .nav-left img{
     height: 35vh;
-    width: 13vw;
+    width: 15vw;
     position: relative;
     bottom: 2vh;
     
@@ -741,7 +741,7 @@ margin-top: 4vh;
 /* end page 4 */
 
 #page5{
-    height: 73vh;
+    height: 85vh;
     width: 100%;
     background-color: var(--background2);
 }
@@ -820,7 +820,7 @@ margin-top: 4vh;
     display: flex;
     flex-direction: column;
     align-items: end;
-    margin-top: -53vh;
+    margin-top: -57vh;
     gap: 1vh;
 }
 
@@ -835,7 +835,7 @@ margin-top: 4vh;
 
 
 .copyright p{
-margin-top:22vh;
+margin-top:20vh;
 text-align: center;
 color: var(--background);
 }
@@ -973,12 +973,6 @@ display: none;
     }
     
     
-
-
-
-
-
-
     
     /* end media for page1 */
     
@@ -999,13 +993,13 @@ display: none;
 
 
 .page2-content h1{
-    font-size: 7vw;
+    font-size: 9vw;
     color: #F7C566;
     text-shadow: 0 0 1rem #000;
     font-family: poppins;
     line-height: 100%;
-    margin-left: 8vw;
-    margin-top: -4vh;
+    margin-left: 8.5vw;
+    margin-top: -5vh;
     text-wrap: balance;
 }
 
@@ -1241,11 +1235,11 @@ overflow-y: hidden;
 
 
 #page4 {
-height: 235vh;
+height: 260vh;
     width: 100%;
     background-color: var(--background2);
     position: relative;
-    bottom: 90vh;
+    bottom: 80vh;
     overflow-y: hidden;
 }
 
@@ -1267,7 +1261,7 @@ height: 235vh;
 }
 
 .card{
-    height: 45vh;
+    height: 50vh;
     width: 85vw;   
     margin-left: -5vw;
 }
@@ -1369,10 +1363,10 @@ margin-bottom: 1.8vh;
 
 
 #page5{
-    height: 84vh;
+    height: 90vh;
     width: 100%;
     background-color: var(--background2);
-    margin-top: -92vh;
+    margin-top: -90vh;
     overflow-y: hidden;
 }
 
@@ -1380,7 +1374,7 @@ margin-bottom: 1.8vh;
     margin-left: 18vw;
     height: 20vh;
     width: 30vh;
-    margin-top: -2vh;
+    margin-top: 0vh;
 }
 
 
@@ -1415,7 +1409,7 @@ margin-bottom: 1.8vh;
     display: flex;
     justify-content: flex-start;    
     margin-top: 7vh;
-    margin-left:-1vw;
+    margin-left:20vw;
     gap: 0.5vw;
 }
 
@@ -1423,7 +1417,7 @@ margin-bottom: 1.8vh;
     font-size: 5vw;
     text-transform: capitalize;
     font-size: 4vw;
-    margin-left: 22vw;
+    margin-left: 40vw;
 }
 
 
@@ -1431,17 +1425,21 @@ margin-bottom: 1.8vh;
 display: none;
 }
 
-
 .footer-part2 a:nth-child(2){
+    display: none;
+    }
+    
+
+.footer-part2 a:nth-child(3){
     position: absolute;
-    margin-top: 85vh;
-    margin-left: 45vw;
+    margin-top: 0vh;
+    margin-left: 0vw;
     }
     
 
 
-.footer-part2 a:nth-child(3){
-    margin-left: 19vw;
+.footer-part2 a:nth-child(4){
+    margin-left: 55vw;
 }
 
 
@@ -1477,7 +1475,7 @@ display: none;
     display: flex;
     flex-direction: column;
     align-items: end;
-    margin-top: -33vh;
+    margin-top: -37vh;
     margin-right: 3vw;
     gap: 1vh;
 }
@@ -1493,7 +1491,7 @@ display: none;
 
 
 .copyright p{
-margin-top: 17vh;
+margin-top:11vh;
 text-align: center;
 color: var(--background);
 font-size: 3.5vw;
@@ -1511,7 +1509,7 @@ font-size: 3.5vw;
 @media (min-width:1300px){
 
     .nav-left img{
-        width: 17vw;
+        width: 20vw;
     }
 
     .nav-left a {
@@ -1564,6 +1562,11 @@ font-size: 3.5vw;
     margin-left: 22vw;
 }
 
+.page1-btns{
+    margin-left: 15vw;
+}
+
+
 
 
 #page2 {
@@ -1587,13 +1590,13 @@ font-size: 3.5vw;
     text-shadow: 0 0 1rem #000000;
     font-family: poppins;
     line-height: 100%;
-    margin-left: 6vw;
+    margin-left: 0vw;
     margin-top:0vh;
     text-wrap: balance;
 }
 
 .page2-content p{
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-family: poppins;
     margin-top:3vh;
     margin-left: 20vw;
@@ -1603,7 +1606,7 @@ font-size: 3.5vw;
 
 .slider-container {
     position: relative;
-    max-width: 2000px;
+    max-width: 2300px;
     margin: auto;
     padding-top: 5vh;
     filter: blur(2px);
@@ -1613,7 +1616,7 @@ font-size: 3.5vw;
 
 
 #page3 {
-    height: 270vh;
+    height: 245vh;
     width: 100%;
     background-color: var(--background);
     padding-top: 3vh;    
@@ -1647,10 +1650,10 @@ font-size: 3.5vw;
 }
 
 .box {
-    height: 70vh;
-    width: 28vw;
+    height: 68vh;
+    width: 29vw;
     background-color:#E2E8EF;
-    border-radius: 10px;
+    border-radius: 1vw;
     transition: all linear 0.3s;
     cursor: pointer;
 }
@@ -1709,7 +1712,7 @@ margin-top: 4vh;
 }
 
 #refrigerator-box p{
-    font-size: 2vw;
+    font-size: 2.2vw;
     text-align: center;
     margin-left: -1vw;
     margin-top: 4vh;
@@ -1726,7 +1729,7 @@ margin-top: 4vh;
 
 
 #ac-box p{
-    font-size: 2vw;
+    font-size: 2.2vw;
     text-align: center;
     margin-left: -1vw;
     margin-top: 3.5vh;
@@ -1754,7 +1757,7 @@ margin-top: 4vh;
 }
 
 #washingMachine-box p{
-    font-size: 1.8vw;
+    font-size: 1.9vw;
     text-align: center;
     margin-left: -1vw;
     margin-top: 4vh;
@@ -1769,7 +1772,7 @@ margin-top: 4vh;
 
 
 #chimni-box p{
-    font-size: 2vw;
+    font-size: 2.2vw;
     text-align: center;
     margin-left: -1vw;
     margin-top: 2vh;
@@ -1784,7 +1787,7 @@ margin-top: 4vh;
 
 
 #mircowave-box p{
-    font-size: 2vw;
+    font-size: 2.2vw;
     text-align: center;
     margin-left: -1vw;
     margin-top: 2vh;
@@ -1861,15 +1864,15 @@ margin-top: 4vh;
     display: flex;
     flex-wrap: wrap;
     gap: 4vw;
-    margin-left: 11vw;
+    margin-left: 9vw;
     margin-top: 5vh;
 }
 
 .card {
-    height: 70vh;
-    width: 38vw;
+    height: 65vh;
+    width: 40vw;
     background-color: #FFFFFF;
-    border-radius: 10px;
+    border-radius: 1vw;
     cursor: pointer;
     transition: all linear 0.3s;
 }
@@ -1882,7 +1885,7 @@ margin-top: 4vh;
 
 #card1 img{
     height: 20vh;
-    width: 12vw;
+    width: 14vw;
     border-radius: 50%;
     margin-left: 13vw;
     margin-top: 5vh;
@@ -1890,7 +1893,7 @@ margin-top: 4vh;
 
 #card2 img{
     height: 20vh;
-    width: 12vw;
+    width: 14vw;
     border-radius: 50%;
     margin-left: 13vw;
     margin-top: 5vh;
@@ -1898,7 +1901,7 @@ margin-top: 4vh;
 
 #card3 img{
     height: 20vh;
-    width: 12vw;
+    width: 14vw;
     border-radius: 50%;
     margin-left: 13vw;
     margin-top: 5vh;
@@ -1906,7 +1909,7 @@ margin-top: 4vh;
 
 #card4 img{
     height: 20vh;
-    width: 12vw;
+    width: 14vw;
     border-radius: 50%;
     margin-left: 13vw;
     margin-top: 5vh;
@@ -2030,7 +2033,7 @@ margin-top: 4vh;
 }
 
 #page5{
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     
 }
@@ -2038,7 +2041,7 @@ margin-top: 4vh;
 .footer img{
     height: 30vh;
     width: 50vh;
-    margin-top: -15vh;
+    margin-top:-10vh;
 }
 
 
@@ -2091,7 +2094,7 @@ margin-top: 4vh;
     flex-direction: column;
     align-items: end;
     margin-right: 13vw;
-    margin-top: 4vh;
+    margin-top: 3vh;
     gap: 2vh;
 }
 
@@ -2109,7 +2112,7 @@ margin-top: 4vh;
     display: flex;
     flex-direction: column;
     align-items: end;
-    margin-top: -47vh;
+    margin-top: -42vh;
     gap: 1vh;
 }
 
@@ -2124,7 +2127,7 @@ margin-top: 4vh;
 
 
 .copyright p{
-margin-top:32vh;
+margin-top:28vh;
 text-align: center;
 color: var(--background);
 font-size: 1.3vw;
