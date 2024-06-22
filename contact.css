@@ -8,6 +8,12 @@
     src: url(fonts/pro.ttf);
 }
 
+
+@font-face {
+    font-family:heading;
+    src: url(fonts/Rejouice-Headline.ttf);
+}
+
 :root {
     --background: #FFFFFF;
     --background2: #003366;
@@ -41,7 +47,7 @@ body {
 #page1 {
     height: 100vh;
     width: 100%;
-    
+    background-color:#E2E8EF;
     position: absolute;
     z-index: 3;
     
@@ -222,40 +228,56 @@ margin-left: 3vw;
 }
 
 #form{
-    height: 83vh;
-    width: 33vw;
-    background-color: lightblue;
-    margin-left: 35vw;
+    height: 80vh;
+    width: 40vw;
+    background-color: var(--background);
+    margin-left: 28vw;
     padding-top: 7vh;
     padding-left: 3vw;
     margin-top: 2vh;
     border-radius: 1vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: poppins;
 }
 
 .form-heading{
     height: 6vh;
     width: 20vw;
     text-align: center;
-    background-color: rgb(255, 179, 0);
+    font-family: cursive;
     margin-top: -3vh;
-    margin-bottom: 4vh;
+    margin-bottom: 7vh;
     margin-left: 3vw;
-    outline: 1px solid #888;
+    
 }
 
 .form-heading p{
-    font-family: poppins;
+    font-family: heading;
     text-transform: uppercase;
-    font-size: 1.6vw;
+    font-size: 2.5vw;
     font-weight: 600;
-    color: var(--background);
-    text-shadow: 0 0 0.2rem #000;
+    color: #000;
+    text-align: end;
+    text-wrap: balance;
     
 }
 
 /* end page1 */
 
+label{
+    font-family: poppins;
+    font-weight: normal;
+    margin: 1vw;
+}
 
+
+option{
+    font-family: poppins;
+}
+
+select{
+    margin: 1vw;
+}
 
 .input{
     border: 1px solid transparent;
@@ -266,7 +288,9 @@ margin-left: 3vw;
     overflow: hidden;
     background-color: #F3F3F3;
     border-radius:5px;
+    font-family: poppins;
     transition: all 0.5s;
+    margin: 0.5vw;
   }
   
   .input:hover,
@@ -278,15 +302,17 @@ margin-left: 3vw;
    
 
   .submit{
-    padding: 0.5vw 3vw;
+    padding: 0.8vw 4vw;
     border: none;
     background-color: var(--btn);
     color: var(--background);
     font-family: poppins;
-    margin-left: 8vw;
-    border-radius: 0.3vw;
-    font-size: 1.2vw;
+    margin-left: 10vw;
+    border-radius: 2vw;
+    font-size: 1.3vw;
     cursor: pointer;
+    margin-top: 5vh;
+    
   }
 
   .submit:hover{
