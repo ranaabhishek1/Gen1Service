@@ -1654,141 +1654,100 @@ font-size: 3.5vw;
         padding: 1vw 1.5vw;
     }
 
-    .ac-card {
-        height: 100vh;
-     
+    #page2 h3 {
+        font-size: 3vw;
     }
 
-    #page1 h1{
-        font-size: 6vw;
-        text-align: center;
-        color: white;
-        font-family: poppins;
-        margin-top: 3vh;
-        line-height: 12vh;
-        padding-top: 12vh;
-        margin-right: 3vw;
-        position: absolute;
-    }
-
-    #page2 h3{
-        font-size: 3.3vw;
-    }
-
-#page2 p{
-    margin-bottom: 10vh;
-    font-size: 1.7vw;
-}
-
-.ac-types{
-    margin-left: 2vw;
-}
-
-.ac-card{
-    height: 115vh;
-    width: 30%;
-    margin-left: 1vw;
-border-radius: 1vw;
-}
-
-    .ac-card p{
-        font-size: 1.2vw;
-        line-height: 2.5vh;
+    #page2 p {
+        font-size: 1.1vw;
         
     }
 
-    .refri-btn{
-        margin-left: 4vw;
+    .ac-card {
+        height: 90vh;
     }
-    
-#page3 h3{
-    font-size: 4vw;
+
+
+#page4 p{
+    margin-bottom: 2vh;
 }
-
-
-#page3 p{
-    font-size: 1.4vw;
-    margin: 1vw;
-}
-
-
-.page4-section1 {
-    padding-bottom: 5vh;
-}
-
-
 .page4-section2 {
-    padding-bottom: 5vh;
+    padding-bottom: 4vh;
 }
 
+    #ac-card1 p {
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+        line-height: 2.3vh;
+    }
 
-.page4-section-3 {
-    padding-bottom: 5vh;
-}
+    
+    #ac-card2 p {
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+        line-height: 2.3vh;
+    }
 
+    #ac-card3 p {
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+        line-height: 2.3vh;
+    }
 
-.page4-section4 {
-    padding-bottom: 5vh;
-}
+    
+    #ac-card4 p {
+        margin-top: 2vh;
+        margin-bottom: 4vh;
+        line-height: 2.3vh;
+    }
 
+    
+    #ac-card5 p {
+        margin-top: 2vh;
+        margin-bottom: 4vh;
+        line-height: 2.3vh;
+    }
 
-.content-part h3 {
-    font-size: 3vw;
-}
+    
+    #ac-card6 p {
+        margin-top: 2vh;
+        margin-bottom: 4vh;
+        line-height: 2.3vh;
+    }
 
-.content-part p {
-    font-size: 1.2vw;
-    margin-bottom: 4vh;
-}
+    #page3 h3 {
+        font-size: 3vw;
+    }
 
 .click-call{
-    margin-left: 50vw;
-    font-size: 1.3vw;
-    
-}
+    background-color: var(--background2);
+    text-decoration: none;
+    border: none;
+    padding: 0.5vw 0.6vw;
+    border-radius: 1vh;
+    margin-left: 45vw;
+    color: #fff;
+    font-size: 0.8vw;
 
-.page4-text h5 {
-    font-size: 1.5vw;
-    font-weight: normal;
-}
-
-.text-part{
-    font-size: 2vw;
-}
-
-#page4 h2{
-    font-size: 3vw;
-}
-
-.page4-part2 h6 {
-    font-size: 3vw;
+    margin-bottom: 3vh;
 }
 
 
-.page4-part2 h5 {
-    font-size: 3vw;
-}
-
-.page4-part2 a {
-    font-size: 2vw;
-    padding: 1vw 4vw;
-    border-radius: 3vw;
-    margin-left: 40vw;
-}
 
     #page6{
-        height: 80vh;
+        height: 85vh;
+        padding-top: 5vh;
+        
     }
 
     .city-part{
         margin-top: -39vh;
     }
 
-    .copyright{
-        font-size: 1.7vw;
-        margin-top: 26vh;
-    }
-
+.copyright p{
+    margin-top: 25vh;
+    font-size: 1.1vw;
+}
 }
 
 /* for large screen sizes ( Desktop )  */

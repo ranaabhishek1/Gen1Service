@@ -1649,7 +1649,7 @@ font-size: 3.5vw;
 }
 
 .box {
-    height: 66vh;
+    height: 68vh;
     width: 28vw;
     background-color:#E2E8EF;
     border-radius: 10px;
@@ -2023,7 +2023,7 @@ margin-top: 4vh;
     text-decoration: none;
     color: var(--background);
     font-family: poppins;
-    margin-left: 45vw;
+    margin-left: 43vw;
 }
 
 .page4-part2 a:hover{
@@ -2040,7 +2040,7 @@ margin-top: 4vh;
 #page5{
     height: 80vh;
     width: 100%;
-    padding-top: 10vh;
+    padding-top: 7vh;
 }
 
 .footer img{
@@ -2132,7 +2132,7 @@ margin-top: 4vh;
 
 
 .copyright p{
-margin-top:32vh;
+margin-top:25vh;
 text-align: center;
 color: var(--background);
 font-size: 1.3vw;
