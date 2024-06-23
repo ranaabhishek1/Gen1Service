@@ -1709,9 +1709,8 @@ margin-top: 4vh;
     margin-left: 2vw;
     border-radius: 8px;
 }
-
 #refrigerator-box p{
-    font-size: 2vw;
+    font-size: 1.3vw;
     text-align: center;
     margin-left: -1vw;
     margin-top: 4vh;
@@ -1728,7 +1727,7 @@ margin-top: 4vh;
 
 
 #ac-box p{
-    font-size: 2vw;
+    font-size: 1.3vw;
     text-align: center;
     margin-left: -1vw;
     margin-top: 3.5vh;
@@ -1742,7 +1741,7 @@ margin-top: 4vh;
 }
 
 #tv-box p{
-    font-size: 2vw;
+    font-size: 1.3vw;
     text-align: center;
     margin-left: -1vw;
     margin-top: 4vh;
@@ -1756,7 +1755,7 @@ margin-top: 4vh;
 }
 
 #washingMachine-box p{
-    font-size: 1.8vw;
+    font-size: 1.1vw;
     text-align: center;
     margin-left: -1vw;
     margin-top: 4vh;
@@ -1771,7 +1770,7 @@ margin-top: 4vh;
 
 
 #chimni-box p{
-    font-size: 2vw;
+    font-size: 1.1vw;
     text-align: center;
     margin-left: -1vw;
     margin-top: 2vh;
@@ -1786,13 +1785,28 @@ margin-top: 4vh;
 
 
 #mircowave-box p{
-    font-size: 2vw;
+    font-size: 1.1vw;
     text-align: center;
     margin-left: -1vw;
     margin-top: 2vh;
     color: var(--text);
 }
 #mircowave-box pre{
+    font-size: 1.3vw;
+    margin-top: 3vh;
+    text-align: center;
+    margin-bottom: 9vh;
+}
+
+
+#kitchen-box p{
+    font-size: 1.1vw;
+    text-align: center;
+    margin-left: -1vw;
+    margin-top: 2vh;
+    color: var(--text);
+}
+#kitchen-box pre{
     font-size: 1.3vw;
     margin-top: 3vh;
     text-align: center;
