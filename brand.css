@@ -469,7 +469,7 @@ margin-left: 3vw;
 
 
 .card{
-    height: 14vh;
+    height: 13vh;
     width: 21vw;
     background-color: var(--background);
     border-radius: 1vw;
@@ -481,13 +481,13 @@ margin-left: 3vw;
     position: absolute;
     height: 2%;
     width: 14%;
-    margin-top: 4vh;
+    margin-top: 3vh;
     margin-left: 2vw;
 }
 
 .card p{
     font-size: 3vw;
-    top: 11vh;
+    top: 10vh;
 }
 
 
