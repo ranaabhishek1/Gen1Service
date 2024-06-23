@@ -463,14 +463,14 @@ margin-left: 3vw;
     display: flex;
     flex-wrap: wrap;
     gap: 3vw;
-    margin-left: 12vw;
+    margin-left: 10vw;
     margin-top: 3vh;
 }
 
 
 .card{
     height: 15vh;
-    width: 23vw;
+    width: 25vw;
     background-color: var(--background);
     border-radius: 1vw;
     
@@ -479,8 +479,8 @@ margin-left: 3vw;
 
 .card img{
     position: absolute;
-    height: 2%;
-    width: 15%;
+    height: 1.5%;
+    width: 16%;
     margin-top: 4vh;
     margin-left: 2.8vw;
 }
