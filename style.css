@@ -1005,7 +1005,7 @@ display: none;
 
 .page2-content p{
     font-size: 4.3vw;
-    margin-left: 13vw;
+    margin-left: 20vw;
     margin-top: 3vh;
 
 }
@@ -1716,6 +1716,7 @@ margin-top: 4vh;
     margin-top: 4vh;
     color: var(--text);
     border-radius: 5px;
+    color: orange;
 }
 #refrigerator-box pre{
     font-size: 1.3vw;
@@ -1732,6 +1733,8 @@ margin-top: 4vh;
     margin-left: -1vw;
     margin-top: 3.5vh;
     color: var(--text);
+    color: orange;
+
 }
 #ac-box pre{
     font-size: 1.3vw;
