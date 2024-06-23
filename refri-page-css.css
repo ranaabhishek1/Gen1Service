@@ -969,21 +969,21 @@ display: none;
 
 .page1-btns{
     margin-top: 25vh;
-    margin-left: 20vw;
+    margin-left: 7vw;
 }
 
 
 .page1-btns a:nth-child(1){
-    padding: 1.7vw 1.8vw;
+    padding: 1.4vw 1.8vw;
     border-radius: 0.8vw;
-    font-size: 3.5vw;
+    font-size: 3.3vw;
 }
 
 
 .page1-btns a:nth-child(2){
-    padding: 1.7vw 1.8vw;
+    padding: 1.4vw 1.8vw;
     border-radius: 0.8vw;
-    font-size: 3.5vw;
+    font-size: 3.3vw;
 }
 
 /*  */
