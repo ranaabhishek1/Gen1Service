@@ -1506,7 +1506,7 @@ font-size: 3.5vw;
 
 /* START  RESPONSIVE FOR LARGE DESKTOP SCREEN SIZES ✅ */
  
-@media (min-width:1300px){
+@media (min-width:1500px){
 
     .nav-left img{
         width: 20vw;
@@ -1615,7 +1615,7 @@ font-size: 3.5vw;
 
 
 #page3 {
-    height: 255vh;
+    height: 275vh;
     width: 100%;
     background-color: var(--background);
     padding-top: 3vh;    
@@ -1649,7 +1649,7 @@ font-size: 3.5vw;
 }
 
 .box {
-    height: 68vh;
+    height: 72vh;
     width: 28vw;
     background-color:#E2E8EF;
     border-radius: 10px;
@@ -1868,7 +1868,7 @@ margin-top: 4vh;
 }
 
 .card {
-    height: 66vh;
+    height: 68vh;
     width: 38vw;
     background-color: #FFFFFF;
     border-radius: 10px;
@@ -1987,7 +1987,7 @@ margin-top: 4vh;
 }
 
 .page4-part2 {
-    height: 30vh;
+    height: 32vh;
     width: 100%;
     background-color: var(--background);
     margin-top: 10vh;
@@ -2038,7 +2038,7 @@ margin-top: 4vh;
 
  
 #page5{
-    height: 80vh;
+    height: 85vh;
     width: 100%;
     padding-top: 7vh;
 }
