@@ -458,19 +458,19 @@ margin-left: 3vw;
         margin-bottom: 5vh;
     }
 
-    
+ 
 .brand-cards{
     display: flex;
     flex-wrap: wrap;
-    gap: 2vw;
-    margin-left: 5vw;
+    gap: 3vw;
+    margin-left: 12vw;
     margin-top: 3vh;
 }
 
 
 .card{
     height: 15vh;
-    width: 21vw;
+    width: 23vw;
     background-color: var(--background);
     border-radius: 1vw;
     
@@ -480,15 +480,16 @@ margin-left: 3vw;
 .card img{
     position: absolute;
     height: 2%;
-    width: 14%;
+    width: 15%;
     margin-top: 4vh;
-    margin-left: 2vw;
+    margin-left: 2.8vw;
 }
 
 .card p{
     font-size: 3vw;
     top: 12vh;
 }
+
 
 
 }
