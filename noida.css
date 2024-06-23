@@ -1560,7 +1560,7 @@ font-size: 3.5vw;
 
 /* START  RESPONSIVE FOR LARGE DESKTOP SCREEN SIZES ✅ */
  
-@media (min-width:1300px){
+@media (min-width:1500px){
 
     .nav-left img{
         width: 20vw;
@@ -1668,9 +1668,8 @@ font-size: 3.5vw;
 
 
 
-
 #page3 {
-    height: 255vh;
+    height: 275vh;
     width: 100%;
     background-color: var(--background);
     padding-top: 3vh;    
@@ -1704,10 +1703,10 @@ font-size: 3.5vw;
 }
 
 .box {
-    height: 68vh;
-    width: 29vw;
+    height: 72vh;
+    width: 28vw;
     background-color:#E2E8EF;
-    border-radius: 1vw;
+    border-radius: 10px;
     transition: all linear 0.3s;
     cursor: pointer;
 }
@@ -1765,18 +1764,8 @@ margin-top: 4vh;
     border-radius: 8px;
 }
 
-
-
-#kitchen-box img{
-    height: 30vh;
-    width: 85%;
-margin-top: 4vh;
-    margin-left: 2vw;
-    border-radius: 8px;
-}
-
 #refrigerator-box p{
-    font-size: 2.2vw;
+    font-size: 1.6vw;
     text-align: center;
     margin-left: -1vw;
     margin-top: 4vh;
@@ -1793,7 +1782,7 @@ margin-top: 4vh;
 
 
 #ac-box p{
-    font-size: 2.2vw;
+    font-size: 1.6vw;
     text-align: center;
     margin-left: -1vw;
     margin-top: 3.5vh;
@@ -1801,13 +1790,13 @@ margin-top: 4vh;
 }
 #ac-box pre{
     font-size: 1.3vw;
-    margin-top: 4vh;
+    margin-top: 3vh;
     text-align: center;
-    margin-bottom: 10vh;
+    margin-bottom: 7vh;
 }
 
 #tv-box p{
-    font-size: 2vw;
+    font-size: 1.6vw;
     text-align: center;
     margin-left: -1vw;
     margin-top: 4vh;
@@ -1817,11 +1806,11 @@ margin-top: 4vh;
     font-size: 1.3vw;
     margin-top: 3vh;
     text-align: center;
-    margin-bottom: 10vh;
+    margin-bottom: 7vh;
 }
 
 #washingMachine-box p{
-    font-size: 1.8vw;
+    font-size: 1.3vw;
     text-align: center;
     margin-left: -1vw;
     margin-top: 4vh;
@@ -1831,12 +1820,12 @@ margin-top: 4vh;
     font-size: 1.3vw;
     margin-top: 3vh;
     text-align: center;
-    margin-bottom: 8vh;
+    margin-bottom: 7vh;
 }
 
 
 #chimni-box p{
-    font-size: 1.8vw;
+    font-size: 1.3vw;
     text-align: center;
     margin-left: -1vw;
     margin-top: 2vh;
@@ -1851,7 +1840,7 @@ margin-top: 4vh;
 
 
 #mircowave-box p{
-    font-size: 1.75vw;
+    font-size: 1.3vw;
     text-align: center;
     margin-left: -1vw;
     margin-top: 2vh;
@@ -1866,7 +1855,7 @@ margin-top: 4vh;
 
 
 #kitchen-box p{
-    font-size: 1.8vw;
+    font-size: 1.6vw;
     text-align: center;
     margin-left: -1vw;
     margin-top: 2vh;
@@ -1876,9 +1865,8 @@ margin-top: 4vh;
     font-size: 1.3vw;
     margin-top: 3vh;
     text-align: center;
-    margin-bottom: 13vh;
+    margin-bottom: 9vh;
 }
-
 
 .read-more{
     margin-top: -2vh;
@@ -1944,15 +1932,15 @@ margin-top: 4vh;
     display: flex;
     flex-wrap: wrap;
     gap: 4vw;
-    margin-left: 9vw;
+    margin-left: 11vw;
     margin-top: 5vh;
 }
 
 .card {
-    height: 65vh;
-    width: 40vw;
+    height: 68vh;
+    width: 38vw;
     background-color: #FFFFFF;
-    border-radius: 1vw;
+    border-radius: 10px;
     cursor: pointer;
     transition: all linear 0.3s;
 }
@@ -1965,7 +1953,7 @@ margin-top: 4vh;
 
 #card1 img{
     height: 20vh;
-    width: 14vw;
+    width: 12vw;
     border-radius: 50%;
     margin-left: 13vw;
     margin-top: 5vh;
@@ -1973,7 +1961,7 @@ margin-top: 4vh;
 
 #card2 img{
     height: 20vh;
-    width: 14vw;
+    width: 12vw;
     border-radius: 50%;
     margin-left: 13vw;
     margin-top: 5vh;
@@ -1981,7 +1969,7 @@ margin-top: 4vh;
 
 #card3 img{
     height: 20vh;
-    width: 14vw;
+    width: 12vw;
     border-radius: 50%;
     margin-left: 13vw;
     margin-top: 5vh;
@@ -1989,7 +1977,7 @@ margin-top: 4vh;
 
 #card4 img{
     height: 20vh;
-    width: 14vw;
+    width: 12vw;
     border-radius: 50%;
     margin-left: 13vw;
     margin-top: 5vh;
@@ -2068,7 +2056,7 @@ margin-top: 4vh;
 }
 
 .page4-part2 {
-    height: 30vh;
+    height: 32vh;
     width: 100%;
     background-color: var(--background);
     margin-top: 10vh;
@@ -2104,7 +2092,7 @@ margin-top: 4vh;
     text-decoration: none;
     color: var(--background);
     font-family: poppins;
-    margin-left: 45vw;
+    margin-left: 43vw;
 }
 
 .page4-part2 a:hover{
@@ -2112,16 +2100,22 @@ margin-top: 4vh;
     transition: all linear 0.3s;
 }
 
+
+/* end page 3 */
+
+/* start page4 */
+
+ 
 #page5{
-    height: 70vh;
+    height: 90vh;
     width: 100%;
-    
+    padding-top: 7vh;
 }
 
 .footer img{
     height: 30vh;
     width: 50vh;
-    margin-top:-10vh;
+    margin-top: -15vh;
 }
 
 
@@ -2174,7 +2168,7 @@ margin-top: 4vh;
     flex-direction: column;
     align-items: end;
     margin-right: 13vw;
-    margin-top: 3vh;
+    margin-top: 4vh;
     gap: 2vh;
 }
 
@@ -2192,7 +2186,7 @@ margin-top: 4vh;
     display: flex;
     flex-direction: column;
     align-items: end;
-    margin-top: -42vh;
+    margin-top: -41vh;
     gap: 1vh;
 }
 
@@ -2207,14 +2201,11 @@ margin-top: 4vh;
 
 
 .copyright p{
-margin-top:28vh;
+margin-top:25vh;
 text-align: center;
 color: var(--background);
 font-size: 1.3vw;
 }
 
 
-
-
-
-} 
+}
