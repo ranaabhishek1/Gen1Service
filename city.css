@@ -210,6 +210,19 @@ margin-left: 0vw;
     gap: 1vw;
 }
 
+.city-boxes a{
+    text-decoration: none;
+}
+
+.box p{
+    font-family: poppins;
+    font-weight: 100;
+    font-size: 1vw;
+    color: #000;
+    
+    
+}
+
 .box{
     height: 30vh;
     width: 15vw;
@@ -224,16 +237,7 @@ margin-left: 0vw;
     width: 90%;
 }
 
-.box a{
-    text-decoration: none;
-color: var(--background);
-font-size: 1.1vw;
-    font-family: pro;
-    border-radius: 0.1vw;
-    background-color: var(--background2);
-    padding: 0.1vw 0.5vw;
-    
-}
+
 
 #box8 a{
     
@@ -424,6 +428,10 @@ display: none;
 }
 
 #box8 a{
+    font-size: 2vw;
+}
+
+.box p{
     font-size: 2vw;
 }
     
