@@ -994,7 +994,6 @@ display: none;
 #page2{
     min-height: 100vh;
     width: 100%;    
-    padding-bottom: 10vh;
     margin-top: -60vh;
 }
 
@@ -1471,7 +1470,7 @@ margin-bottom: 2vh;
 .page4-part2 a{
     font-size: 3.5vw;
     padding: 2vw 8vw;
-    margin-left:30vw;
+    margin-left:19vw;
 
 }
 
@@ -1483,10 +1482,10 @@ margin-bottom: 2vh;
 /* start page7 */
 
 #page6{
-    height: 90vh;
+    height: 100vh;
     width: 100%;
-    background-color: var(--background2);
-
+    position: relative;
+    
     overflow-y: hidden;
 }
 
@@ -1511,7 +1510,7 @@ margin-bottom: 2vh;
 
 .footer-icons{
  position: relative;
- top: 3vh;
+ margin-top: 1vh;
  margin-left: 25vw;
 
 }
@@ -1611,8 +1610,8 @@ display: none;
 }
 
 
-.copyright p{
-margin-top: 12vh;
+#page6 p{
+margin-top: 20vh;
 text-align: center;
 color: var(--background);
 font-size: 3.5vw;
