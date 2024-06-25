@@ -250,15 +250,16 @@ margin-left: 3vw;
 
 
 .page2-content h1{
-    font-size: 4vw;
+    font-size: 3.7vw;
     color: #fceb06;
     text-shadow: 0 0 1rem #000000;
     font-family: poppins;
-    line-height: 100%;
-    margin-left: 4vw;
+    line-height: 130%;
+    text-align: center;
     margin-top: 2vh;
-    text-wrap: balance;
+    width: 70vw;
 }
+
 
 .page2-content p{
     font-size: 2vw;
@@ -1023,23 +1024,25 @@ display: none;
 
 .page2-content h1{
     font-size: 7vw;
-    color: #F7C566;
-    text-shadow: 0 0 1rem #000;
-    font-family: poppins;
-    line-height: 5vh;
-    margin-top: -5vh;
-    text-wrap: balance;
     text-align: center;
+    color: var(--background);
+    font-family: poppins;
+    text-wrap: balance;
+    height: 32vh;
+    width: 80vw;
+    margin-top: -3vh;
+    font-weight: 500;
+    line-height: 5vh;
+    text-transform: uppercase;
+    color: #FCEB06;
 }
 
 .page2-content p{
     font-size: 4.3vw;
     margin-left: 20vw;
-
-    margin-top: 3vh;
+    margin-top: -17vh;
 
 }
-
 
 .slider-container {
     position: relative;
@@ -1639,15 +1642,16 @@ font-size: 3.5vw;
 }
 
 
+
 .page2-content h1{
-    font-size: 5vw;
+    font-size: 4.1vw;
     color: #fceb06;
     text-shadow: 0 0 1rem #000000;
     font-family: poppins;
-    line-height: 100%;
-    margin-left: 0vw;
-    margin-top:0vh;
-    text-wrap: balance;
+    line-height: 130%;
+    text-align: start;
+    margin-top: 2vh;
+    width: 78vw;
 }
 
 .page2-content p{
