@@ -861,7 +861,8 @@ color: var(--background);
 
     .nav-left img{
         width: 45vw;
-        height: 33vh;
+        height: 31vh;
+        bottom: 1vh;
     }
 
     
@@ -904,7 +905,7 @@ display: none;
     }
     
     .hamburger{
-        margin-top: -26vh;
+        margin-top: -23vh;
         display: block;
 
     }
@@ -946,7 +947,7 @@ display: none;
 
 
     .page1-btns{
-        margin-top: 26vh;
+        margin-top: 28vh;
         
     
     }
