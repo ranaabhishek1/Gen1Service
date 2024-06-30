@@ -937,7 +937,7 @@ display: none;
     background-color: orangered;
     font-size: 4vw;
     padding: 1vw 0;
-    width: 100vw;
+    width: 100%;
     color: var(--background);
     font-weight: bold;
     text-align: center;
@@ -949,7 +949,7 @@ display: none;
     /* end media for page1 */
 
 
-    
+      
 #page1 h1{
     font-size:7vw;
     text-align: center;
@@ -958,42 +958,37 @@ display: none;
     margin-top: 1vh;
     text-wrap:balance; 
     height: 32vh; 
-    padding-top: 5vh;
+    padding-top: 7vh;
     font-weight: 500;
     line-height: 5vh;
 }
 
+
 #page1 img{
-    height: 30vh;
+    height: 35vh;
 }
 
 .page1-btns{
-    margin-top: 25vh;
-    margin-left: 6vw;
-}
-
-
-.page1-btns a:nth-child(1){
-    padding: 1.4vw 1.8vw;
-    border-radius: 0.8vw;
-    font-size: 3.3vw;
+    position: absolute;
+    top: -10vh;
+    margin-left: 8vw;
+    font-size: 4.8vw;
+    text-wrap: nowrap;
 }
 
 
 .page1-btns a:nth-child(2){
-    padding: 1.4vw 1.8vw;
-    border-radius: 0.8vw;
-    font-size: 3.3vw;
+    margin-left: 5vw;
+    
 }
 
-/*  */
-/* end page1 */
 
 
 /* start page2 */
 #page2{
     min-height: 100vh;
     width: 100%;    
+    padding-bottom: 10vh;
     margin-top: -60vh;
 }
 
@@ -1001,7 +996,7 @@ display: none;
     text-align: center;
     font-size: 5.5vw;
     font-family: poppins;
-    margin-top: 8vh;
+    margin-top: 15vh;
     color: #000;
     font-weight: normal;
     text-wrap: balance;
@@ -1025,8 +1020,8 @@ font-weight: normal;
 .ac-types{
     display: flex;
     flex-wrap: wrap;
-gap: 5vw;
-margin-left: 6vw;
+gap: 10vw;
+margin-left: 15vw;
 
 }
 
@@ -1470,7 +1465,7 @@ margin-bottom: 2vh;
 .page4-part2 a{
     font-size: 3.5vw;
     padding: 2vw 8vw;
-    margin-left:19vw;
+    margin-left:30vw;
 
 }
 
@@ -1482,10 +1477,10 @@ margin-bottom: 2vh;
 /* start page7 */
 
 #page6{
-    height: 100vh;
+    height: 90vh;
     width: 100%;
-    position: relative;
-    
+    background-color: var(--background2);
+
     overflow-y: hidden;
 }
 
@@ -1510,7 +1505,7 @@ margin-bottom: 2vh;
 
 .footer-icons{
  position: relative;
- margin-top: 1vh;
+ top: 3vh;
  margin-left: 25vw;
 
 }
@@ -1610,8 +1605,8 @@ display: none;
 }
 
 
-#page6 p{
-margin-top: 20vh;
+.copyright p{
+margin-top: 12vh;
 text-align: center;
 color: var(--background);
 font-size: 3.5vw;
@@ -1619,6 +1614,8 @@ font-size: 3.5vw;
 
 
 /* end page7 */
+
+
 
 }
 
