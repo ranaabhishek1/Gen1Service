@@ -57,21 +57,23 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-padding-top: 3vh;    
+margin-top: -6vh;
 }
 
 .navbar a {
     text-decoration: none;
 }
 
-.nav-left a {
-    font-size: 2vw;
-    font-family: poppins;
-    color: var(--text);
-    text-transform: capitalize;
-    font-weight: 600;
-    margin-left: 5vw;
+
+.nav-left img{
+    height: 35vh;
+    width: 15vw;
+    position: relative;
+    bottom: 1vh;
+    
 }
+
+
 
 .nav-center {
     display: flex;
@@ -228,13 +230,13 @@ margin-left: 3vw;
 }
 
 #form{
-    height: 80vh;
+    height: 70vh;
     width: 40vw;
     background-color: var(--background);
     margin-left: 28vw;
     padding-top: 7vh;
     padding-left: 3vw;
-    margin-top: 2vh;
+    margin-top: -8vh;
     border-radius: 1vw;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     font-family: poppins;
@@ -333,6 +335,11 @@ select{
        
     }
 
+    .nav-left img{
+        width: 45vw;
+        height: 31vh;
+        bottom: 1vh;
+    }
     .nav-left a {
         font-size: 1vw;
         font-family: poppins;
@@ -378,7 +385,7 @@ display: none;
     }
     
     .hamburger{
-        margin-top: -5vh;
+        margin-top: -22vh;
         display: block;
 
     }
@@ -425,38 +432,32 @@ display: none;
 
     
 #form{
-    height: 73vh;
-    width: 88vw;
+    height: 55vh;
+    width: 90vw;
     background-color: lightblue;
-    margin-left: 6vw;
+    margin-left: 5vw;
     padding-top: 7vh;
     padding-left: 3vw;
-    margin-top: 2vh;
+    margin-top: 6vh;
     border-radius: 2vw;
     font-family: poppins;
 }
 
-.form-heading{
-    height: 3vh;
-    width: 30vw;
-    text-align: center;
-    background-color: rgb(255, 179, 0);
-    margin-top: -5vh;
-    margin-bottom: 4vh;
-    margin-left: 21vw;
-    outline: 1px solid #888;
-}
 
 .form-heading p{
     font-family: poppins;
     text-transform: uppercase;
-    font-size: 3.5vw;
+    font-size: 5vw;
     font-weight: 600;
     color: var(--background);
     text-shadow: 0 0 0.2rem #000;
-    text-wrap: nowrap;
     text-align: center;
-    
+    background-color: rgb(255, 179, 0);
+    width: 42vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-left: 20vw;
+    outline: 1px solid #888;
 }
 
 /* end page1 */
@@ -468,15 +469,16 @@ label{
 
 .input{
     border: 1px solid transparent;
-    width: 45vw;
+    width: 48vw;
     height: 3vh;
-    padding-left: 0.8em;
+    padding-left: 0.2em;
     outline: none;
     overflow: hidden;
     background-color: #F3F3F3;
     border-radius:5px;
     transition: all 0.5s;
-
+font-size: 3.2vw;
+margin: 3vw 0vw;
   }
   
   .input:hover,
@@ -493,9 +495,9 @@ label{
     background-color: var(--btn);
     color: var(--background);
     font-family: poppins;
-    margin-left: 30vw;
+    margin-left: 27vw;
     border-radius: 0.3vw;
-    font-size: 3.2vw;
+    font-size: 4.5vw;
     cursor: pointer;
   }
 
